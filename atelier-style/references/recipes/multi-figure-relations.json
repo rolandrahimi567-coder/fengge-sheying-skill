@@ -1,0 +1,92 @@
+{
+  "schema": "atelier-style-recipe-1",
+  "id": "multi-figure-relations",
+  "version": "0.3.0",
+  "name": "多个人物形象的姿态与视线",
+  "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+  "suitable": [
+    "至少两个人物形象，姿态、视线或前后位置构成可见联系。"
+  ],
+  "unsuitable": [
+    "单人图不允许新增人物，或人物身份与接触部位看不清。"
+  ],
+  "must_preserve": [
+    {
+      "rank": 1,
+      "rule": "先指定人物形象之间的关系：靠近、错开、对看或并列。"
+    },
+    {
+      "rank": 2,
+      "rule": "保持各自身份、服装归属、手部接触和前后位置。"
+    },
+    {
+      "rank": 3,
+      "rule": "相似服装或帽饰可以呼应，但不把人物复制成同一个脸。"
+    }
+  ],
+  "allowed_changes": [
+    "只处理用户允许的对象和属性；需要新增人物、改姿态或改商品时先明确边界。"
+  ],
+  "steps": [
+    "按位置给人物形象临时编号，不推测真实关系或摄影过程。",
+    "记录谁看向谁、哪只手接触何处，哪些动作必须保留。",
+    "只调整允许的站位或背景；要求姿态保真时不重造动作。",
+    "逐人检查手脚、衣物归属和遮挡，再看人物间关系。"
+  ],
+  "checks": [
+    "衣物串到另一人身上",
+    "接触手臂归属错误",
+    "仅并排复制人物而没有指定关系"
+  ],
+  "references": [
+    {
+      "sequence": 34,
+      "record_id": "851368fb-a876-4e52-91ae-03e250d5b3ad",
+      "analysis_sha256": "b3f98a464adb9345b774415ab555f9bd8a8558641bb1487ea0257052ea1ac17a",
+      "role": "两个人物形象相贴，手臂向不同方向展开，身体图纹有相似性。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 68,
+      "record_id": "5bbc4d80-a626-41f0-ab8e-1ab03c90c645",
+      "analysis_sha256": "c8b054271ce74abd5708c58a60336b127d52737d04233f2c2b656103bb81b089",
+      "role": "两个人物坐于同一桌边，帽子呼应，竖直花茎位于二者之间。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 196,
+      "record_id": "7309ba75-965c-424a-83c8-a04fa81453d1",
+      "analysis_sha256": "bafc29450026a15e83f3c223efc619d0f19d0501b2c18e8d9a2e5d7133867199",
+      "role": "左侧人物靠近右侧人物耳旁，一只手接触肩部；仅描述姿态，不推测人物关系。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 293,
+      "record_id": "9af870b9-6501-43a4-91e8-3994c0123f63",
+      "analysis_sha256": "dd1daed1f9ac46a322de44dc18e9ad5facc0fccd404b72779929c14bea0459de",
+      "role": "三个深色衣着人物形象前后错开，帽饰相近但身体朝向不同；不确定是否合成。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    }
+  ],
+  "held_out_record_ids": [],
+  "negative_record_ids": [
+    "f847c1fa-b9dd-46f1-8ded-a69383750951"
+  ],
+  "must_not_copy": [
+    "参考图人物身份、品牌标识、杂志文字和独特道具组合不自动迁移",
+    "不将摄影师或品牌姓名作为效果保证"
+  ],
+  "fidelity": {
+    "edit": "用户指定的人脸、服装版型、图案及关键结构必须保留；无法保证时明确限制。",
+    "new": "允许新主体，但不得宣称生成服装与参考商品完全一致。"
+  },
+  "limits": [
+    "候选分组来自联系表筛查，代表图另行放大核对；尚未出图验证。",
+    "同一作者或系列的样本并不独立，不据数量声称普遍有效。",
+    "单图观察不能证明制作过程或商业效果。"
+  ],
+  "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-style-pilot-20260908-v3/new-reference-evidence.json",
+  "output_mode": "photographic_only_first_pilot",
+  "distinction": "依据画面中的人物形象组织；镜像或合成不自动等于多个真实拍摄对象。",
+  "evaluation_status": "NOT_SCHEDULED"
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "code": "body-space",
+    "title": "身体、留白与画面方向",
+    "evidence_ids": [
+      "141",
+      "149",
+      "096",
+      "146"
+    ],
+    "counterexample_ids": [
+      "042"
+    ],
+    "observation": "141 后仰身体形成斜线；149 伸腿需要横向空间；096 圆形衣体与细腿形成形状反差；146 两个人体弧线组织整体。",
+    "hypothesis": "空间不是把人放进背景后剩下的区域。身体朝向、服装轮廓和动作伸展共同决定横竖幅及空白位置。",
+    "limits": "042 的紧密脸部裁切说明大留白不是通用要求；完整全身也不是所有作品的固定景别。",
+    "operational_candidate": "保持题材与动作需求，先确定主轮廓及边界，再考虑人物周围效果。不能机械指定人物占画面百分比。",
+    "evaluation": "全身、坐姿、近景分别检验；判断手足边界、身体支撑与画面方向，不以像原图姿势为成功。",
+    "status": "research_hypothesis_not_validated",
+    "projects": [
+      "Atmos Vol 12",
+      "NYC Ballet",
+      "Vogue Italia x Ariana Grande"
+    ]
+  },
+  {
+    "code": "color-placement",
+    "title": "色彩落点与中性色对比",
+    "evidence_ids": [
+      "014",
+      "042",
+      "141",
+      "147"
+    ],
+    "counterexample_ids": [
+      "011",
+      "142"
+    ],
+    "observation": "014 红紫手部与蓝色背景并置；042 青绿和黄绿进入不同面部层；141 暗灰底保留；147 浅灰底衬托红衣和黄红条带。",
+    "hypothesis": "鲜艳来自区域之间的关系，而非统一提高整张饱和度。肤色也可能进入色彩组织，但人物体积仍需可读。",
+    "limits": "011、142 是黑白，反驳摄影师每张都高饱和的概括；用户偏好鲜艳是输出要求，不能据反例擅自取消。",
+    "operational_candidate": "每次从参考指出强色所在区域及保留灰暗的位置；不把橙蓝或红紫设成默认配色，不臆造 LUT 或曝光参数。",
+    "evaluation": "同题材看强色是否覆盖了所有材质、阴影是否失去层次；颜色更艳不自动等于更像目标。",
+    "status": "research_hypothesis_not_validated",
+    "projects": [
+      "Google Pixel Creator Labs",
+      "NYC Ballet",
+      "Phantasmag SS26",
+      "Vogue Italia x Ariana Grande"
+    ]
+  },
+  {
+    "code": "occlusion-focus",
+    "title": "遮挡与不均匀清晰度",
+    "evidence_ids": [
+      "136",
+      "038",
+      "130",
+      "064"
+    ],
+    "counterexample_ids": [
+      "147"
+    ],
+    "observation": "136 面纱覆盖脸部，手臂与纱褶清晰程度不同；038 一侧人像碎裂；130 大小人像都偏柔；064 面孔与框架、阴影交叠。",
+    "hypothesis": "模糊可以改变主体内部层次，不一定只附着在主体外缘。遮挡可以是组织画面的手段。",
+    "limits": "147 主身体轮廓较明确，不能把整体模糊反过来设成通用规则。",
+    "operational_candidate": "说明谁遮挡谁、哪些部分需要可辨；不强制脸永远最锐利，也不拿磨皮模拟柔化。",
+    "evaluation": "检查模糊是否有位置关系、人体是否被错误熔合；不可通过看不见脸来宣称肤质问题解决。",
+    "status": "research_hypothesis_not_validated",
+    "projects": [
+      "HUBE Magazine",
+      "Novembre SS26",
+      "TheBallroom Magazine SS26'",
+      "Vogue Italia x Ariana Grande"
+    ]
+  },
+  {
+    "code": "discrete",
+    "title": "离散位置与姿势变化",
+    "evidence_ids": [
+      "015",
+      "038",
+      "097"
+    ],
+    "counterexample_ids": [
+      "148"
+    ],
+    "observation": "015 相邻面孔与上身位置分开；038 两侧人像的质地不同；097 横向人像的朝向、大小与姿势不同。",
+    "hypothesis": "多重人像的关键可能是位置之间的差异和重叠关系，不是同一剪影等距复制。",
+    "limits": "148 是多人舞姿，不能仅因出现三个人就当成同一人物多次曝光；097 也不能仅凭图确认真实制作过程。",
+    "operational_candidate": "用同一虚构人物不同位置的视觉需求描述目标，保持每个人形可读；可以配全身构图辅助参考，但明确角色和差异。",
+    "evaluation": "先检查复制排列、身份漂移、额外肢体及人物间关系；两张首次结果都失败则停止该具体配方。",
+    "status": "research_hypothesis_not_validated",
+    "projects": [
+      "Novembre SS26",
+      "Phantasmag SS26",
+      "Vogue Adria"
+    ]
+  },
+  {
+    "code": "scale-overlap",
+    "title": "不同尺度的人像叠合",
+    "evidence_ids": [
+      "130",
+      "042"
+    ],
+    "counterexample_ids": [
+      "015"
+    ],
+    "observation": "130 上方大脸与下方小人像构成层次；042 面部局部交叠且裁切紧密，两者结构不同。",
+    "hypothesis": "尺度、裁切和遮挡能够制造虚幻，不必依赖运动尾迹。",
+    "limits": "015 主要是相邻位置重复，并非明显大小对比；042 也不是130的同构样本。此分支代表证据稀少。",
+    "operational_candidate": "130 是主要尺度例证，042 只能作局部重叠辅助；不得称为已找到两个同机制典型样本。",
+    "evaluation": "必须检查大小层次是否清楚、是否变成普通拼贴；当前证据不足以固化预设。",
+    "status": "research_hypothesis_not_validated",
+    "projects": [
+      "Google Pixel Creator Labs",
+      "HUBE Magazine"
+    ]
+  },
+  {
+    "code": "material-traces",
+    "title": "材质与连续延展",
+    "evidence_ids": [
+      "138",
+      "141",
+      "147",
+      "082"
+    ],
+    "counterexample_ids": [
+      "097"
+    ],
+    "observation": "138 刺绣亮点形成细线而羽毛仍成纤维团；141 裙身与平行亮线共存；147 衣纹与彩色条带并置；082 头发扇形展开。",
+    "hypothesis": "不同材质应有不同的清楚和延展方式，不能全部化为同一种橙色发光丝。",
+    "limits": "097 并非均匀连续条带；原作141、147确有亮线，不能把有光带本身定为错误。",
+    "operational_candidate": "记录哪个材质发生什么可见变化；暂停已失败的红衬衫紫裙＋连续亮尾迹组合，不泛化禁止所有亮线。",
+    "evaluation": "分开看衣料结构、人物体积、运动载体与痕迹是否分离；既有两条生成路径均未获认可。",
+    "status": "research_hypothesis_not_validated",
+    "projects": [
+      "NYC Ballet",
+      "Paul Mescal for British GQ",
+      "Vogue Italia x Ariana Grande"
+    ]
+  },
+  {
+    "code": "image-planes",
+    "title": "镜面、影子与多个图像平面",
+    "evidence_ids": [
+      "017",
+      "063",
+      "066",
+      "102"
+    ],
+    "counterexample_ids": [
+      "130"
+    ],
+    "observation": "017 镜框界定变形面孔；063 倾斜长镜形成独立平面；066 镜内外重复弯曲身体；102 墙面影子与前景人物并置。",
+    "hypothesis": "虚幻也可由有边界的图像平面、镜内外关系或影子尺度形成。",
+    "limits": "130 未出现明确镜框，不应自动归因于反射；是否镜像与是否叠合应分别记录。",
+    "operational_candidate": "明确镜面或墙面所在位置及其与人物的关系；不要把镜子误写成复制人群。",
+    "evaluation": "检查镜内外人体、遮挡边界与透视；分支尚未经过本轮生图验证。",
+    "status": "research_hypothesis_not_validated",
+    "projects": [
+      "POP #54 Jessie Buckley",
+      "TheBallroom Magazine SS26'",
+      "Vogue Adria",
+      "Vogue Germany"
+    ]
+  },
+  {
+    "code": "styling-silhouette",
+    "title": "造型与轮廓变形",
+    "evidence_ids": [
+      "044",
+      "058",
+      "096",
+      "093"
+    ],
+    "counterexample_ids": [
+      "123"
+    ],
+    "observation": "044 头部花瓣结构改变外轮廓；058 展开的裙片改变身体边界；096 裙体与腿的形状反差；093 花卉围绕头颈。",
+    "hypothesis": "造型本身可能承担虚幻表达，不是完成普通人像后再添加特效。",
+    "limits": "123 的跳跃和流苏不足以证明异常衣形；不能见运动就归入衣形变形。",
+    "operational_candidate": "服装、妆发、道具应有明确作用。花卉身体融合和超现实道具维持暂停；巨大钥匙禁止方向保留。",
+    "evaluation": "先检查衣物的穿着结构、身体边界与材料；分析原图不自动授权恢复被否定的分支。",
+    "status": "research_hypothesis_not_validated",
+    "projects": [
+      "Atmos Vol 12",
+      "Google Pixel Creator Labs",
+      "TheBallroom Magazine SS26'"
+    ]
+  }
+]

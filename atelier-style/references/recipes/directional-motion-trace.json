@@ -1,0 +1,92 @@
+{
+  "schema": "atelier-style-recipe-1",
+  "id": "directional-motion-trace",
+  "version": "0.3.0",
+  "name": "清楚部位与方向性拖影",
+  "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+  "suitable": [
+    "有动作方向或重叠轮廓；允许部分区域降低清晰度。"
+  ],
+  "unsuitable": [
+    "要求全件服装细节清晰可验收，或输入仅是低分辨率而无方向依据。"
+  ],
+  "must_preserve": [
+    {
+      "rank": 1,
+      "rule": "选定必须可辨的部位作为观看起点，再给其他部分保留运动痕迹。"
+    },
+    {
+      "rank": 2,
+      "rule": "拖影方向与动作或轮廓展开有关，不对全图等量模糊。"
+    },
+    {
+      "rank": 3,
+      "rule": "区分真实身体与重复影像；重复轮廓不变成多长的肢体。"
+    }
+  ],
+  "allowed_changes": [
+    "只处理用户允许的对象和属性；需要新增人物、改姿态或改商品时先明确边界。"
+  ],
+  "steps": [
+    "观察哪一处较清楚、残影从哪里向哪里延伸。",
+    "编辑模式保护用户指定的脸和商品区域，不自动给它们加残影。",
+    "只对允许改变的运动区域写明方向和范围；不虚构拍摄参数。",
+    "检查轮廓重复是否可解释，衣服图案是否被误复制。"
+  ],
+  "checks": [
+    "整图均匀模糊没有清晰起点",
+    "残影被生成成畸形手脚",
+    "用柔焦冒充方向性拖影"
+  ],
+  "references": [
+    {
+      "sequence": 38,
+      "record_id": "2e38a21b-dcb6-4eab-9b1c-ef0567b82a09",
+      "analysis_sha256": "49c55e5e6fbf64eaa307fc7219683d7220bd5dc58ab4cd49ecbb2075b3b8c98a",
+      "role": "座椅和灯相对稳定，人物及布料呈局部叠影，不能由此确认拍摄次数。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 47,
+      "record_id": "ecc76bd9-dde4-4a7a-873d-8441085dc6bb",
+      "analysis_sha256": "89bdab3ab5348c67315f9f954ae28bdd19d34d6b5d968187a1d6275f316e3f4c",
+      "role": "左侧人物轮廓较稳定，右侧黄色线条和裙摆形成横向残影。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 112,
+      "record_id": "17f27317-9523-49e2-8f78-6594513ccfbe",
+      "analysis_sha256": "67c361e773358ec575e55b03cabf91d898846eb114d1bbcd3756ae6955bb1f6d",
+      "role": "黄色衣物上部有横向模糊展开，身体下部仍能辨认较连续形状。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 175,
+      "record_id": "2923a61f-9292-48ec-a5f5-ce9c7190210c",
+      "analysis_sha256": "bc8d3614bbe2df5e0d492a4e80ef65fc323374e844b493a75a316b1fb7c8bb1e",
+      "role": "侧脸较清楚，后方和颈旁出现重叠影像，区别于整图等量失焦。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    }
+  ],
+  "held_out_record_ids": [],
+  "negative_record_ids": [
+    "e5fdb011-b88a-441b-882e-14d3ac81c25d"
+  ],
+  "must_not_copy": [
+    "参考图人物身份、品牌标识、杂志文字和独特道具组合不自动迁移",
+    "不将摄影师或品牌姓名作为效果保证"
+  ],
+  "fidelity": {
+    "edit": "用户指定的人脸、服装版型、图案及关键结构必须保留；无法保证时明确限制。",
+    "new": "允许新主体，但不得宣称生成服装与参考商品完全一致。"
+  },
+  "limits": [
+    "候选分组来自联系表筛查，代表图另行放大核对；尚未出图验证。",
+    "同一作者或系列的样本并不独立，不据数量声称普遍有效。",
+    "单图观察不能证明制作过程或商业效果。"
+  ],
+  "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-style-pilot-20260908-v3/new-reference-evidence.json",
+  "output_mode": "photographic_only_first_pilot",
+  "distinction": "区分方向性残影与普通失焦，不从效果反推快门或曝光次数。",
+  "evaluation_status": "NOT_SCHEDULED"
+}

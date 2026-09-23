@@ -1,0 +1,663 @@
+{
+  "version": "0.7.0",
+  "active_scope": 150,
+  "cards": [
+    {
+      "branch_id": "dark-material-portrait",
+      "photographer_id": "paolo-roversi",
+      "name": "暗调静态人物与衣料层次",
+      "status": "CORPUS_STYLE_DRAFT_NOT_VALIDATED",
+      "effect_candidates": [
+        "人物像停下来被观看，衣料与皮肤的层次比场景情节更重要。",
+        "用脸和手的局部亮部连接观看；衣料暗部仍保留体积，背景不抢先。"
+      ],
+      "priority_relations": [
+        {
+          "rank": 1,
+          "description": "脸、手、衣物亮面与背景之间的观看次序"
+        },
+        {
+          "rank": 2,
+          "description": "静态姿势与衣料体积互相支撑"
+        },
+        {
+          "rank": 3,
+          "description": "颜色可变，不能把肤色和衣物一起压成灰黑"
+        }
+      ],
+      "suitable": [
+        "单人或少量人物，服装细节可见，背景可简化"
+      ],
+      "unsuitable": [
+        "需要清楚呈现复杂场景或动作过程"
+      ],
+      "must_not_copy": [
+        "白裙、红色肩饰、绿色外套并非必备元素",
+        "不要复制参考人物的脸、表情或服装"
+      ],
+      "reference_selection": "优先选择与输入景别、衣料质感接近的两张，第三张用来检查该规律是否只在同一颜色下成立。",
+      "evidence": [
+        {
+          "sequence": 3,
+          "record_id": "f94b1ad5-b8e2-48d4-b20d-15bc8086331f",
+          "analysis_sha256": "0ca3390f264bebf079657ff168e6d6ce16c5dd588e110677126b8a996844821c",
+          "observation": "白裙侧向展开，皮肤和暗背景处于不同明暗层，面部仍可辨认。"
+        },
+        {
+          "sequence": 22,
+          "record_id": "0a42e679-25d1-4d5f-b860-ea2327291be5",
+          "analysis_sha256": "e544716420a3d5fb99d22f8b71cd6f24256b2680f6a007d11cc534892cd1867b",
+          "observation": "酒红褶饰在肩侧突出，衣身暗部与蓝灰背景相邻，面部和红唇可辨。"
+        },
+        {
+          "sequence": 40,
+          "record_id": "9e7c23e9-41ed-4ad9-bf6e-7011fee913de",
+          "analysis_sha256": "234ad7b16fba20722149e4d7fb611ca7ba68ebbfd28fe36b7a04cb9baa8c85ec",
+          "observation": "脸和手位于深绿色厚实衣料之间，背景克制，眼睛与衣料表面各有细节。"
+        },
+        {
+          "sequence": 48,
+          "record_id": "9b8d37ac-0bf0-47bb-a55b-ebee942ec17d",
+          "analysis_sha256": "7116b9dac419d9d513506344e1c448b0b3792c2a4c7d6add4c6db91ce06fbae2",
+          "observation": "深色衣物中侧脸和手更亮，姿态内收，背景不提供叙事情节。"
+        },
+        {
+          "sequence": 135,
+          "record_id": "135576e5-b7c5-4bef-b7c8-36e8a14b9329",
+          "analysis_sha256": "3429dfb7d66f83d38b7b141e5546117eb7a0e667042ae35465369d72e56a1071",
+          "observation": "皮肤与棕灰衣料的部分褶面比周围更亮，人物静立。"
+        },
+        {
+          "sequence": 149,
+          "record_id": "f62add1c-2717-4409-9d95-a5ec506e11b7",
+          "analysis_sha256": "8ee815165c025c91a62007856249105ebfabe5d8cf32b159f48b6a72e8fe61c6",
+          "observation": "侧脸朝向一侧，浅色花纹衣料与暗背景相接，肤色及衣料纹理都可见。"
+        }
+      ],
+      "attribution_status": "FILENAME_LABEL_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "series_independence": "UNVERIFIED",
+      "preparation_steps": [
+        "先列出输入已存在的脸、手、衣料亮部及其先后关系。",
+        "只在允许的背景范围减少竞争细节；仍保留人物接触面。",
+        "分别说明皮肤、衣物、背景应怎样区分，禁止把全图压黑当作方案。",
+        "指出必须清楚的衣料局部和可以弱化的边缘；不得推断具体灯具设置。"
+      ],
+      "review_status": "WRITTEN_BRIEF_READY_GENERATION_UNVALIDATED",
+      "core_relations": [
+        {
+          "rank": 1,
+          "description": "脸、手、衣物亮面与背景之间的观看次序"
+        },
+        {
+          "rank": 2,
+          "description": "静态姿势与衣料体积互相支撑"
+        },
+        {
+          "rank": 3,
+          "description": "颜色可变，不能把肤色和衣物一起压成灰黑"
+        }
+      ],
+      "variable_choices": [
+        "在用户允许范围内调整背景颜色和材质",
+        "参考对象可替换，需保留关系而非复制实体"
+      ],
+      "input_brief_gate": "需要看过输入图且保留项/变化项明确；无图只给档案。"
+    },
+    {
+      "branch_id": "pale-fabric-portrait",
+      "photographer_id": "paolo-roversi",
+      "name": "浅调人物与轻质衣料",
+      "status": "CORPUS_STYLE_DRAFT_NOT_VALIDATED",
+      "effect_candidates": [
+        "浅衣、皮肤和浅背景接近，人物通过深发、眼部与褶层阴影浮现。",
+        "轻的感觉来自浅色区域之间仍有区别，而不是整张过曝。"
+      ],
+      "priority_relations": [
+        {
+          "rank": 1,
+          "description": "眼部或发部作为观看入口"
+        },
+        {
+          "rank": 2,
+          "description": "浅衣和浅背景用褶皱、接触阴影、轮廓分开"
+        },
+        {
+          "rank": 3,
+          "description": "保留输入衣物固有颜色，不默认漂白"
+        }
+      ],
+      "suitable": [
+        "浅色衣物、浅背景且衣褶可辨"
+      ],
+      "unsuitable": [
+        "必须保持黑色商品细节，却要求整体变成白色画面"
+      ],
+      "must_not_copy": [
+        "白裙与薄纱不是所有输入都应补上的造型",
+        "不从浅色断言材质成分或拍摄设备"
+      ],
+      "reference_selection": "近景优先85/199，展开裙形优先76，轻质透层优先143；按输入选择，不把六图全部混用。",
+      "evidence": [
+        {
+          "sequence": 6,
+          "record_id": "6c92be65-4fd6-4819-bf7f-3ae8fe099cb7",
+          "analysis_sha256": "534b9eea7fe9b294ee121d9f8c73ed772f6ba503b7c5e1637f5ff43737058f5c",
+          "observation": "浅衣人物坐在浅色布面上，头发和肢体接触阴影仍可辨。"
+        },
+        {
+          "sequence": 8,
+          "record_id": "b4232731-fd06-40e1-bead-7d92ee00f694",
+          "analysis_sha256": "09e38b73752bed957d6b2ccd25945c640804dca9fd8caba9abd4acc06eaa124c",
+          "observation": "浅色衣服、背景与皮肤接近，衣褶和桌沿保留局部结构。"
+        },
+        {
+          "sequence": 76,
+          "record_id": "c948ecc7-8ff7-48d2-8725-cf4046cbe475",
+          "analysis_sha256": "9f46b6896e0d9fbe4980167c7090d158f5537dfd173ebcba5e81b95b4fc981fd",
+          "observation": "浅裙在侧方展开，靠褶层阴影和边缘区分浅背景。"
+        },
+        {
+          "sequence": 85,
+          "record_id": "382e196a-eb87-4db8-9d12-58cbfe44b2f0",
+          "analysis_sha256": "d27eb402794159932f4f0c009efd85efd43dc39fdda2ef17303c03bf69d0e9b3",
+          "observation": "近景人物的浅色领口衬托脸部，深发与浅部位形成局部层次。"
+        },
+        {
+          "sequence": 143,
+          "record_id": "28655884-2930-4827-914f-09e0cd7f613b",
+          "analysis_sha256": "f546956569e443d56016a7921e428a340e3887c73c25cfa41c1ae1740cf76580",
+          "observation": "浅粉透层与浅灰背景接近，深发、五官和衣褶形成重点。"
+        },
+        {
+          "sequence": 199,
+          "record_id": "5b7ef0ce-a413-4495-acfd-04a503dc33e7",
+          "analysis_sha256": "10d5f3d953d0a87d50234d00eeb49de429199d7891924dc5289246dd9eae106b",
+          "observation": "浅衣领口与浅背景接近，深发和眼部仍有较清楚的局部。"
+        }
+      ],
+      "attribution_status": "FILENAME_LABEL_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "series_independence": "UNVERIFIED",
+      "preparation_steps": [
+        "确认输入衣物本来就是浅色，不为风格改变商品颜色。",
+        "指出浅衣与浅背景相接的具体边界，用衣褶或接触阴影保持可辨。",
+        "选一个局部观看入口，例如眼部或发部，不把所有边缘增强。",
+        "检查浅色衣物的花纹和褶层是否仍能描述；无法保证时只给保守方案。"
+      ],
+      "review_status": "WRITTEN_BRIEF_READY_GENERATION_UNVALIDATED",
+      "core_relations": [
+        {
+          "rank": 1,
+          "description": "眼部或发部作为观看入口"
+        },
+        {
+          "rank": 2,
+          "description": "浅衣和浅背景用褶皱、接触阴影、轮廓分开"
+        },
+        {
+          "rank": 3,
+          "description": "保留输入衣物固有颜色，不默认漂白"
+        }
+      ],
+      "variable_choices": [
+        "在用户允许范围内调整背景颜色和材质",
+        "参考对象可替换，需保留关系而非复制实体"
+      ],
+      "input_brief_gate": "需要看过输入图且保留项/变化项明确；无图只给档案。"
+    },
+    {
+      "branch_id": "soft-edge-portrait",
+      "photographer_id": "paolo-roversi",
+      "name": "柔化边缘与朦胧人物",
+      "status": "CORPUS_STYLE_DRAFT_NOT_VALIDATED",
+      "effect_candidates": [
+        "局部边缘消隐，让姿态、面部少量细节或色彩成为观看依据。",
+        "柔化必须分清来自可见透层、局部软边还是整体成像偏软。"
+      ],
+      "priority_relations": [
+        {
+          "rank": 1,
+          "description": "先确定仍需清楚的部位，再讨论哪些边缘可以减弱"
+        },
+        {
+          "rank": 2,
+          "description": "人物姿态和色彩需在细节变少后仍然可读"
+        },
+        {
+          "rank": 3,
+          "description": "不能把看不清解释成有意的艺术效果"
+        }
+      ],
+      "suitable": [
+        "允许部分细节减弱的情绪图或非商品展示"
+      ],
+      "unsuitable": [
+        "需要逐处核对面料、印花、五官的商品图"
+      ],
+      "must_not_copy": [
+        "73的透层不能自动用于其他图",
+        "不推断胶片、快门、镜头或作者用意"
+      ],
+      "reference_selection": "73的遮挡透层、98/116的软边、185的轮廓消隐分别处理；未选清子类型时只说明差异，不给统一柔焦指令。",
+      "evidence": [
+        {
+          "sequence": 73,
+          "record_id": "7f853091-495d-424d-bfe8-d38728df397e",
+          "analysis_sha256": "033e71e3e0af709c0b3e6d1f0676cbbac422fdc5f6bd95c3ea3e8275591f6f08",
+          "observation": "脸前有透层，人物与周围薄纱的清晰度不同。"
+        },
+        {
+          "sequence": 87,
+          "record_id": "a4db8219-b6ad-4962-a973-ad362a19f6fd",
+          "analysis_sha256": "65cd3c7f3e7382c2990f738305c58959e728a9797486f2a797aebcffdbd6abd5",
+          "observation": "浅色人物和背景边缘较弱，头饰局部仍可辨。"
+        },
+        {
+          "sequence": 98,
+          "record_id": "dc61bbf4-ac2c-4ddb-ae3c-2b97c467e185",
+          "analysis_sha256": "6c263a8f4bd2f8170fea5a5d096ba4100cf08e0668142c1ae9632fabda908add",
+          "observation": "脸和手边缘偏软，红唇与深衣保持辨识。"
+        },
+        {
+          "sequence": 116,
+          "record_id": "4a08cf8b-704a-4abf-9566-83959dde8c86",
+          "analysis_sha256": "3dc3c04a6c108fd2af5ece5d955c6c61b476fb7f6e8fff099d04e7faad23118f",
+          "observation": "绿调背景和人物边缘偏软，白衣部分形状仍可读。"
+        },
+        {
+          "sequence": 185,
+          "record_id": "f5306185-7c0b-461d-8c74-a208dae0e0eb",
+          "analysis_sha256": "f1a2ec724633000f238f5745dccc19fa5b09b696a1c8d9d6e57b979b840b0432",
+          "observation": "蓝灰人物与周围雾状层次接近，轮廓局部消隐。"
+        },
+        {
+          "sequence": 224,
+          "record_id": "4abe9246-ace9-45c1-a982-1896266c4ccc",
+          "analysis_sha256": "4b0817f5e5f426cada35d8e196f420847bf0fe60651fe3cfe0a013d0461803de",
+          "observation": "单色侧脸和头饰细节柔化，边缘过渡而非锐利描线。"
+        }
+      ],
+      "attribution_status": "FILENAME_LABEL_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "series_independence": "UNVERIFIED",
+      "preparation_steps": [
+        "先区分可见透层、局部软边、轮廓消隐；无法区分则标待复核。",
+        "锁定必须清晰的脸或商品区域，再写可减弱的具体区域。",
+        "描述清晰与柔化之间的关系，不凭模糊程度推断快门或镜头。",
+        "若使用目标是商品核对，则不建议采用该分支。"
+      ],
+      "review_status": "WRITTEN_BRIEF_READY_GENERATION_UNVALIDATED",
+      "core_relations": [
+        {
+          "rank": 1,
+          "description": "先确定仍需清楚的部位，再讨论哪些边缘可以减弱"
+        },
+        {
+          "rank": 2,
+          "description": "人物姿态和色彩需在细节变少后仍然可读"
+        },
+        {
+          "rank": 3,
+          "description": "不能把看不清解释成有意的艺术效果"
+        }
+      ],
+      "variable_choices": [
+        "在用户允许范围内调整背景颜色和材质",
+        "参考对象可替换，需保留关系而非复制实体"
+      ],
+      "input_brief_gate": "需要看过输入图且保留项/变化项明确；无图只给档案。",
+      "subtypes": [
+        {
+          "id": "visible-layer",
+          "name": "可见透层",
+          "refs": [
+            73
+          ]
+        },
+        {
+          "id": "soft-edge",
+          "name": "局部软边",
+          "refs": [
+            98,
+            116,
+            224
+          ]
+        },
+        {
+          "id": "contour-loss",
+          "name": "轮廓消隐",
+          "refs": [
+            185
+          ]
+        }
+      ]
+    },
+    {
+      "branch_id": "surreal-scale-scene",
+      "photographer_id": "tim-walker",
+      "name": "超现实尺度与布景叙事",
+      "status": "CORPUS_STYLE_DRAFT_NOT_VALIDATED",
+      "effect_candidates": [
+        "服装人物进入不寻常但仍可理解的空间关系，观看重点是人与布景发生了什么。",
+        "目前例子至少包含场景错置、物体悬浮和装饰布景，不能混成一套固定道具。"
+      ],
+      "priority_relations": [
+        {
+          "rank": 1,
+          "description": "先用一句话说明人与环境之间唯一主导关系"
+        },
+        {
+          "rank": 2,
+          "description": "支撑、接触、遮挡和尺度让异常场景可读"
+        },
+        {
+          "rank": 3,
+          "description": "服装仍参与画面，不能只剩奇观背景"
+        }
+      ],
+      "suitable": [
+        "允许置景变化，人物姿态能与新场景发生关系"
+      ],
+      "unsuitable": [
+        "仅允许调色、背景完全不可改，或要精确还原商品目录"
+      ],
+      "must_not_copy": [
+        "天鹅、蛋、床垫、飞行物、货车不是风格必需品",
+        "大门253只支持尺度观察，不能单独证明超现实"
+      ],
+      "reference_selection": "按具体关系选113/174/286的场景错置或298的悬浮；179只用于装饰层次。不要同时投放各类道具参考。",
+      "evidence": [
+        {
+          "sequence": 113,
+          "record_id": "c668390b-9c02-408d-9325-f048b4c8572c",
+          "analysis_sha256": "ef7c60c35dd5116cc6e3be4d084376c6e5756e38ff63e1816b6a13a9d36658b4",
+          "observation": "明亮门洞内小人物与暗房间、沙状地面形成不寻常场景。"
+        },
+        {
+          "sequence": 174,
+          "record_id": "b93eef24-c9f3-46be-a950-ee7311776784",
+          "analysis_sha256": "e8334a8f31cf7d3a9d63637eaa1d9b29cc17cf4c9146a148648036a9b46f2430",
+          "observation": "人物和展开衣物位于货车箱内，日常运输空间与造型并置。"
+        },
+        {
+          "sequence": 179,
+          "record_id": "9f66d6b1-25d0-429b-98ac-0b954fcb6f59",
+          "analysis_sha256": "6dbb6f96cc855b4a0ffb3279d7558d41e083a3dea8d1a8a83d77788d88381db3",
+          "observation": "垂布与装饰物围绕小型人物形象层层展开，不推断其是真人或雕塑。"
+        },
+        {
+          "sequence": 286,
+          "record_id": "878f2514-8153-449f-a5fc-7c2c396a2d27",
+          "analysis_sha256": "77af158615ac6468934ec09914d26279c04e7857363b2506cf25ba9dd4c1dc91",
+          "observation": "人物躺在户外叠起的床垫上，床具与林地形成非常规搭配。"
+        },
+        {
+          "sequence": 298,
+          "record_id": "cfa0e23f-d0c8-477e-8b06-688a3662eafd",
+          "analysis_sha256": "617accdf3a40b18fba73a686c247599e918e78d8ffb754cc1417fe0d42ffe536",
+          "observation": "人物坐在盘状大物体边缘，物体离地与地面阴影共同构成悬浮场景。"
+        }
+      ],
+      "attribution_status": "FILENAME_LABEL_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "series_independence": "UNVERIFIED",
+      "preparation_steps": [
+        "先选择场景错置、尺度异常或装饰布景之一，不混用。",
+        "用输入已有姿态写一句人物与环境的关系；缺少输入则不写场景方案。",
+        "从该关系推导一种允许变化，而不是从参考图片抄道具清单。",
+        "说明脚、座面或手的接触位置及遮挡需求；道具不得侵占必须展示的衣物。"
+      ],
+      "review_status": "WRITTEN_BRIEF_READY_GENERATION_UNVALIDATED",
+      "core_relations": [
+        {
+          "rank": 1,
+          "description": "先用一句话说明人与环境之间唯一主导关系"
+        },
+        {
+          "rank": 2,
+          "description": "支撑、接触、遮挡和尺度让异常场景可读"
+        },
+        {
+          "rank": 3,
+          "description": "服装仍参与画面，不能只剩奇观背景"
+        }
+      ],
+      "variable_choices": [
+        "在用户允许范围内调整背景颜色和材质",
+        "参考对象可替换，需保留关系而非复制实体"
+      ],
+      "input_brief_gate": "需要看过输入图且保留项/变化项明确；无图只给档案。",
+      "subtypes": [
+        {
+          "id": "context-displacement",
+          "name": "场景错置",
+          "refs": [
+            113,
+            174,
+            286
+          ]
+        },
+        {
+          "id": "scale-anomaly",
+          "name": "尺度或悬浮异常",
+          "refs": [
+            178,
+            294,
+            298
+          ]
+        },
+        {
+          "id": "decorative-set",
+          "name": "装饰布景",
+          "refs": [
+            179,
+            256,
+            284
+          ]
+        }
+      ],
+      "boundary_reference_sequences": [
+        253
+      ]
+    },
+    {
+      "branch_id": "graphic-color-scene",
+      "photographer_id": "tim-walker",
+      "name": "鲜明色块与造型戏剧性",
+      "status": "CORPUS_STYLE_DRAFT_NOT_VALIDATED",
+      "effect_candidates": [
+        "服装颜色、外形和布景色区共同构成强烈的平面观看，同时保留人物姿态的戏剧性。",
+        "重点是颜色各自负责什么，不是把整张饱和度调高。"
+      ],
+      "priority_relations": [
+        {
+          "rank": 1,
+          "description": "服装主色与背景色区的分工"
+        },
+        {
+          "rank": 2,
+          "description": "姿态或外展轮廓形成清晰形状"
+        },
+        {
+          "rank": 3,
+          "description": "材质亮暗使同色区域仍可分开"
+        }
+      ],
+      "suitable": [
+        "服装颜色明确，允许围绕它安排背景"
+      ],
+      "unsuitable": [
+        "服装必须保真但要求替换其主色以贴合参考"
+      ],
+      "must_not_copy": [
+        "红衣蓝墙不是通用标准答案",
+        "不要复制波点、球、前景手或版面文字"
+      ],
+      "reference_selection": "16/63看衣物与背景分区，197看多色区和尺度，241/278看单色主体；选择一类组织方式。",
+      "evidence": [
+        {
+          "sequence": 16,
+          "record_id": "7a940c61-3881-404a-bc1c-d124217bf3ae",
+          "analysis_sha256": "cc96cf559e328c381f6f0abd01b4a271f2944a1f56de979761339fc70cee2b73",
+          "observation": "红色衣物和靴子与蓝背景紧邻，亮面和绒状表面不同。"
+        },
+        {
+          "sequence": 63,
+          "record_id": "81eeb877-eca7-461a-8fa2-b92fcea807c8",
+          "analysis_sha256": "ac89d4a6c9c9f358854377e76ba64de675a620401090b3a6819fb98b66512bfc",
+          "observation": "粉色外展衣物与绿色背景、浅色地面形成分区。"
+        },
+        {
+          "sequence": 197,
+          "record_id": "59a077e7-7bc0-495e-ae26-0db7bb153f02",
+          "analysis_sha256": "dab90ec211ad1dae51ede0f7c5563d999e12d2387cd3fd5054e8a5baa12bd1d6",
+          "observation": "红衣、黄地与蓝墙构成主色块，前景手带来额外尺度关系。"
+        },
+        {
+          "sequence": 241,
+          "record_id": "cc5b3d03-da80-4eb3-9907-049e9e07c10f",
+          "analysis_sha256": "c5493c670c462b46bd57a371a442ad526c6d01a2774fcd032d0d0cb7919474e2",
+          "observation": "红衣与红色日用品相呼应，白背景突出外轮廓，版面文字不作为必要风格。"
+        },
+        {
+          "sequence": 270,
+          "record_id": "0face121-06bf-45ed-a70e-386ee40f098e",
+          "analysis_sha256": "8fb15e66bd00f5ea6197aaf45b22132a42f9d1784a3d33fe6de5f8d6312c0275",
+          "observation": "展开姿态、波点衣物、彩色背景形状与球状物构成戏剧画面。"
+        },
+        {
+          "sequence": 278,
+          "record_id": "bc6a642d-1da9-46e6-9573-3cd7927e4b75",
+          "analysis_sha256": "cbe5efcb87e6dd5459e8b979dd97596d88c24a3feca131565a7ea883369ed840",
+          "observation": "红色亮面衣物与浅背景分开，手靠脸形成夸张停驻姿态。"
+        }
+      ],
+      "attribution_status": "FILENAME_LABEL_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "series_independence": "UNVERIFIED",
+      "preparation_steps": [
+        "先固定服装本身颜色、轮廓和材质事实。",
+        "选择背景与服装的对照或呼应，写明各色区的用途。",
+        "说明姿态和衣物外形怎样与色区相接，不自动增加球、手或版式。",
+        "检查色彩关系缩小后仍清楚，并保留材质亮暗。"
+      ],
+      "review_status": "WRITTEN_BRIEF_READY_GENERATION_UNVALIDATED",
+      "core_relations": [
+        {
+          "rank": 1,
+          "description": "服装主色与背景色区的分工"
+        },
+        {
+          "rank": 2,
+          "description": "姿态或外展轮廓形成清晰形状"
+        },
+        {
+          "rank": 3,
+          "description": "材质亮暗使同色区域仍可分开"
+        }
+      ],
+      "variable_choices": [
+        "在用户允许范围内调整背景颜色和材质",
+        "参考对象可替换，需保留关系而非复制实体"
+      ],
+      "input_brief_gate": "需要看过输入图且保留项/变化项明确；无图只给档案。"
+    },
+    {
+      "branch_id": "outdoor-character-story",
+      "photographer_id": "tim-walker",
+      "name": "户外人物与生活片段",
+      "status": "CORPUS_STYLE_DRAFT_NOT_VALIDATED",
+      "effect_candidates": [
+        "人物动作与环境共同形成生活片段，环境不是可随意替换的装饰。",
+        "相伴、停留或玩耍是画面呈现出的状态，不证明真实关系或抓拍方式。"
+      ],
+      "priority_relations": [
+        {
+          "rank": 1,
+          "description": "姿态与地面、植物、海岸等环境接触"
+        },
+        {
+          "rank": 2,
+          "description": "人物之间的间距、朝向和动作联系"
+        },
+        {
+          "rank": 3,
+          "description": "环境信息保留到足以解释动作"
+        }
+      ],
+      "suitable": [
+        "已有户外动作或多人互动，允许保留环境细节"
+      ],
+      "unsuitable": [
+        "纯商品抠图且没有接触场景，或禁止改变身体姿态却要求新增互动"
+      ],
+      "must_not_copy": [
+        "不自动添加伴侣、花丛或伞",
+        "不根据靠近推断人物私下关系"
+      ],
+      "reference_selection": "39/58/139看单人环境关系，24/252/280看多人关系；不要把单人强行改为双人。",
+      "evidence": [
+        {
+          "sequence": 24,
+          "record_id": "22e91f6e-84f6-4fe9-8eea-d2ead9e1c812",
+          "analysis_sha256": "925db81d6cf8aef886b1feaa468dcfa13c77e5ee01bcd6831b0918fd589e7df7",
+          "observation": "两个人物靠近，伞与环境共同构成户外片段，不推测真实关系。"
+        },
+        {
+          "sequence": 39,
+          "record_id": "98e21132-5fef-4843-83f5-bfdca207b688",
+          "analysis_sha256": "d561bc9b631c228b3b33dc3ba5a80655f3380b2db062e241fe589b50e4cabcd8",
+          "observation": "人物坐于山地草丛，山线与松弛姿态共同出现。"
+        },
+        {
+          "sequence": 58,
+          "record_id": "21e55078-c9b3-4966-8a2c-069aaccd5317",
+          "analysis_sha256": "533f05c468059a73fcfd30d251108d5fa6b86880f6fdffa0eeaebb7bbbf77fe7",
+          "observation": "坐姿人物、沙地和海面同框，手部动作遮挡部分面部。"
+        },
+        {
+          "sequence": 139,
+          "record_id": "efb3764a-c910-4dab-80bb-7df214cee819",
+          "analysis_sha256": "b0ffff8f1cf4fe56ceb5c6df39295b72a0425fd412b56946bf1d6a00cc9fb2ed",
+          "observation": "人物在海岸低头看手中物，环境不是被完全虚化的背景。"
+        },
+        {
+          "sequence": 252,
+          "record_id": "ce5a95ad-7b36-49b3-aea7-c08367f30a56",
+          "analysis_sha256": "7039f15e0fee7fb5f3217a52aeceba2bea8ab25ad18e62e3c75db173da5d92cf",
+          "observation": "两个人物坐在花丛中，姿态相近，植物包围身体。"
+        },
+        {
+          "sequence": 280,
+          "record_id": "8ff285f8-e814-4a57-b2ef-7e40c9730b9b",
+          "analysis_sha256": "fcd23c1a41d11cf9473921d9e6badf7ae3b3617b6caed1c3508744b3081bb775",
+          "observation": "两个人物靠近，手臂有接触，草地和服装都可辨。"
+        }
+      ],
+      "attribution_status": "FILENAME_LABEL_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "series_independence": "UNVERIFIED",
+      "preparation_steps": [
+        "从输入动作、人数和现有环境开始，不默认新增人物。",
+        "指出人物与地面、植物或其他人物的接触关系。",
+        "保留能解释动作的环境信息，只削弱无关竞争部分。",
+        "明确不能从画面判断真实关系、是否抓拍或作者意图。"
+      ],
+      "review_status": "WRITTEN_BRIEF_READY_GENERATION_UNVALIDATED",
+      "core_relations": [
+        {
+          "rank": 1,
+          "description": "姿态与地面、植物、海岸等环境接触"
+        },
+        {
+          "rank": 2,
+          "description": "人物之间的间距、朝向和动作联系"
+        },
+        {
+          "rank": 3,
+          "description": "环境信息保留到足以解释动作"
+        }
+      ],
+      "variable_choices": [
+        "在用户允许范围内调整背景颜色和材质",
+        "参考对象可替换，需保留关系而非复制实体"
+      ],
+      "input_brief_gate": "需要看过输入图且保留项/变化项明确；无图只给档案。"
+    }
+  ]
+}

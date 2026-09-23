@@ -1,0 +1,92 @@
+{
+  "schema": "atelier-style-recipe-1",
+  "id": "local-light-in-dark-frame",
+  "version": "0.3.0",
+  "name": "深暗画面中的局部亮部",
+  "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+  "suitable": [
+    "亮部位置有明确依据，暗部允许保留有限可见度。"
+  ],
+  "unsuitable": [
+    "电商白底细节检验，或暗部细节已丢失却要求准确恢复。"
+  ],
+  "must_preserve": [
+    {
+      "rank": 1,
+      "rule": "保留原有亮部的对象与位置，不默认把脸提成最亮。"
+    },
+    {
+      "rank": 2,
+      "rule": "暗部仍区分必要的身体和服装结构，不用纯黑吞掉问题。"
+    },
+    {
+      "rank": 3,
+      "rule": "亮部之间有主次，不能随意增加多处高光。"
+    }
+  ],
+  "allowed_changes": [
+    "只处理用户允许的对象和属性；需要新增人物、改姿态或改商品时先明确边界。"
+  ],
+  "steps": [
+    "列出当前亮部是脸、手、皮肤、头发还是衣服反光。",
+    "先锁定必须可见的商品细节，再调整获准的局部背景与明暗。",
+    "不对已经不可见的区域补画真实纹理，不猜灯具。",
+    "检查亮部是否仍有层次，暗部是否丢掉了用户指定内容。"
+  ],
+  "checks": [
+    "整图压黑造成衣物不可读",
+    "所有亮部都被提成相同亮度",
+    "把推测的暗部结构当成真实细节"
+  ],
+  "references": [
+    {
+      "sequence": 48,
+      "record_id": "9b8d37ac-0bf0-47bb-a55b-ebee942ec17d",
+      "analysis_sha256": "7116b9dac419d9d513506344e1c448b0b3792c2a4c7d6add4c6db91ce06fbae2",
+      "role": "大面积深色衣物中脸与双手更亮，侧脸和手部构成局部观看位置。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 71,
+      "record_id": "df8b7d9f-9bd9-4137-9a68-48d031ea4e41",
+      "analysis_sha256": "533b67e319658e324d4cf02010c61477d980a7b0d53080a52174c45007fa54ed",
+      "role": "背部与腿部比深背景更亮，弯身姿态可辨，脸并非最强亮点。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 135,
+      "record_id": "135576e5-b7c5-4bef-b7c8-36e8a14b9329",
+      "analysis_sha256": "3429dfb7d66f83d38b7b141e5546117eb7a0e667042ae35465369d72e56a1071",
+      "role": "上身皮肤与外套部分褶面亮于周围暗墙，亮部跨越皮肤和布料。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 262,
+      "record_id": "e3aeea1d-1d68-4266-b8d4-d18ecf5297e3",
+      "analysis_sha256": "1d750d8295fe166b9307b7d654e31728c9069412106fd25492da585c7159a2ac",
+      "role": "头发侧缘、披布与手部局部较亮，面部部分在暗处；不补写具体照明设备。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    }
+  ],
+  "held_out_record_ids": [],
+  "negative_record_ids": [
+    "b4232731-fd06-40e1-bead-7d92ee00f694"
+  ],
+  "must_not_copy": [
+    "参考图人物身份、品牌标识、杂志文字和独特道具组合不自动迁移",
+    "不将摄影师或品牌姓名作为效果保证"
+  ],
+  "fidelity": {
+    "edit": "用户指定的人脸、服装版型、图案及关键结构必须保留；无法保证时明确限制。",
+    "new": "允许新主体，但不得宣称生成服装与参考商品完全一致。"
+  },
+  "limits": [
+    "候选分组来自联系表筛查，代表图另行放大核对；尚未出图验证。",
+    "同一作者或系列的样本并不独立，不据数量声称普遍有效。",
+    "单图观察不能证明制作过程或商业效果。"
+  ],
+  "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-style-pilot-20260908-v3/new-reference-evidence.json",
+  "output_mode": "photographic_only_first_pilot",
+  "distinction": "大面积暗部与少数亮部共同分配注意力；不是统一压暗，也不保证所有商品细节可见。",
+  "evaluation_status": "NOT_SCHEDULED"
+}

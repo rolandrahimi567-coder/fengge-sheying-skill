@@ -1,0 +1,92 @@
+{
+  "schema": "atelier-style-recipe-1",
+  "id": "cast-shadow-composition",
+  "version": "0.3.0",
+  "name": "人物与投影共同构图",
+  "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+  "suitable": [
+    "画面有可定位的投影和承接面；或用户允许重新设计影子。"
+  ],
+  "unsuitable": [
+    "只需柔和均匀光，或必须保持现有光线而画面没有可用投影。"
+  ],
+  "must_preserve": [
+    {
+      "rank": 1,
+      "rule": "先明确实体与影子的对应或刻意错位关系，保留投影落在何处。"
+    },
+    {
+      "rank": 2,
+      "rule": "人物与影子各有可读轮廓，不为强化影子遮掉服装重点。"
+    },
+    {
+      "rank": 3,
+      "rule": "保持承接面的空间连续性；不能跨墙角、地面拼接出矛盾投影。"
+    }
+  ],
+  "allowed_changes": [
+    "只处理用户允许的对象和属性；需要新增人物、改姿态或改商品时先明确边界。"
+  ],
+  "steps": [
+    "标出人物、影子、墙面和地面的交界；未知真实光源位置不补写。",
+    "编辑已有投影时先保护人物与服装，只调整获准的影子边缘、位置或背景。",
+    "若是重新置景的生成任务，明确真实对应投影还是刻意不对应的布景效果。",
+    "检查脚部接触、墙地转折和影子方向，比较实体轮廓是否仍清晰。"
+  ],
+  "checks": [
+    "影子变成第二个实体人物",
+    "影子方向与承接面关系无意错乱",
+    "深影吞没需要展示的商品细节"
+  ],
+  "references": [
+    {
+      "sequence": 159,
+      "record_id": "ed701d69-2143-4ab6-a8c2-f5aa49e21d80",
+      "analysis_sha256": "dc6c9ef607390afbdc33a46e97e6ccc84a382220a2e434729ed174d6629b2c81",
+      "role": "人物两侧可见展开的投影，和叉腰手臂形成不同的边界。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 194,
+      "record_id": "21cc92a8-59f2-48bb-93df-fd15319ba686",
+      "analysis_sha256": "351b371f7862f1188a377d3b6ca48de1f8eb5ff7049c6f4f98b0f45f9d6b2654",
+      "role": "人物抬臂侧倾，身后墙面出现偏侧的人形暗影。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 203,
+      "record_id": "7e668540-4c5b-4c79-b59a-1aacaf0d13ab",
+      "analysis_sha256": "86e63f36aad1ca5228907e79cb04d87db0860320e0bb9b9cbbd7a0923e8b68ee",
+      "role": "人物右侧有人形影，左侧另有器材状轮廓投影与斜色带；不据此推定真实器材型号。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 263,
+      "record_id": "ff88fe24-e39b-466d-bd49-b14c5dde34dc",
+      "analysis_sha256": "6d54e584163de0263229610c8ada35fe2ed708b07d9bd44d33ed4958d2926d0d",
+      "role": "左侧实体人物较小，右侧墙上有大头部形状影；它不是可直接假定的普通同比例人影。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    }
+  ],
+  "held_out_record_ids": [],
+  "negative_record_ids": [
+    "b4232731-fd06-40e1-bead-7d92ee00f694"
+  ],
+  "must_not_copy": [
+    "参考图人物身份、品牌标识、杂志文字和独特道具组合不自动迁移",
+    "不将摄影师或品牌姓名作为效果保证"
+  ],
+  "fidelity": {
+    "edit": "用户指定的人脸、服装版型、图案及关键结构必须保留；无法保证时明确限制。",
+    "new": "允许新主体，但不得宣称生成服装与参考商品完全一致。"
+  },
+  "limits": [
+    "候选分组来自联系表筛查，代表图另行放大核对；尚未出图验证。",
+    "同一作者或系列的样本并不独立，不据数量声称普遍有效。",
+    "单图观察不能证明制作过程或商业效果。"
+  ],
+  "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-style-pilot-20260908-v3/new-reference-evidence.json",
+  "output_mode": "photographic_only_first_pilot",
+  "distinction": "影子是可见的第二个形状，而不只是“强反差”。",
+  "evaluation_status": "NOT_SCHEDULED"
+}

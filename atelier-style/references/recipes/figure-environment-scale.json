@@ -1,0 +1,92 @@
+{
+  "schema": "atelier-style-recipe-1",
+  "id": "figure-environment-scale",
+  "version": "0.3.0",
+  "name": "人物与大环境的尺度关系",
+  "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+  "suitable": [
+    "画幅中有足够环境，人物位置与环境线索可共同保留。"
+  ],
+  "unsuitable": [
+    "紧贴脸部的裁切，或只允许调色而没有空间信息。"
+  ],
+  "must_preserve": [
+    {
+      "rank": 1,
+      "rule": "保留使环境显大的空间线索，而不只机械缩小人物。"
+    },
+    {
+      "rank": 2,
+      "rule": "人物虽小仍有姿态或位置可辨，不用新增亮边强行突出。"
+    },
+    {
+      "rank": 3,
+      "rule": "地面接触、遮挡、透视和环境比例相互一致。"
+    }
+  ],
+  "allowed_changes": [
+    "只处理用户允许的对象和属性；需要新增人物、改姿态或改商品时先明确边界。"
+  ],
+  "steps": [
+    "先找到道路、门、布景或大型物体与人物的相对尺度。",
+    "编辑模式不凭空扩图或缩小人物；需要改构图时明确作为另外的生成操作。",
+    "保留能引向人物的已有线条或明暗间隔，不默认复制参考图的场景。",
+    "检查环境是否仍可读、人物是否被背景吞没，接触关系是否可信。"
+  ],
+  "checks": [
+    "只缩小人物却没有环境尺度参照",
+    "变成常规紧人像",
+    "人物漂浮或与地面透视不符"
+  ],
+  "references": [
+    {
+      "sequence": 102,
+      "record_id": "f0441af1-6fd7-4a60-9b72-bcbd249da448",
+      "analysis_sha256": "4089abf14a560df2b79413b1b496fbb2278121a243c5f08eae18035cd58c249d",
+      "role": "前景物品沿路边延伸到远处两个人物，道路与山地占据大部分空间。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 179,
+      "record_id": "9f66d6b1-25d0-429b-98ac-0b954fcb6f59",
+      "analysis_sha256": "6dbb6f96cc855b4a0ffb3279d7558d41e083a3dea8d1a8a83d77788d88381db3",
+      "role": "层层垂布与布景占据画幅，中部小型人物形象成为尺度参照；不推定是真人或雕塑。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 253,
+      "record_id": "9cf648d2-6d3f-440c-9a95-b5c90f11e6fb",
+      "analysis_sha256": "58638b1b3bdf80d14224065b9c5fdddef59e5df45e5f229d37dec7d84ae8d994",
+      "role": "巨大装饰门与右下人物形象形成尺度差，门的边界比人物占据更大范围。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 298,
+      "record_id": "cfa0e23f-d0c8-477e-8b06-688a3662eafd",
+      "analysis_sha256": "617accdf3a40b18fba73a686c247599e918e78d8ffb754cc1417fe0d42ffe536",
+      "role": "人物坐在大型盘状物边沿，空旷天空和地面阴影维持悬空场景关系。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    }
+  ],
+  "held_out_record_ids": [],
+  "negative_record_ids": [
+    "b369b447-2af8-42fe-859a-c34fe14eafe2"
+  ],
+  "must_not_copy": [
+    "参考图人物身份、品牌标识、杂志文字和独特道具组合不自动迁移",
+    "不将摄影师或品牌姓名作为效果保证"
+  ],
+  "fidelity": {
+    "edit": "用户指定的人脸、服装版型、图案及关键结构必须保留；无法保证时明确限制。",
+    "new": "允许新主体，但不得宣称生成服装与参考商品完全一致。"
+  },
+  "limits": [
+    "候选分组来自联系表筛查，代表图另行放大核对；尚未出图验证。",
+    "同一作者或系列的样本并不独立，不据数量声称普遍有效。",
+    "单图观察不能证明制作过程或商业效果。"
+  ],
+  "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-style-pilot-20260908-v3/new-reference-evidence.json",
+  "output_mode": "photographic_only_first_pilot",
+  "distinction": "环境、建筑或大物件承担主要空间，人物提供尺度参照。",
+  "evaluation_status": "NOT_SCHEDULED"
+}

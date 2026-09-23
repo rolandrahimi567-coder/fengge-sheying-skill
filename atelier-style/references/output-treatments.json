@@ -1,0 +1,31 @@
+{
+  "treatments": [
+    {
+      "id": "photographic",
+      "name": "保留摄影质感",
+      "status": "BRIEF_SUPPORTED_NOT_GENERATION_VALIDATED"
+    },
+    {
+      "id": "illustration",
+      "name": "转插画",
+      "status": "NOT_IMPLEMENTED"
+    },
+    {
+      "id": "paper-collage",
+      "name": "纸张拼贴",
+      "status": "NOT_IMPLEMENTED"
+    },
+    {
+      "id": "editorial-layout",
+      "name": "加入杂志排版",
+      "status": "NOT_IMPLEMENTED"
+    }
+  ],
+  "auxiliary_tags": [
+    "黑白",
+    "颗粒",
+    "低饱和",
+    "运动拖影"
+  ],
+  "note": "辅助标签不是风格。未逐图新增标注，也不将处理方式组合计成新风格。"
+}

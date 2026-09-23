@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-11",
+  "state": "installed_usable_candidate",
+  "max_referenced_image_paths_observed": 5,
+  "input_mode": "all_category_images_in_contact_sheets",
+  "original_count": 92,
+  "generation_attempts": 12,
+  "generated": 12,
+  "moderation_failures": 0,
+  "separate_preflight_rejections": 1,
+  "auto_groups": [
+    "B",
+    "C"
+  ],
+  "manual_groups": [
+    "A",
+    "D",
+    "E",
+    "F"
+  ],
+  "human_acceptance": null,
+  "reference_attention_verified": false,
+  "superiority_over_four_references_verified": false,
+  "known_limits": [
+    "Repeated poses and similar faces across repeated requests",
+    "A-1 strong aged photo border; A-2 thin edge marks",
+    "E-2 black trouser separation unclear",
+    "D portraits are tighter than a waist-up interpretation of half portrait",
+    "D/F removed from automatic selection after user rejected aesthetic results."
+  ],
+  "evidence_directory": "/Users/yzy/Documents/Codex/2026-09-08/ni-g/outputs/atelier-all-reference-integration-20260911",
+  "user_feedback": {
+    "D": "当前结果效果很烂",
+    "F": "当前结果效果很烂",
+    "scope": "Latest two outputs in each direction; not a claim about all possible works or other categories"
+  }
+}

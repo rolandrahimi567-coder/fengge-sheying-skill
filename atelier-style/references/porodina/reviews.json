@@ -1,0 +1,113 @@
+{
+  "diagnostic": {
+    "source": "explicit user feedback with exact pixel-matched attached image",
+    "user_quote": "目前的感觉只有这一张看着勉强还行，其他的都不行",
+    "scope": "current eight-image diagnostic round",
+    "selected_blind_id": "01",
+    "selected_job_id": "D2",
+    "recipe_status": "provisional_only_not_validated",
+    "ratings": [
+      {
+        "blind_id": "01",
+        "job_id": "D2",
+        "verdict": "marginal_candidate",
+        "user_wording": "勉强还行",
+        "dimension_scores": null
+      },
+      {
+        "blind_id": "02",
+        "job_id": "B2",
+        "verdict": "rejected",
+        "user_wording": "不行",
+        "dimension_scores": null
+      },
+      {
+        "blind_id": "03",
+        "job_id": "A2",
+        "verdict": "rejected",
+        "user_wording": "不行",
+        "dimension_scores": null
+      },
+      {
+        "blind_id": "04",
+        "job_id": "B1",
+        "verdict": "rejected",
+        "user_wording": "不行",
+        "dimension_scores": null
+      },
+      {
+        "blind_id": "05",
+        "job_id": "C2",
+        "verdict": "rejected",
+        "user_wording": "不行",
+        "dimension_scores": null
+      },
+      {
+        "blind_id": "06",
+        "job_id": "A1",
+        "verdict": "rejected",
+        "user_wording": "不行",
+        "dimension_scores": null
+      },
+      {
+        "blind_id": "07",
+        "job_id": "D1",
+        "verdict": "rejected",
+        "user_wording": "不行",
+        "dimension_scores": null
+      },
+      {
+        "blind_id": "08",
+        "job_id": "C1",
+        "verdict": "rejected",
+        "user_wording": "不行",
+        "dimension_scores": null
+      }
+    ]
+  },
+  "fullbody_paths": {
+    "user_quote": "效果很烂",
+    "scope": "four final images of fullbody path test",
+    "ratings": {
+      "direct-1": "rejected",
+      "direct-2": "rejected",
+      "edit-1": "rejected",
+      "edit-2": "rejected"
+    },
+    "intermediate_bases": "not_separately_rated",
+    "dimension_scores": null
+  },
+  "validated_recipes": [],
+  "discrete_pilot": {
+    "user_quote": "效果不行啊",
+    "scope": "P1 and P2 final outputs",
+    "ratings": {
+      "P1": "rejected",
+      "P2": "rejected"
+    },
+    "dimension_scores": null
+  },
+  "whole_image_test": {
+    "user_quote": "我觉得第一张看着还行",
+    "interpreted_image_id": "portrait",
+    "identification_basis": "first image displayed in chat; copper short hair and magenta translucent scarf; gallery order differs",
+    "verdict": "positive_candidate",
+    "recipe_status": "not_validated",
+    "fullbody": "unreviewed"
+  },
+  "reference_consistency_feedback": {
+    "date": "2026-09-16",
+    "user_quote": "目前效果有进步，但还是有问题，首先是参考图，如果两张参考图不是同一个风格就只参考一张，第一个的两行就是不同风格，第二个是同一风格，然后是人物可以再增加一点真实感",
+    "reference_pairs": {
+      "082+147": "different_styles_use_one",
+      "138+141": "consistent_styles_two_allowed"
+    },
+    "human_realism": "needs_improvement",
+    "individual_image_acceptance": "not_specified"
+  },
+  "background_feedback_20260916": {
+    "user_quote": "墙壁这种生成的太假了，原参考图没有的墙就不要生成",
+    "scope": "unsupported wall backgrounds; current R1 concrete passage",
+    "rule": "no invented walls or architecture absent from references unless explicitly requested"
+  }
+}

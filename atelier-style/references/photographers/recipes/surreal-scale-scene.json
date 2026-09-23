@@ -1,0 +1,80 @@
+{
+  "id": "surreal-scale-scene",
+  "photographer_id": "tim-walker",
+  "photographer_label": "Tim Walker",
+  "branch_name": "超现实尺度与布景叙事",
+  "status": "DRAFT_NOT_GENERATION_VALIDATED",
+  "source_attribution": "FILENAME_ONLY",
+  "signature": [
+    "人物与布景共同讲述一个明确的非常规关系，不靠随意堆满奇怪物件。",
+    "只选一种尺度、场景错置或物件用途变化，保持画面其余空间可理解。",
+    "服装与布景有形状、色彩或动作上的关联，但不修改被锁定的商品。",
+    "地面、遮挡、接触和影子维持可读性；超现实不等于结构错误。"
+  ],
+  "steps": [
+    "先明确输入人物与服装的保留范围，并确认是否允许新增或改变布景。",
+    "根据输入已有姿態和环境选择一种非常规关系，不自动复制盘状飞行物、床垫或门。",
+    "把新增或调整的场景安排在用户允许区域，保留脸部与衣物可见性。",
+    "按布景关系检查人物相对尺度、支撑点、前后遮挡及地面影子。",
+    "删掉不服务该关系的新增装饰；检查是否只剩普通大片或物件堆砌。"
+  ],
+  "unsuitable": [
+    "不允许改变或添加场景的单纯调色任务",
+    "必须保持完全纪实且不允许非常规元素",
+    "新增布景会遮住关键商品细节"
+  ],
+  "checks": [
+    "随机添加多个奇怪物件但没有关系",
+    "人物无意漂浮、接触错误或服装被遮住",
+    "直接复刻某幅作品的完整独特场景"
+  ],
+  "references": [
+    {
+      "sequence": 113,
+      "record_id": "c668390b-9c02-408d-9325-f048b4c8572c",
+      "analysis_sha256": "ef7c60c35dd5116cc6e3be4d084376c6e5756e38ff63e1816b6a13a9d36658b4",
+      "observation": "明亮门洞内小人物与暗房间、沙状地面形成不寻常场景。"
+    },
+    {
+      "sequence": 174,
+      "record_id": "b93eef24-c9f3-46be-a950-ee7311776784",
+      "analysis_sha256": "e8334a8f31cf7d3a9d63637eaa1d9b29cc17cf4c9146a148648036a9b46f2430",
+      "observation": "人物和展开衣物位于货车箱内，日常运输空间与造型并置。"
+    },
+    {
+      "sequence": 179,
+      "record_id": "9f66d6b1-25d0-429b-98ac-0b954fcb6f59",
+      "analysis_sha256": "6dbb6f96cc855b4a0ffb3279d7558d41e083a3dea8d1a8a83d77788d88381db3",
+      "observation": "垂布与装饰物围绕小型人物形象层层展开，不推断其是真人或雕塑。"
+    },
+    {
+      "sequence": 253,
+      "record_id": "9cf648d2-6d3f-440c-9a95-b5c90f11e6fb",
+      "analysis_sha256": "58638b1b3bdf80d14224065b9c5fdddef59e5df45e5f229d37dec7d84ae8d994",
+      "observation": "装饰大门与门前人物形成显著尺度差。"
+    },
+    {
+      "sequence": 286,
+      "record_id": "878f2514-8153-449f-a5fc-7c2c396a2d27",
+      "analysis_sha256": "77af158615ac6468934ec09914d26279c04e7857363b2506cf25ba9dd4c1dc91",
+      "observation": "人物躺在户外叠起的床垫上，床具与林地形成非常规搭配。"
+    },
+    {
+      "sequence": 298,
+      "record_id": "cfa0e23f-d0c8-477e-8b06-688a3662eafd",
+      "analysis_sha256": "617accdf3a40b18fba73a686c247599e918e78d8ffb754cc1417fe0d42ffe536",
+      "observation": "人物坐在盘状大物体边缘，物体离地与地面阴影共同构成悬浮场景。"
+    }
+  ],
+  "test_sequences": [
+    76,
+    256
+  ],
+  "input_notes": {
+    "76": "保留浅色展开裙摆和站姿；只有允许改背景时才能尝试场景错置，不把白裙重造。",
+    "256": "已有放射状装饰、鸟和椅子；保留这些对象，不再叠加飞行物或床垫。"
+  },
+  "rights": "LIVE_CONTEXT_REQUIRED_FOR_INPUT_AND_REFERENCES",
+  "output_treatment": "photographic",
+  "estimated_generation_cost": null
+}

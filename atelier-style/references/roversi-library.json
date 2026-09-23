@@ -1,0 +1,525 @@
+{
+  "version": "2026-09-14-independent-six-and-scene",
+  "default": "B",
+  "groups": [
+    {
+      "code": "A",
+      "name": "近距离与边缘消隐",
+      "auto_enabled": true,
+      "references": [
+        {
+          "number": 73,
+          "file": "assets/roversi/73.png",
+          "sha256": "033e71e3e0af709c0b3e6d1f0676cbbac422fdc5f6bd95c3ea3e8275591f6f08"
+        },
+        {
+          "number": 98,
+          "file": "assets/roversi/98.png",
+          "sha256": "6c263a8f4bd2f8170fea5a5d096ba4100cf08e0668142c1ae9632fabda908add"
+        },
+        {
+          "number": 110,
+          "file": "assets/roversi/110.png",
+          "sha256": "6879524ee7782fa4364488297244319dc9a9d0207a2738bf1c19b3e488e13f2d"
+        },
+        {
+          "number": 118,
+          "file": "assets/roversi/118.png",
+          "sha256": "5144b49fe7cf9cf97d19393cbec3f1645767089e3a01a227da8c37226e17d4cf"
+        },
+        {
+          "number": 128,
+          "file": "assets/roversi/128.png",
+          "sha256": "2ff82fbf8ee29e2b35c77d3ca165888a8f242e71bd1a1b5cd8c5d77bcc8bdc13"
+        },
+        {
+          "number": 175,
+          "file": "assets/roversi/175.png",
+          "sha256": "bc8d3614bbe2df5e0d492a4e80ef65fc323374e844b493a75a316b1fb7c8bb1e"
+        },
+        {
+          "number": 189,
+          "file": "assets/roversi/189.png",
+          "sha256": "575f94f1944d4747965d6042a673da4d64649f2d495c1d52f1c6d89595fcce25"
+        },
+        {
+          "number": 224,
+          "file": "assets/roversi/224.png",
+          "sha256": "4b0817f5e5f426cada35d8e196f420847bf0fe60651fe3cfe0a013d0461803de"
+        }
+      ],
+      "quality_status": "experimental",
+      "availability_reason": "Select when visual intent fits; experimental status is disclosed and does not trigger substitution."
+    },
+    {
+      "code": "B",
+      "name": "色彩与衣形",
+      "auto_enabled": true,
+      "references": [
+        {
+          "number": 2,
+          "file": "assets/roversi/2.png",
+          "sha256": "b618e02585abffe9a4f06ed78d10c127a8c005b374bf80cf28ac3fbec1d6d32c"
+        },
+        {
+          "number": 3,
+          "file": "assets/roversi/3.png",
+          "sha256": "0ca3390f264bebf079657ff168e6d6ce16c5dd588e110677126b8a996844821c"
+        },
+        {
+          "number": 22,
+          "file": "assets/roversi/22.png",
+          "sha256": "e544716420a3d5fb99d22f8b71cd6f24256b2680f6a007d11cc534892cd1867b"
+        },
+        {
+          "number": 23,
+          "file": "assets/roversi/23.png",
+          "sha256": "f5c1c6d264912eefb36044cc6b9377020c41748e1f7ab069ccee04b4919af593"
+        },
+        {
+          "number": 30,
+          "file": "assets/roversi/30.png",
+          "sha256": "6dd95a67d1f72bf130344a98c707710f4adb4562600825ded60324f5fe2735b6"
+        },
+        {
+          "number": 31,
+          "file": "assets/roversi/31.png",
+          "sha256": "121b17f1700ecc832a23b414710b9047fbb83ea32c8c072c43e8fb4e5d0d3d3f"
+        },
+        {
+          "number": 40,
+          "file": "assets/roversi/40.png",
+          "sha256": "234ad7b16fba20722149e4d7fb611ca7ba68ebbfd28fe36b7a04cb9baa8c85ec"
+        },
+        {
+          "number": 44,
+          "file": "assets/roversi/44.png",
+          "sha256": "0979b814c23dd472db236dbf176ec86349cdcfbea49871ca83704d1d39b31cd2"
+        },
+        {
+          "number": 56,
+          "file": "assets/roversi/56.png",
+          "sha256": "0e51754cc4e388a3a9f64b77c0c3442efc5cdc5daceb14b4f48bd506deab78e7"
+        },
+        {
+          "number": 61,
+          "file": "assets/roversi/61.png",
+          "sha256": "5c8d87c83ae076efd181360155f6608d213fbf2eb100c0b34c9c5741ddbfcd32"
+        },
+        {
+          "number": 72,
+          "file": "assets/roversi/72.png",
+          "sha256": "3f287f245cdb51a054ff75fdfbe55a36d78d0a7478b7b4b6d30f1e4fe1fd71da"
+        },
+        {
+          "number": 77,
+          "file": "assets/roversi/77.png",
+          "sha256": "ea6e727b227b117010ae32ecf6c480808fe3cc7e285136ec91ddc5b66c672050"
+        },
+        {
+          "number": 79,
+          "file": "assets/roversi/79.png",
+          "sha256": "4c330d80360a771574fa9b00ce850fe5c3bbcc731696a97ec15b8222ad0786e1"
+        },
+        {
+          "number": 82,
+          "file": "assets/roversi/82.png",
+          "sha256": "55ba12b5c705a5e01a5b40c170ff92bc1e9b34be3f110f960e376c92a1713423"
+        },
+        {
+          "number": 86,
+          "file": "assets/roversi/86.png",
+          "sha256": "a66d0276cdefd05d68c926dbddc80a14b8940c9b03577f7b383453ce0c0a217f"
+        },
+        {
+          "number": 89,
+          "file": "assets/roversi/89.png",
+          "sha256": "10b003af7ad8872410956435c31b23d87d1ecc0e9fa829eec46191aba9667428"
+        },
+        {
+          "number": 96,
+          "file": "assets/roversi/96.png",
+          "sha256": "eab76e0e0b5f9863656d8087d0882aa2d06157f2e10fc9fa797219d6e5fb135c"
+        },
+        {
+          "number": 106,
+          "file": "assets/roversi/106.png",
+          "sha256": "a252ad6c0b2c965a01a9a94a336a0509750c1c5517d9daa8ea6858ee149ed663"
+        },
+        {
+          "number": 108,
+          "file": "assets/roversi/108.png",
+          "sha256": "3e220fa36d0761904d7d48d4176727132243e37944ab53585b3f902f7023b6db"
+        },
+        {
+          "number": 112,
+          "file": "assets/roversi/112.png",
+          "sha256": "67c361e773358ec575e55b03cabf91d898846eb114d1bbcd3756ae6955bb1f6d"
+        },
+        {
+          "number": 125,
+          "file": "assets/roversi/125.png",
+          "sha256": "e0039e3779be5b7b756323285012c349b19ba23072bf5fd6d69b917405089610"
+        },
+        {
+          "number": 133,
+          "file": "assets/roversi/133.png",
+          "sha256": "a1482eb7a3e061c2c837f17aae5a6570db17b5936319ea3a7f3ca0b7bd5d1d89"
+        },
+        {
+          "number": 135,
+          "file": "assets/roversi/135.png",
+          "sha256": "3429dfb7d66f83d38b7b141e5546117eb7a0e667042ae35465369d72e56a1071"
+        },
+        {
+          "number": 140,
+          "file": "assets/roversi/140.png",
+          "sha256": "e880aaeea22d91bf11757d226b167778c1c229eabf81353f57cfa4b42ce30ece"
+        },
+        {
+          "number": 146,
+          "file": "assets/roversi/146.png",
+          "sha256": "f8288c8f190c8b71cd6ff057e4070cd19ad1248bad977d78720858b2bd125384"
+        },
+        {
+          "number": 148,
+          "file": "assets/roversi/148.png",
+          "sha256": "be23a0cd19552d473da2bfbe9de7f2c25957e5967386a5d6363dcfd4e7446580"
+        },
+        {
+          "number": 149,
+          "file": "assets/roversi/149.png",
+          "sha256": "8ee815165c025c91a62007856249105ebfabe5d8cf32b159f48b6a72e8fe61c6"
+        },
+        {
+          "number": 150,
+          "file": "assets/roversi/150.png",
+          "sha256": "64a6249f0bf9dbecc65de84fb40dc048d2ea1a50d9b95bd6af27f4a43dede3f8"
+        },
+        {
+          "number": 160,
+          "file": "assets/roversi/160.png",
+          "sha256": "01330444a3b1ecb2682cd63efb0341ac2b87b9872d523d316efd60ccc12ec4ec"
+        },
+        {
+          "number": 162,
+          "file": "assets/roversi/162.png",
+          "sha256": "3c9f525cb52fe36ef85c8f6e7d1b41ef242cfec67582775301944137f6c55f55"
+        },
+        {
+          "number": 167,
+          "file": "assets/roversi/167.png",
+          "sha256": "8a211cdc27c7d363a11150a53ee3bfa0b21864ba255afc49ce15813934da25b0"
+        },
+        {
+          "number": 170,
+          "file": "assets/roversi/170.png",
+          "sha256": "88f881ddf9e29a3add374c05893494b8a3172e63ffa1b47ea568841bc7d86246"
+        },
+        {
+          "number": 176,
+          "file": "assets/roversi/176.png",
+          "sha256": "0825b107e66a45ef0f0946e13c84e865919de49ed64ab94e697bd35d65816e58"
+        },
+        {
+          "number": 180,
+          "file": "assets/roversi/180.png",
+          "sha256": "5198c3b7d4f2f301d109c2ebbdc52bd2decd3e7ff834d7f9092a51675aac16b8"
+        },
+        {
+          "number": 182,
+          "file": "assets/roversi/182.png",
+          "sha256": "65cced9b3bd0a7fee17734a02bd50078db66868c5920f8688fbd95cf5dd99dbe"
+        },
+        {
+          "number": 185,
+          "file": "assets/roversi/185.png",
+          "sha256": "f1a2ec724633000f238f5745dccc19fa5b09b696a1c8d9d6e57b979b840b0432"
+        },
+        {
+          "number": 193,
+          "file": "assets/roversi/193.png",
+          "sha256": "7bc174fc8bcc337f4fd9fbc252312fe04dc9b9f7b9a9f56dbaf473c1fb0f69ae"
+        },
+        {
+          "number": 194,
+          "file": "assets/roversi/194.png",
+          "sha256": "351b371f7862f1188a377d3b6ca48de1f8eb5ff7049c6f4f98b0f45f9d6b2654"
+        },
+        {
+          "number": 202,
+          "file": "assets/roversi/202.png",
+          "sha256": "95a6982e9ea5a4e73e3ae7b43b288c067aeb6769962214eb7f4e16902c5a6877"
+        },
+        {
+          "number": 211,
+          "file": "assets/roversi/211.png",
+          "sha256": "97c4ae717df6c28311a1520b2d238d4263d2042ea86df21c320a7fec7cfc4461"
+        },
+        {
+          "number": 227,
+          "file": "assets/roversi/227.png",
+          "sha256": "767e620b389c15b0d8b15cb9298ca7fa2e0476f2d1fbc95402f68f2e8fd3e594"
+        }
+      ],
+      "quality_status": "candidate",
+      "availability_reason": "Eligible when visual intent fits; no blanket quality approval."
+    },
+    {
+      "code": "C",
+      "name": "明亮与轻淡",
+      "auto_enabled": true,
+      "references": [
+        {
+          "number": 6,
+          "file": "assets/roversi/6.png",
+          "sha256": "534b9eea7fe9b294ee121d9f8c73ed772f6ba503b7c5e1637f5ff43737058f5c"
+        },
+        {
+          "number": 8,
+          "file": "assets/roversi/8.png",
+          "sha256": "09e38b73752bed957d6b2ccd25945c640804dca9fd8caba9abd4acc06eaa124c"
+        },
+        {
+          "number": 19,
+          "file": "assets/roversi/19.png",
+          "sha256": "f697b4c814ab5a74f3aa2dcb88b32de99276741cfe5c239483a9643ad1576097"
+        },
+        {
+          "number": 76,
+          "file": "assets/roversi/76.png",
+          "sha256": "9f46b6896e0d9fbe4980167c7090d158f5537dfd173ebcba5e81b95b4fc981fd"
+        },
+        {
+          "number": 87,
+          "file": "assets/roversi/87.png",
+          "sha256": "65cd3c7f3e7382c2990f738305c58959e728a9797486f2a797aebcffdbd6abd5"
+        },
+        {
+          "number": 104,
+          "file": "assets/roversi/104.png",
+          "sha256": "805f68031a40f4c150cba2acc32e8d5631718ad9eea7e2c0ba751f01ecb02edb"
+        },
+        {
+          "number": 131,
+          "file": "assets/roversi/131.png",
+          "sha256": "200ac387605b9df3173fcb91007da9b883ff98f08eb79c1890e250891c28c08c"
+        },
+        {
+          "number": 143,
+          "file": "assets/roversi/143.png",
+          "sha256": "f546956569e443d56016a7921e428a340e3887c73c25cfa41c1ae1740cf76580"
+        },
+        {
+          "number": 199,
+          "file": "assets/roversi/199.png",
+          "sha256": "10d5f3d953d0a87d50234d00eeb49de429199d7891924dc5289246dd9eae106b"
+        },
+        {
+          "number": 220,
+          "file": "assets/roversi/220.png",
+          "sha256": "562022e68f8deae44398a5e96186224a01a83d6b5e00238d0c0d7e4a6c932cc9"
+        }
+      ],
+      "quality_status": "candidate",
+      "availability_reason": "Eligible when visual intent fits; no blanket quality approval."
+    },
+    {
+      "code": "D",
+      "name": "清晰、直接的肖像",
+      "auto_enabled": true,
+      "references": [
+        {
+          "number": 20,
+          "file": "assets/roversi/20.png",
+          "sha256": "d159bb8d9c91fc07164bf9bb47b6399aca924e70f5c6dfc3948823672801c345"
+        },
+        {
+          "number": 32,
+          "file": "assets/roversi/32.png",
+          "sha256": "d177f28e4d1930ad5ad74165d976e87ea569e20b8a045718715b9dafe5a47ac0"
+        },
+        {
+          "number": 74,
+          "file": "assets/roversi/74.png",
+          "sha256": "f2347ce48d04f5ce5961c38a11a27939a263ceb04351a335af7bf3f525958db1"
+        },
+        {
+          "number": 85,
+          "file": "assets/roversi/85.png",
+          "sha256": "d27eb402794159932f4f0c009efd85efd43dc39fdda2ef17303c03bf69d0e9b3"
+        },
+        {
+          "number": 103,
+          "file": "assets/roversi/103.png",
+          "sha256": "8336bd98fc85fe32cc4519dfffc2c8a1052fa9ac5eb140283fbbd304518b3ce0"
+        },
+        {
+          "number": 119,
+          "file": "assets/roversi/119.png",
+          "sha256": "66f1db4125f9160042f836558a7de15972ba17266f420cdf8d25cec0e253e5f2"
+        },
+        {
+          "number": 124,
+          "file": "assets/roversi/124.png",
+          "sha256": "4adf1fe980265c5b6d6f76b7fbef8d8d76762b59955edbce2c3e371e7c71fa2b"
+        },
+        {
+          "number": 136,
+          "file": "assets/roversi/136.png",
+          "sha256": "cd7a15bedfbc460aa5cd003592a36406eb42e04feaf6235823b888ca1195d1ef"
+        },
+        {
+          "number": 152,
+          "file": "assets/roversi/152.png",
+          "sha256": "3584295f96982ca3379b54aadb9150e056e9344cc520a640b9a0a07c058fa496"
+        },
+        {
+          "number": 153,
+          "file": "assets/roversi/153.png",
+          "sha256": "abfb16ea9775b5707c52273f502bcb434ccf65a2ff16567f6069f8848959aa58"
+        },
+        {
+          "number": 163,
+          "file": "assets/roversi/163.png",
+          "sha256": "8132b3c267e302467c9ee5dd2b69908574aa7f1ac7e972530235f1162db3c753"
+        },
+        {
+          "number": 169,
+          "file": "assets/roversi/169.png",
+          "sha256": "60ff0ee83ed2f73b68b4f93fca15158c922e73039a2360fb786d8d30a08be934"
+        }
+      ],
+      "availability_reason": "Select when visual intent fits; experimental status is disclosed and does not trigger substitution.",
+      "quality_status": "experimental"
+    },
+    {
+      "code": "E",
+      "name": "高反差与图形化人物",
+      "auto_enabled": true,
+      "references": [
+        {
+          "number": 1,
+          "file": "assets/roversi/1.png",
+          "sha256": "cf9e432c1fa91354fe8d86a7eec2c9e8eeceea6839048e50eb3b205d1d964882"
+        },
+        {
+          "number": 18,
+          "file": "assets/roversi/18.png",
+          "sha256": "5d0baa886aa56a5f8b0a071a43843a6236383682842d0e3377978ef0e2a04226"
+        },
+        {
+          "number": 37,
+          "file": "assets/roversi/37.png",
+          "sha256": "1d7fabcff5012a1d3fafd4c13be7caa1859888d0f790130d67a0fa6088d711e9"
+        },
+        {
+          "number": 41,
+          "file": "assets/roversi/41.png",
+          "sha256": "c08cb8800d2df84cfcbf1675ee0cc9cb16cdf117f6ee89be9c6c104a90a2d035"
+        },
+        {
+          "number": 51,
+          "file": "assets/roversi/51.png",
+          "sha256": "9c9286b7e23003f3ac56058bbfd151d9d35bd39f4b44d2820c41082e7dec8612"
+        },
+        {
+          "number": 94,
+          "file": "assets/roversi/94.png",
+          "sha256": "48012135c2fc75bd68664a92392c6c29848c2ea6fa0a86aa81b83755096375f1"
+        },
+        {
+          "number": 99,
+          "file": "assets/roversi/99.png",
+          "sha256": "8c699cacfe49e7b73bd597aac62eee9789668b61a7cb93381a664b522b49b61b"
+        },
+        {
+          "number": 137,
+          "file": "assets/roversi/137.png",
+          "sha256": "a2523357412ccde97be04ace7ec6ba1c904e8671382db31ff5969e002ece52ad"
+        },
+        {
+          "number": 186,
+          "file": "assets/roversi/186.png",
+          "sha256": "eeba9e4981f3214c9d247d21d45b5859c96e453c795301582076ddf87b7f7561"
+        },
+        {
+          "number": 191,
+          "file": "assets/roversi/191.png",
+          "sha256": "492b3ebfa533c4649fe9ac90bdfd172ea5190e79a1beb15b82df3882d9950a88"
+        },
+        {
+          "number": 200,
+          "file": "assets/roversi/200.png",
+          "sha256": "ae245ac142b13d5388653c61902995ce8bb788e46c1967eef7e217562e5b03d8"
+        },
+        {
+          "number": 217,
+          "file": "assets/roversi/217.png",
+          "sha256": "3d9dbd655f9e7eed2440e6f483746dbc97ba3a09e422b89a91b1eba6b8269acb"
+        }
+      ],
+      "quality_status": "experimental",
+      "availability_reason": "Select when visual intent fits; experimental status is disclosed and does not trigger substitution."
+    },
+    {
+      "code": "F",
+      "name": "环境中的人物叙事",
+      "auto_enabled": false,
+      "references": [
+        {
+          "number": 28,
+          "file": "assets/roversi/28.png",
+          "sha256": "c56fecab69ae33950e28f6b084988960f1cf7790228de64ffc4844a2bfc76506"
+        },
+        {
+          "number": 29,
+          "file": "assets/roversi/29.png",
+          "sha256": "1b99acbdeb1ee4ea94e382e174f7c6c3287dddb1cd914c3969dd3bae382efb08"
+        },
+        {
+          "number": 42,
+          "file": "assets/roversi/42.png",
+          "sha256": "29bc872a6ba928c7d683d1e63d1b3716816fcdb5904251d6b264370bf39aaa8a"
+        },
+        {
+          "number": 53,
+          "file": "assets/roversi/53.png",
+          "sha256": "4a17158c8b5656326573f1485e047cb1d30a2d97b81450a86b60abacdb8a1530"
+        },
+        {
+          "number": 59,
+          "file": "assets/roversi/59.png",
+          "sha256": "0ac2f81720a0feaf036ae0dca888f65e913cace33d2e42f7d805c73856d940fd"
+        },
+        {
+          "number": 60,
+          "file": "assets/roversi/60.png",
+          "sha256": "b9ca763d96de8b2d84ff6e1ded9e12efdd4f162bb29c514b460e8b124dd01a30"
+        },
+        {
+          "number": 81,
+          "file": "assets/roversi/81.png",
+          "sha256": "2204e1c5fe9913049a8768965ed9f3ee9604dda1fdc59050f050700ce2f16225"
+        },
+        {
+          "number": 141,
+          "file": "assets/roversi/141.png",
+          "sha256": "94e662b7c336b4633c7e387949209137f9f0ecf4bc35fdfa5a061dde192baf4e"
+        },
+        {
+          "number": 208,
+          "file": "assets/roversi/208.png",
+          "sha256": "f7ab32710f0b56e607945fcbbfeb55824bd1b97dffe5c17a092448fb6635954f"
+        }
+      ],
+      "availability_reason": "Manual experimental use only: user reported artificial environments on 2026-09-14; automatic routing paused pending visual acceptance.",
+      "quality_status": "experimental"
+    }
+  ],
+  "unclassified_excluded": 57,
+  "nonphoto_excluded": 1,
+  "personal_default": null,
+  "style_assigned": 92,
+  "scene_records": 150
+}

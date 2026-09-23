@@ -1,0 +1,154 @@
+[
+  {
+    "photographer_id": "paolo-roversi",
+    "name": "Paolo Roversi",
+    "main_hypothesis": "在本批候选样本中，人物的停驻状态与衣料、皮肤的层次经常比场景事件更重要；暗调、浅调和软边是不同表现分支。",
+    "patterns": [
+      {
+        "claim": "脸、手和衣料共同安排观看顺序，而不是只有背景变暗。",
+        "evidence_sequences": [
+          3,
+          40,
+          48,
+          135,
+          149
+        ],
+        "visible_basis": "皮肤局部亮面与衣料褶面、深背景分离。",
+        "exceptions": [
+          94,
+          115
+        ],
+        "limit": "黑衣浅背景的样本说明暗背景并非必要条件。"
+      },
+      {
+        "claim": "浅调分支仍保留局部可读性。",
+        "evidence_sequences": [
+          6,
+          8,
+          76,
+          143,
+          199
+        ],
+        "visible_basis": "深发、眼部、褶皱或桌沿构成浅区域之间的区别。",
+        "exceptions": [
+          104
+        ],
+        "limit": "104的轮廓细弱，不应用统一锐化处理。"
+      },
+      {
+        "claim": "软化有多个可见来源，不能统一成模糊滤镜。",
+        "evidence_sequences": [
+          73,
+          98,
+          116,
+          185,
+          224
+        ],
+        "visible_basis": "透层、局部软边和轮廓消隐并不相同。",
+        "exceptions": [
+          40,
+          149
+        ],
+        "limit": "部分样本细节清楚，柔焦不是所有作品共同规则。"
+      }
+    ],
+    "counterexamples": [
+      29,
+      53,
+      81,
+      131,
+      157,
+      191,
+      225
+    ],
+    "distinctiveness_limit": "这些关系不是摄影师独有；只能描述这批样本倾向，尚不足以证明作者可识别性。",
+    "scope_count": 75,
+    "attribution_status": "FILENAME_LABEL_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+    "independent_works": null,
+    "branch_counts": {
+      "dark-material-portrait": 42,
+      "pale-fabric-portrait": 8,
+      "soft-edge-portrait": 9
+    },
+    "unassigned_count": 19,
+    "status": "CORPUS_HYPOTHESIS_NOT_EXCLUSIVE_STYLE"
+  },
+  {
+    "photographer_id": "tim-walker",
+    "name": "Tim Walker",
+    "main_hypothesis": "在本批候选样本中，人物或服装与场景之间的关系经常承担主要观看内容；非常规场景、鲜明色区和户外片段必须分开调用。",
+    "patterns": [
+      {
+        "claim": "场景错置使普通空间或物件参与服装表达。",
+        "evidence_sequences": [
+          113,
+          174,
+          286
+        ],
+        "visible_basis": "沙地进入房间、造型进入车箱、床垫进入林地。",
+        "exceptions": [
+          253
+        ],
+        "limit": "大门尺度差本身不是超现实证据。"
+      },
+      {
+        "claim": "颜色通过服装和背景的分工组织画面。",
+        "evidence_sequences": [
+          16,
+          63,
+          197,
+          241,
+          278
+        ],
+        "visible_basis": "服装主色与邻接背景或道具色区形成对照或呼应。",
+        "exceptions": [
+          24,
+          39,
+          58
+        ],
+        "limit": "户外或单色样本不需要被强制改为彩色置景。"
+      },
+      {
+        "claim": "环境与姿态共同呈现活动片段。",
+        "evidence_sequences": [
+          24,
+          39,
+          139,
+          252,
+          280
+        ],
+        "visible_basis": "人物接触地面、植物或另一个人物，环境保持可读。",
+        "exceptions": [
+          239,
+          262,
+          275
+        ],
+        "limit": "部分近景肖像没有这种关系，保留未归类。"
+      }
+    ],
+    "counterexamples": [
+      126,
+      196,
+      198,
+      205,
+      228,
+      230,
+      245,
+      260,
+      262,
+      275,
+      281
+    ],
+    "distinctiveness_limit": "鸟、蛋、柱子并不是摄影师风格定义。场景叙事与人物肖像共存，不能只取奇观样本概括作者。",
+    "scope_count": 75,
+    "attribution_status": "FILENAME_LABEL_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+    "independent_works": null,
+    "branch_counts": {
+      "graphic-color-scene": 23,
+      "outdoor-character-story": 13,
+      "surreal-scale-scene": 29
+    },
+    "unassigned_count": 21,
+    "status": "CORPUS_HYPOTHESIS_NOT_EXCLUSIVE_STYLE"
+  }
+]

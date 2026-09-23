@@ -1,0 +1,94 @@
+{
+  "schema": "atelier-style-recipe-1",
+  "id": "figure-framing-space",
+  "version": "0.2.0",
+  "name": "道具或布景围合人物",
+  "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+  "suitable": [
+    "已有可用围合结构，或用户明确允许添加布景；必要空间关系可保留"
+  ],
+  "unsuitable": [
+    "没有围合元素且不允许新增",
+    "用户必须展示的衣物会被拟加结构遮挡"
+  ],
+  "must_preserve": [
+    {
+      "rank": 1,
+      "rule": "选择已有门洞、弧形或线条，明确人物位于其中及前后穿插顺序。"
+    },
+    {
+      "rank": 2,
+      "rule": "围合物不能遮住用户指定的脸部与服装重点；保留原有必要遮挡。"
+    },
+    {
+      "rank": 3,
+      "rule": "保持人物与围合物的尺度关系；不同参考分别只提供空间关系，不混装全部道具。"
+    }
+  ],
+  "allowed_changes": [
+    "仅限用户明确同意的背景、局部色调与输出尺寸；不默认改人脸、商品或原文字。"
+  ],
+  "steps": [
+    "先标出输入中真实可见的围合结构，以及哪些部分在人前、哪些在人后。",
+    "选择最相符的一种围合关系；没有现成结构且不允许添加布景时返回不适用。",
+    "保留透明物透光、线条穿插和人物尺寸，不用实体光环替代所有围合物。",
+    "检查脸部、服装与道具是否错位；缩图查看围合是否帮助定位人物。"
+  ],
+  "checks": [
+    "围合物前后顺序未反转",
+    "透明物未实体化，重要面部细节未被新遮挡",
+    "未把多张参考的道具拼装进同一画面"
+  ],
+  "references": [
+    {
+      "record_id": "ef98d5f3-cf00-4cf8-b34b-cc7203cc5416",
+      "sequence": 11,
+      "analysis_sha256": "012a24ad94faa122132df988d1f88508973e5f89b96b625aa757926ea20a7b02",
+      "role": "伞面在头肩后方形成大弧形，橙伞与红背景相接；前景手和黄色圆形物另成一层。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "record_id": "c668390b-9c02-408d-9325-f048b4c8572c",
+      "sequence": 113,
+      "analysis_sha256": "ef7c60c35dd5116cc6e3be4d084376c6e5756e38ff63e1816b6a13a9d36658b4",
+      "role": "小人物位于明亮门洞内，门框与更暗的外部房间共同围出人物所在空间。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "record_id": "93a4e40e-17ed-4748-84b3-f3e57c5d00a7",
+      "sequence": 178,
+      "analysis_sha256": "36626690471311f1108b50df0b871fe883ca44fb200792ddad4ba5375659d285",
+      "role": "螺旋线在人物前后穿过，围绕身体展开；不能将所有线条统一放到人后。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "record_id": "90f25c7b-36d0-4dae-b28a-fd37c789fb19",
+      "sequence": 283,
+      "analysis_sha256": "3fb721bb34813e4f4fe7e996d8fff9365408a27b3c7df951c2b17be8b90a6eea",
+      "role": "布景上沿与右侧前景板围成人物窗口；人物手中圆形物是局部呼应，不是同心圆布景。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    }
+  ],
+  "held_out_record_ids": [
+    "6ba98c23-3b6d-4af1-acd3-85a8105f5dac",
+    "88794259-48f3-4ca9-bf64-6581b321b0aa"
+  ],
+  "negative_record_ids": [
+    "b369b447-2af8-42fe-859a-c34fe14eafe2"
+  ],
+  "must_not_copy": [
+    "参考图人物身份、品牌标识、杂志文字和独特道具组合不自动迁移",
+    "不将摄影师或品牌姓名作为效果保证"
+  ],
+  "fidelity": {
+    "edit": "用户指定的人脸、服装版型、图案及关键结构必须保留；无法保证时明确限制。",
+    "new": "允许新主体，但不得宣称生成服装与参考商品完全一致。"
+  },
+  "limits": [
+    "三套为试验配方，不是300张完整风格分类。",
+    "部分同系列参考相关，不能当成完全独立验证；尚未跨图出图验证。",
+    "衣物模型与算法结果均为候选；不凭其置信度自动判定成功。"
+  ],
+  "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-style-pilot-20260908-v2/selected-evidence.json",
+  "output_mode": "photographic_only_first_pilot"
+}

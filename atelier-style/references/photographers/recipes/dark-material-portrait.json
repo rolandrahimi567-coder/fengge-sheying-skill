@@ -1,0 +1,80 @@
+{
+  "id": "dark-material-portrait",
+  "photographer_id": "paolo-roversi",
+  "photographer_label": "Paolo Roversi",
+  "branch_name": "暗调静态人物与衣料层次",
+  "status": "DRAFT_NOT_GENERATION_VALIDATED",
+  "source_attribution": "FILENAME_ONLY",
+  "signature": [
+    "让背景减少叙事信息，让人物姿态、皮肤与衣料成为主要观看内容。",
+    "皮肤、衣料亮部与环境暗部形成层次，不把全图压黑或把肤色漂白。",
+    "衣料褶层和表面可见，部分边缘可柔化但不把商品细节一起模糊。",
+    "保留静态、内收或停驻的姿态；不为风格复制参考人物表情。"
+  ],
+  "steps": [
+    "先锁定输入的人脸、服装版型、图案及必须保留物件，识别原有主要亮部。",
+    "按允许范围减少背景纹理与物件竞争，保留原有空间接触。",
+    "分别处理皮肤、衣物和背景的局部明暗，不改商品固有颜色以迎合黑白印象。",
+    "保留衣褶和五官的必要清晰度，避免锐化白边或统一柔焦。",
+    "缩图看主次，放大查商品细节和人脸是否变形。"
+  ],
+  "unsuitable": [
+    "必须完整展示复杂场景的任务",
+    "只允许原像素不变却要求改变光线",
+    "暗部信息已丢失而要求准确恢复"
+  ],
+  "checks": [
+    "只是调黑背景，没有人物与衣料层次",
+    "肤色或衣服高光变成无细节亮斑",
+    "复制参考图的人脸、衣服或姿势以制造相似"
+  ],
+  "references": [
+    {
+      "sequence": 3,
+      "record_id": "f94b1ad5-b8e2-48d4-b20d-15bc8086331f",
+      "analysis_sha256": "0ca3390f264bebf079657ff168e6d6ce16c5dd588e110677126b8a996844821c",
+      "observation": "白裙侧向展开，皮肤和暗背景处于不同明暗层，面部仍可辨认。"
+    },
+    {
+      "sequence": 22,
+      "record_id": "0a42e679-25d1-4d5f-b860-ea2327291be5",
+      "analysis_sha256": "e544716420a3d5fb99d22f8b71cd6f24256b2680f6a007d11cc534892cd1867b",
+      "observation": "酒红褶饰在肩侧突出，衣身暗部与蓝灰背景相邻，面部和红唇可辨。"
+    },
+    {
+      "sequence": 40,
+      "record_id": "9e7c23e9-41ed-4ad9-bf6e-7011fee913de",
+      "analysis_sha256": "234ad7b16fba20722149e4d7fb611ca7ba68ebbfd28fe36b7a04cb9baa8c85ec",
+      "observation": "脸和手位于深绿色厚实衣料之间，背景克制，眼睛与衣料表面各有细节。"
+    },
+    {
+      "sequence": 48,
+      "record_id": "9b8d37ac-0bf0-47bb-a55b-ebee942ec17d",
+      "analysis_sha256": "7116b9dac419d9d513506344e1c448b0b3792c2a4c7d6add4c6db91ce06fbae2",
+      "observation": "深色衣物中侧脸和手更亮，姿态内收，背景不提供叙事情节。"
+    },
+    {
+      "sequence": 135,
+      "record_id": "135576e5-b7c5-4bef-b7c8-36e8a14b9329",
+      "analysis_sha256": "3429dfb7d66f83d38b7b141e5546117eb7a0e667042ae35465369d72e56a1071",
+      "observation": "皮肤与棕灰衣料的部分褶面比周围更亮，人物静立。"
+    },
+    {
+      "sequence": 149,
+      "record_id": "f62add1c-2717-4409-9d95-a5ec506e11b7",
+      "analysis_sha256": "8ee815165c025c91a62007856249105ebfabe5d8cf32b159f48b6a72e8fe61c6",
+      "observation": "侧脸朝向一侧，浅色花纹衣料与暗背景相接，肤色及衣料纹理都可见。"
+    }
+  ],
+  "test_sequences": [
+    133,
+    260
+  ],
+  "input_notes": {
+    "133": "保留衣服深色图案、宽裙轮廓和手势；只处理获准背景与局部明暗。",
+    "260": "保留金色上身、白色裙摆和倚靠姿态；白色下摆不能因暗调目标变成另一种颜色。"
+  },
+  "rights": "LIVE_CONTEXT_REQUIRED_FOR_INPUT_AND_REFERENCES",
+  "output_treatment": "photographic",
+  "estimated_generation_cost": null
+}

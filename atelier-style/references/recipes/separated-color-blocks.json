@@ -1,0 +1,92 @@
+{
+  "schema": "atelier-style-recipe-1",
+  "id": "separated-color-blocks",
+  "version": "0.3.0",
+  "name": "服装与背景的明确色块关系",
+  "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+  "suitable": [
+    "主体、服装、背景有可分区域，允许调整其中指定区域的颜色。"
+  ],
+  "unsuitable": [
+    "商品颜色必须原样且背景也不可变，却要求重配颜色。"
+  ],
+  "must_preserve": [
+    {
+      "rank": 1,
+      "rule": "先指定主要色块的对象，保留它们的面积层级和邻接位置。"
+    },
+    {
+      "rank": 2,
+      "rule": "至少让主要色块彼此可辨，不要求固定互补色。"
+    },
+    {
+      "rank": 3,
+      "rule": "皮肤与衣物材质单独保护，不把局部配色变为统一滤镜。"
+    }
+  ],
+  "allowed_changes": [
+    "只处理用户允许的对象和属性；需要新增人物、改姿态或改商品时先明确边界。"
+  ],
+  "steps": [
+    "列出衣物、背景、道具各自的颜色；未知区域不借整图色板代替。",
+    "锁定商品与肤色，再选择用户允许变化的一两个区域。",
+    "保留色块边界及原有材质高光，不把反光衣物涂成平面。",
+    "比较小图的色块层级，再放大查颜色是否越界。"
+  ],
+  "checks": [
+    "衣物颜色串到皮肤或背景",
+    "只有饱和度提高，区域关系没有变化",
+    "复制原图所有道具与文字"
+  ],
+  "references": [
+    {
+      "sequence": 16,
+      "record_id": "7a940c61-3881-404a-bc1c-d124217bf3ae",
+      "analysis_sha256": "cc96cf559e328c381f6f0abd01b4a271f2944a1f56de979761339fc70cee2b73",
+      "role": "红色衣物与鞋靴紧邻蓝色背景，材质反光与绒状表面仍有区别。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 63,
+      "record_id": "81eeb877-eca7-461a-8fa2-b92fcea807c8",
+      "analysis_sha256": "ac89d4a6c9c9f358854377e76ba64de675a620401090b3a6819fb98b66512bfc",
+      "role": "粉红衣服位于绿背景与浅地面之间，黑色鞋帽形成较小深色区。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 197,
+      "record_id": "59a077e7-7bc0-495e-ae26-0db7bb153f02",
+      "analysis_sha256": "dab90ec211ad1dae51ede0f7c5563d999e12d2387cd3fd5054e8a5baa12bd1d6",
+      "role": "红裙、黄地面和蓝墙构成大色块；右侧手与花朵是额外物件，不自动迁移。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 222,
+      "record_id": "c3f02b14-9e88-4ae7-b7ea-e112b6e1b86c",
+      "analysis_sha256": "ba734853ee25c74dffd4a1feb4ab6cd5344fdb988ad6ec819a1b52f6b56b4b5d",
+      "role": "绿色上衣紧邻黄色背景；外围报刊版式不作为摄影配方必要条件。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    }
+  ],
+  "held_out_record_ids": [],
+  "negative_record_ids": [
+    "9b8d37ac-0bf0-47bb-a55b-ebee942ec17d"
+  ],
+  "must_not_copy": [
+    "参考图人物身份、品牌标识、杂志文字和独特道具组合不自动迁移",
+    "不将摄影师或品牌姓名作为效果保证"
+  ],
+  "fidelity": {
+    "edit": "用户指定的人脸、服装版型、图案及关键结构必须保留；无法保证时明确限制。",
+    "new": "允许新主体，但不得宣称生成服装与参考商品完全一致。"
+  },
+  "limits": [
+    "候选分组来自联系表筛查，代表图另行放大核对；尚未出图验证。",
+    "同一作者或系列的样本并不独立，不据数量声称普遍有效。",
+    "单图观察不能证明制作过程或商业效果。"
+  ],
+  "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-style-pilot-20260908-v3/new-reference-evidence.json",
+  "output_mode": "photographic_only_first_pilot",
+  "distinction": "重点是颜色属于哪个区域以及如何相邻，不是全图提高饱和度。",
+  "evaluation_status": "NOT_SCHEDULED"
+}

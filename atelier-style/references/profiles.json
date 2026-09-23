@@ -1,0 +1,242 @@
+{
+  "paolo-roversi": {
+    "name": "Paolo Roversi",
+    "branches": [
+      {
+        "id": "quiet-volume",
+        "suitable": "Quiet couture portrait or restrained group with garment volume",
+        "optional": [
+          "PR03"
+        ],
+        "counterexamples": [
+          94,
+          189
+        ],
+        "avoid": "Do not default to seated gray-background portrait.",
+        "recommended": [
+          "PR01",
+          "PR02"
+        ]
+      },
+      {
+        "id": "close-material",
+        "suitable": "Intimate face and garment portrait",
+        "optional": [
+          "PR01"
+        ],
+        "counterexamples": [
+          98,
+          217
+        ],
+        "avoid": "No default blur or obligatory tousled hair.",
+        "recommended": [
+          "PR02",
+          "PR03"
+        ]
+      },
+      {
+        "id": "graphic",
+        "suitable": "Explicit graphic fashion direction",
+        "optional": [
+          "PR01"
+        ],
+        "counterexamples": [
+          149,
+          199
+        ],
+        "avoid": "Do not force rich textile detail into every dark shape.",
+        "recommended": [
+          "PR04"
+        ]
+      },
+      {
+        "id": "reduced-detail",
+        "suitable": "User permits experimental loss of descriptive detail",
+        "optional": [],
+        "counterexamples": [
+          40,
+          149
+        ],
+        "avoid": "Not suitable when product detail must remain exact.",
+        "recommended": [
+          "PR05"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "id": "PR01",
+        "rule": "Let a restrained bodily action meet a larger garment shape: the difference in scale should be visible, without requiring a theatrical pose.",
+        "evidence": [
+          22,
+          133,
+          220,
+          227
+        ],
+        "boundary": "Do not copy the flower headpiece, rose shoulder or specific garment; group use is a new extrapolation.",
+        "status": "CORPUS_HYPOTHESIS",
+        "independent_series_verified": false
+      },
+      {
+        "id": "PR02",
+        "rule": "Make the face and the garment separate but connected viewing events; use an edge, hand, collar or bodily turn to connect them, rather than lighting everything equally.",
+        "evidence": [
+          40,
+          149,
+          180,
+          220
+        ],
+        "boundary": "Quiet does not prescribe a gaze direction, background color or seated posture.",
+        "status": "CORPUS_HYPOTHESIS",
+        "independent_series_verified": false
+      },
+      {
+        "id": "PR03",
+        "rule": "Give skin, near textile and remote edges distinct descriptive strength; retain the chosen viewing anchor without a uniform blur filter.",
+        "evidence": [
+          40,
+          149,
+          180,
+          199
+        ],
+        "boundary": "Do not infer camera settings; this is not a rule for every work.",
+        "status": "CORPUS_HYPOTHESIS",
+        "independent_series_verified": false
+      },
+      {
+        "id": "PR04",
+        "rule": "Let skin and garment form large interacting light/dark shapes, allowing selective merging with the ground.",
+        "evidence": [
+          94,
+          217
+        ],
+        "boundary": "Graphic branch only; not a universal pale-skin or black-garment mandate.",
+        "status": "CORPUS_HYPOTHESIS",
+        "independent_series_verified": false
+      },
+      {
+        "id": "PR05",
+        "rule": "When detail is deliberately reduced, keep a readable organizing shape or color point; make the reduction participate in the subject rather than merely blurring the background.",
+        "evidence": [
+          98,
+          189
+        ],
+        "boundary": "Experimental branch; exact source processing remains unknown.",
+        "status": "CORPUS_HYPOTHESIS",
+        "independent_series_verified": false
+      }
+    ],
+    "version": "3.1-research",
+    "attribution_status": "MOSTLY_FILENAME_LABELS_NOT_AUTHENTICATED",
+    "recognizability_verified": false
+  },
+  "tim-walker": {
+    "name": "Tim Walker",
+    "branches": [
+      {
+        "id": "physical-event",
+        "suitable": "Fashion scene where a small invented event serves the theme",
+        "optional": [
+          "TW03"
+        ],
+        "counterexamples": [
+          126,
+          278
+        ],
+        "avoid": "One governing event, not a pile of unrelated fantasy props.",
+        "recommended": [
+          "TW01",
+          "TW02"
+        ]
+      },
+      {
+        "id": "graphic-performance",
+        "suitable": "Fashion portrait or pair led by gesture and shape",
+        "optional": [
+          "TW04"
+        ],
+        "counterexamples": [
+          122,
+          286
+        ],
+        "avoid": "No automatic giant object or mandatory saturation.",
+        "recommended": [
+          "TW03"
+        ]
+      },
+      {
+        "id": "human-proximity",
+        "suitable": "Intimate pair or expressive portrait",
+        "optional": [
+          "TW03"
+        ],
+        "counterexamples": [
+          55,
+          298
+        ],
+        "avoid": "No forced surreal set when human relations suffice.",
+        "recommended": [
+          "TW04"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "id": "TW01",
+        "rule": "Give the garment, ordinary object or room one altered role that the person actually uses; the action must make the scene more than a decorative backdrop.",
+        "evidence": [
+          55,
+          122,
+          158,
+          219,
+          286,
+          298
+        ],
+        "boundary": "Do not reproduce the piano, plane, tea party, mattress tower or saucer; preserve requested person count.",
+        "status": "CORPUS_HYPOTHESIS",
+        "independent_series_verified": false
+      },
+      {
+        "id": "TW02",
+        "rule": "Make contact, support, occlusion and shadows agree with the invented event so it reads as a tangible photographed situation.",
+        "evidence": [
+          122,
+          178,
+          286,
+          298
+        ],
+        "boundary": "Source production methods are unknown; this is a generative staging decision.",
+        "status": "CORPUS_HYPOTHESIS",
+        "independent_series_verified": false
+      },
+      {
+        "id": "TW03",
+        "rule": "Use framing and bodily directions to turn repeated shapes into a performance; specify color and surface roles only where needed.",
+        "evidence": [
+          16,
+          197,
+          215,
+          278
+        ],
+        "boundary": "No default hat, red vinyl, primary palette or cropped face.",
+        "status": "CORPUS_HYPOTHESIS",
+        "independent_series_verified": false
+      },
+      {
+        "id": "TW04",
+        "rule": "Let differing head directions, gestures or contact establish the relationship; the people need not share the same gaze or a symmetrical pose.",
+        "evidence": [
+          126,
+          215,
+          278
+        ],
+        "boundary": "Close portrait branch; a single figure can use gesture rather than another person.",
+        "status": "CORPUS_HYPOTHESIS",
+        "independent_series_verified": false
+      }
+    ],
+    "version": "3.1-research",
+    "attribution_status": "MOSTLY_FILENAME_LABELS_NOT_AUTHENTICATED",
+    "recognizability_verified": false
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema": "atelier-style-recipe-1",
+  "id": "pale-layer-separation",
+  "version": "0.2.0",
+  "name": "浅色人物与浅色背景的层次保留",
+  "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+  "suitable": [
+    "主体和背景原本相近浅色，或明确允许调整背景；高光仍有可用细节"
+  ],
+  "unsuitable": [
+    "仅靠严重失焦呈现且缺细节",
+    "必须保留深背景又要求浅背景效果"
+  ],
+  "must_preserve": [
+    {
+      "rank": 1,
+      "rule": "浅色主体与浅色背景靠近时，保留接触阴影、褶层和边缘的局部差别。"
+    },
+    {
+      "rank": 2,
+      "rule": "五官或原有深色小区域作为观看重点，不将整个画面一起洗白。"
+    },
+    {
+      "rank": 3,
+      "rule": "肤色、布料和背景分别处理；不把浅色等同于模糊或失焦。"
+    }
+  ],
+  "allowed_changes": [
+    "仅限用户明确同意的背景、局部色调与输出尺寸；不默认改人脸、商品或原文字。"
+  ],
+  "steps": [
+    "分别辨认皮肤、衣服、背景与接触阴影；已有高光丢失的区域列为不可恢复。",
+    "只在用户允许改背景或明暗时，拉近大面积色调，同时保留衣褶与边缘差别。",
+    "不通过全图模糊制造柔和；透明层仍需保留叠加后的深浅变化。",
+    "核对脸、手、服装边缘和材质细节；不清楚的结构不自动补全。"
+  ],
+  "checks": [
+    "五官与衣褶仍可辨认",
+    "浅色区域没有新增大块无细节白斑",
+    "没有用模糊代替局部层次"
+  ],
+  "references": [
+    {
+      "record_id": "6c92be65-4fd6-4819-bf7f-3ae8fe099cb7",
+      "sequence": 6,
+      "analysis_sha256": "534b9eea7fe9b294ee121d9f8c73ed772f6ba503b7c5e1637f5ff43737058f5c",
+      "role": "肤色、衣服与布景都较浅，头发、五官和肢体接触处阴影保留观看位置。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "record_id": "b4232731-fd06-40e1-bead-7d92ee00f694",
+      "sequence": 8,
+      "analysis_sha256": "09e38b73752bed957d6b2ccd25945c640804dca9fd8caba9abd4acc06eaa124c",
+      "role": "浅灰衣服与浅背景接近，衣褶、桌沿和腿部边缘仍可区分。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "record_id": "28655884-2930-4827-914f-09e0cd7f613b",
+      "sequence": 143,
+      "analysis_sha256": "f546956569e443d56016a7921e428a340e3887c73c25cfa41c1ae1740cf76580",
+      "role": "浅粉衣服与浅灰背景接近，透叠和褶层改变局部深浅；深发与五官形成局部重点。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "record_id": "b8b4409b-e8dc-4d86-bd08-1b10e217ee41",
+      "sequence": 295,
+      "analysis_sha256": "a63a1ffc4b0906b3e4ec670aa405e6e8ece4bb2c83024ef058b266498ec99607",
+      "role": "肤色和浅蓝灰背景接近；头部、手臂边缘仍清楚，橙色细长物是另一处色彩重点。衣物不可据此补造。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    }
+  ],
+  "held_out_record_ids": [
+    "59bee848-eeb7-4495-a361-a251d0ae5029",
+    "58b9b2da-1b9f-4400-946f-62620527eaa2"
+  ],
+  "negative_record_ids": [
+    "dc61bbf4-ac2c-4ddb-ae3c-2b97c467e185"
+  ],
+  "must_not_copy": [
+    "参考图人物身份、品牌标识、杂志文字和独特道具组合不自动迁移",
+    "不将摄影师或品牌姓名作为效果保证"
+  ],
+  "fidelity": {
+    "edit": "用户指定的人脸、服装版型、图案及关键结构必须保留；无法保证时明确限制。",
+    "new": "允许新主体，但不得宣称生成服装与参考商品完全一致。"
+  },
+  "limits": [
+    "三套为试验配方，不是300张完整风格分类。",
+    "部分同系列参考相关，不能当成完全独立验证；尚未跨图出图验证。",
+    "衣物模型与算法结果均为候选；不凭其置信度自动判定成功。"
+  ],
+  "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-style-pilot-20260908-v2/selected-evidence.json",
+  "output_mode": "photographic_only_first_pilot"
+}

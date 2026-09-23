@@ -1,0 +1,92 @@
+{
+  "schema": "atelier-style-recipe-1",
+  "id": "garment-setting-echo",
+  "version": "0.3.0",
+  "name": "服装与场景的色纹呼应",
+  "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+  "suitable": [
+    "服装与场景至少有一种可见呼应，同时人物边界仍有保留空间。"
+  ],
+  "unsuitable": [
+    "白底商品检验，或衣物和场景均不可调整又没有共同线索。"
+  ],
+  "must_preserve": [
+    {
+      "rank": 1,
+      "rule": "只选择一种最有依据的呼应：色系、纹理或形状，不强加三者。"
+    },
+    {
+      "rank": 2,
+      "rule": "环境可以回应衣物，但不能复制衣物图案覆盖整个场景。"
+    },
+    {
+      "rank": 3,
+      "rule": "面部、手部或外轮廓留出差别，避免主体完全消失。"
+    }
+  ],
+  "allowed_changes": [
+    "只处理用户允许的对象和属性；需要新增人物、改姿态或改商品时先明确边界。"
+  ],
+  "steps": [
+    "分别记录衣物与背景的可见纹理和颜色，先判断共同点与不同点。",
+    "保留服装细节，只在允许区域调整环境的色纹密度。",
+    "保留主体边缘、皮肤或局部空隙作为区分。",
+    "检查是否形成关联而非无差别花纹堆叠。"
+  ],
+  "checks": [
+    "人物完全融入背景",
+    "擅自改变商品花纹",
+    "凭品牌名直接判定同一风格"
+  ],
+  "references": [
+    {
+      "sequence": 33,
+      "record_id": "5a8f40ef-f33c-4a7e-b658-4b4dd5053b3a",
+      "analysis_sha256": "a9bb605ab5ca76d68cf77752066839a5dbc2aac9eb8b861d61521842ee0ac655",
+      "role": "深色格纹衣物与深色花纹墙面共存，图案不同但都较密，脸和裸露腿部提供区分。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 166,
+      "record_id": "6dbd89ee-a6c3-4fb1-a703-b2f44df47819",
+      "analysis_sha256": "3c89430c30ff0115287bcdb9da7466dcc39f59b1b94e846f5c19a38979098168",
+      "role": "米灰衣物与米灰花纹墙色系接近，衣肩装饰与背景密纹相互呼应但不相同。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 285,
+      "record_id": "01696851-04e6-40a4-861c-937576832513",
+      "analysis_sha256": "b7d943809e85f5e328a5b8e4c44d243eaa95fedb0aa9e5193a7cc615fcbe9ffe",
+      "role": "蓝紫服装、花饰和浅蓝花纹墙相呼应；前景产品是独立元素，不自动照搬。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "sequence": 299,
+      "record_id": "220ec7f2-8f1d-4502-803d-7db63049a507",
+      "analysis_sha256": "addaf6bc358df307e66b49d0125e184d2b285f020e3d01f2b86b4138f7559ddb",
+      "role": "衣服花叶图案与窗外植物形成题材呼应，深绿色座椅和地面强化绿色环境。",
+      "inspection": "ENLARGED_SHEET_ASSISTANT_REVIEW_NOT_HUMAN_APPROVAL"
+    }
+  ],
+  "held_out_record_ids": [],
+  "negative_record_ids": [
+    "1cbbc058-4262-4731-9681-f40915fb4672"
+  ],
+  "must_not_copy": [
+    "参考图人物身份、品牌标识、杂志文字和独特道具组合不自动迁移",
+    "不将摄影师或品牌姓名作为效果保证"
+  ],
+  "fidelity": {
+    "edit": "用户指定的人脸、服装版型、图案及关键结构必须保留；无法保证时明确限制。",
+    "new": "允许新主体，但不得宣称生成服装与参考商品完全一致。"
+  },
+  "limits": [
+    "候选分组来自联系表筛查，代表图另行放大核对；尚未出图验证。",
+    "同一作者或系列的样本并不独立，不据数量声称普遍有效。",
+    "单图观察不能证明制作过程或商业效果。"
+  ],
+  "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-style-pilot-20260908-v3/new-reference-evidence.json",
+  "output_mode": "photographic_only_first_pilot",
+  "distinction": "重复的是色系、纹理密度或形状线索；不要求服装和背景完全同图案。",
+  "evaluation_status": "NOT_SCHEDULED"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Atelier 摄影师风格"
+  short_description: "统一调用 Roversi、Tim Walker 与 Porodina 的独立参考和编译流程"
+  default_prompt: "用 $atelier-style，根据我的题材选择 Paolo Roversi、Tim Walker 或 Elizaveta Porodina，编译并生成一张新照片。"

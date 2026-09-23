@@ -1,0 +1,94 @@
+{
+  "schema": "atelier-style-recipe-1",
+  "id": "silhouette-quiet-background",
+  "version": "0.2.0",
+  "name": "轮廓主导的简洁背景",
+  "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+  "suitable": [
+    "有可辨的服装外轮廓；背景允许局部调整"
+  ],
+  "unsuitable": [
+    "只拍到极小衣服局部",
+    "不能改变的背景纹理本身就是主题"
+  ],
+  "must_preserve": [
+    {
+      "rank": 1,
+      "rule": "先保住衣服现有外轮廓和内部褶层，简化背景不得改变版型。"
+    },
+    {
+      "rank": 2,
+      "rule": "人物姿态与衣服展开方向相配，不能重造姿态以强行增大衣服。"
+    },
+    {
+      "rank": 3,
+      "rule": "通过局部明暗或色彩区分边缘；不要求黑背景，也不要求强反差。"
+    }
+  ],
+  "allowed_changes": [
+    "仅限用户明确同意的背景、局部色调与输出尺寸；不默认改人脸、商品或原文字。"
+  ],
+  "steps": [
+    "标记可见服装侧缘、褶层和图案；下摆缺失时只保护可见部分，不补造。",
+    "保留主体不动，降低可编辑背景中的纹理竞争；不随意删原图文字。",
+    "逐段比较裙边与相邻背景；仅处理融在一起的局部，不给全身加白边。",
+    "检查服装图案、腰线和肩部褶量是否保持，再看缩略图的主轮廓。"
+  ],
+  "checks": [
+    "服装侧缘和褶层没有被改造成另一个版型",
+    "图案未丢失、未凭空补画下摆",
+    "背景简化没有制造发光抠图边"
+  ],
+  "references": [
+    {
+      "record_id": "f94b1ad5-b8e2-48d4-b20d-15bc8086331f",
+      "sequence": 3,
+      "analysis_sha256": "0ca3390f264bebf079657ff168e6d6ce16c5dd588e110677126b8a996844821c",
+      "role": "白色裙体在两侧展开，黑背景使侧缘清楚；下摆未完整入镜，不推定整件版型。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "record_id": "1cbbc058-4262-4731-9681-f40915fb4672",
+      "sequence": 5,
+      "analysis_sha256": "b71270080e589e33f8fa48ea0742ff5989ddd7349a6fac596073f3c3404a547c",
+      "role": "展开裙摆、张开的手臂与帽饰形成多个外轮廓，白背景不增加纹理竞争。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "record_id": "0a42e679-25d1-4d5f-b860-ea2327291be5",
+      "sequence": 22,
+      "analysis_sha256": "e544716420a3d5fb99d22f8b71cd6f24256b2680f6a007d11cc534892cd1867b",
+      "role": "肩侧酒红色褶量先于衣身被注意；深色衣身部分细节较难辨认。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    },
+    {
+      "record_id": "c948ecc7-8ff7-48d2-8725-cf4046cbe475",
+      "sequence": 76,
+      "analysis_sha256": "9f46b6896e0d9fbe4980167c7090d158f5537dfd173ebcba5e81b95b4fc981fd",
+      "role": "浅色裙摆向侧面展开，背景同样浅；褶层阴影与局部边缘维持形状。",
+      "inspection": "ENLARGED_SHEET_AND_SOURCE_EVIDENCE_CHECKED_NOT_HUMAN_APPROVAL"
+    }
+  ],
+  "held_out_record_ids": [
+    "4f05ed53-6e52-4147-8eb6-49ea50605a71",
+    "a01212ca-e20a-4d18-84d7-cd673f326471"
+  ],
+  "negative_record_ids": [
+    "7a940c61-3881-404a-bc1c-d124217bf3ae"
+  ],
+  "must_not_copy": [
+    "参考图人物身份、品牌标识、杂志文字和独特道具组合不自动迁移",
+    "不将摄影师或品牌姓名作为效果保证"
+  ],
+  "fidelity": {
+    "edit": "用户指定的人脸、服装版型、图案及关键结构必须保留；无法保证时明确限制。",
+    "new": "允许新主体，但不得宣称生成服装与参考商品完全一致。"
+  },
+  "limits": [
+    "三套为试验配方，不是300张完整风格分类。",
+    "部分同系列参考相关，不能当成完全独立验证；尚未跨图出图验证。",
+    "衣物模型与算法结果均为候选；不凭其置信度自动判定成功。"
+  ],
+  "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-style-pilot-20260908-v2/selected-evidence.json",
+  "output_mode": "photographic_only_first_pilot"
+}

@@ -1,0 +1,54 @@
+{
+  "code": "F",
+  "name": "环境中的人物叙事",
+  "auto_enabled": false,
+  "references": [
+    {
+      "number": 28,
+      "file": "assets/roversi/28.png",
+      "sha256": "c56fecab69ae33950e28f6b084988960f1cf7790228de64ffc4844a2bfc76506"
+    },
+    {
+      "number": 29,
+      "file": "assets/roversi/29.png",
+      "sha256": "1b99acbdeb1ee4ea94e382e174f7c6c3287dddb1cd914c3969dd3bae382efb08"
+    },
+    {
+      "number": 42,
+      "file": "assets/roversi/42.png",
+      "sha256": "29bc872a6ba928c7d683d1e63d1b3716816fcdb5904251d6b264370bf39aaa8a"
+    },
+    {
+      "number": 53,
+      "file": "assets/roversi/53.png",
+      "sha256": "4a17158c8b5656326573f1485e047cb1d30a2d97b81450a86b60abacdb8a1530"
+    },
+    {
+      "number": 59,
+      "file": "assets/roversi/59.png",
+      "sha256": "0ac2f81720a0feaf036ae0dca888f65e913cace33d2e42f7d805c73856d940fd"
+    },
+    {
+      "number": 60,
+      "file": "assets/roversi/60.png",
+      "sha256": "b9ca763d96de8b2d84ff6e1ded9e12efdd4f162bb29c514b460e8b124dd01a30"
+    },
+    {
+      "number": 81,
+      "file": "assets/roversi/81.png",
+      "sha256": "2204e1c5fe9913049a8768965ed9f3ee9604dda1fdc59050f050700ce2f16225"
+    },
+    {
+      "number": 141,
+      "file": "assets/roversi/141.png",
+      "sha256": "94e662b7c336b4633c7e387949209137f9f0ecf4bc35fdfa5a061dde192baf4e"
+    },
+    {
+      "number": 208,
+      "file": "assets/roversi/208.png",
+      "sha256": "f7ab32710f0b56e607945fcbbfeb55824bd1b97dffe5c17a092448fb6635954f"
+    }
+  ],
+  "availability_reason": "Manual experimental use only: user reported artificial environments on 2026-09-14; automatic routing paused pending visual acceptance.",
+  "quality_status": "experimental"
+}

@@ -1,0 +1,355 @@
+{
+  "version": "0.5.0",
+  "profiles": [
+    {
+      "id": "paolo-roversi",
+      "name": "Paolo Roversi",
+      "attribution_status": "FILENAME_LABEL_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "independent_work_count": null,
+      "photo_candidates": 145,
+      "non_photo_candidates": 5,
+      "branch_ids": [
+        "dark-material-portrait",
+        "pale-fabric-portrait",
+        "soft-edge-portrait"
+      ],
+      "scope_note": "只描述当前库的候选分支，不代表作者全部生涯。",
+      "available_labeled_files": 150,
+      "selected_files": 75,
+      "source_scope_count": 150
+    },
+    {
+      "id": "tim-walker",
+      "name": "Tim Walker",
+      "attribution_status": "FILENAME_LABEL_ONLY_NOT_INDEPENDENTLY_VERIFIED",
+      "independent_work_count": null,
+      "photo_candidates": 146,
+      "non_photo_candidates": 4,
+      "branch_ids": [
+        "surreal-scale-scene",
+        "graphic-color-scene",
+        "outdoor-character-story"
+      ],
+      "scope_note": "只描述当前库的候选分支，不代表作者全部生涯。",
+      "available_labeled_files": 150,
+      "selected_files": 75,
+      "source_scope_count": 150
+    }
+  ],
+  "branches": [
+    {
+      "id": "dark-material-portrait",
+      "photographer_id": "paolo-roversi",
+      "name": "暗调静态人物与衣料层次",
+      "status": "CANDIDATE_NOT_VALIDATED",
+      "pilot": true,
+      "summary": "背景信息收敛，皮肤与衣料局部明暗形成重点，姿态相对停驻。",
+      "boundary": "不是全图压黑，也不要求所有作品都用黑背景或失焦。",
+      "method_ids": [
+        "local-light-in-dark-frame",
+        "silhouette-quiet-background"
+      ],
+      "references": [
+        {
+          "sequence": 3,
+          "record_id": "f94b1ad5-b8e2-48d4-b20d-15bc8086331f",
+          "analysis_sha256": "0ca3390f264bebf079657ff168e6d6ce16c5dd588e110677126b8a996844821c",
+          "observation": "白裙侧向展开，皮肤和暗背景处于不同明暗层，面部仍可辨认。"
+        },
+        {
+          "sequence": 22,
+          "record_id": "0a42e679-25d1-4d5f-b860-ea2327291be5",
+          "analysis_sha256": "e544716420a3d5fb99d22f8b71cd6f24256b2680f6a007d11cc534892cd1867b",
+          "observation": "酒红褶饰在肩侧突出，衣身暗部与蓝灰背景相邻，面部和红唇可辨。"
+        },
+        {
+          "sequence": 40,
+          "record_id": "9e7c23e9-41ed-4ad9-bf6e-7011fee913de",
+          "analysis_sha256": "234ad7b16fba20722149e4d7fb611ca7ba68ebbfd28fe36b7a04cb9baa8c85ec",
+          "observation": "脸和手位于深绿色厚实衣料之间，背景克制，眼睛与衣料表面各有细节。"
+        },
+        {
+          "sequence": 48,
+          "record_id": "9b8d37ac-0bf0-47bb-a55b-ebee942ec17d",
+          "analysis_sha256": "7116b9dac419d9d513506344e1c448b0b3792c2a4c7d6add4c6db91ce06fbae2",
+          "observation": "深色衣物中侧脸和手更亮，姿态内收，背景不提供叙事情节。"
+        },
+        {
+          "sequence": 135,
+          "record_id": "135576e5-b7c5-4bef-b7c8-36e8a14b9329",
+          "analysis_sha256": "3429dfb7d66f83d38b7b141e5546117eb7a0e667042ae35465369d72e56a1071",
+          "observation": "皮肤与棕灰衣料的部分褶面比周围更亮，人物静立。"
+        },
+        {
+          "sequence": 149,
+          "record_id": "f62add1c-2717-4409-9d95-a5ec506e11b7",
+          "analysis_sha256": "8ee815165c025c91a62007856249105ebfabe5d8cf32b159f48b6a72e8fe61c6",
+          "observation": "侧脸朝向一侧，浅色花纹衣料与暗背景相接，肤色及衣料纹理都可见。"
+        }
+      ],
+      "series_independence": "UNVERIFIED",
+      "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-photographer-pilot-20260908/reference-evidence.json"
+    },
+    {
+      "id": "pale-fabric-portrait",
+      "photographer_id": "paolo-roversi",
+      "name": "浅调人物与轻质衣料",
+      "status": "CANDIDATE_NOT_VALIDATED",
+      "pilot": false,
+      "summary": "浅色衣料和较浅布景接近，眼部、发部、褶层或边缘保留细节。",
+      "boundary": "不把浅调作品混成暗调；这些代表图中部分造型接近，系列独立性未确认。",
+      "method_ids": [
+        "pale-layer-separation"
+      ],
+      "references": [
+        {
+          "sequence": 6,
+          "record_id": "6c92be65-4fd6-4819-bf7f-3ae8fe099cb7",
+          "analysis_sha256": "534b9eea7fe9b294ee121d9f8c73ed772f6ba503b7c5e1637f5ff43737058f5c",
+          "observation": "浅衣人物坐在浅色布面上，头发和肢体接触阴影仍可辨。"
+        },
+        {
+          "sequence": 8,
+          "record_id": "b4232731-fd06-40e1-bead-7d92ee00f694",
+          "analysis_sha256": "09e38b73752bed957d6b2ccd25945c640804dca9fd8caba9abd4acc06eaa124c",
+          "observation": "浅色衣服、背景与皮肤接近，衣褶和桌沿保留局部结构。"
+        },
+        {
+          "sequence": 76,
+          "record_id": "c948ecc7-8ff7-48d2-8725-cf4046cbe475",
+          "analysis_sha256": "9f46b6896e0d9fbe4980167c7090d158f5537dfd173ebcba5e81b95b4fc981fd",
+          "observation": "浅裙在侧方展开，靠褶层阴影和边缘区分浅背景。"
+        },
+        {
+          "sequence": 85,
+          "record_id": "382e196a-eb87-4db8-9d12-58cbfe44b2f0",
+          "analysis_sha256": "d27eb402794159932f4f0c009efd85efd43dc39fdda2ef17303c03bf69d0e9b3",
+          "observation": "近景人物的浅色领口衬托脸部，深发与浅部位形成局部层次。"
+        },
+        {
+          "sequence": 143,
+          "record_id": "28655884-2930-4827-914f-09e0cd7f613b",
+          "analysis_sha256": "f546956569e443d56016a7921e428a340e3887c73c25cfa41c1ae1740cf76580",
+          "observation": "浅粉透层与浅灰背景接近，深发、五官和衣褶形成重点。"
+        },
+        {
+          "sequence": 199,
+          "record_id": "5b7ef0ce-a413-4495-acfd-04a503dc33e7",
+          "analysis_sha256": "10d5f3d953d0a87d50234d00eeb49de429199d7891924dc5289246dd9eae106b",
+          "observation": "浅衣领口与浅背景接近，深发和眼部仍有较清楚的局部。"
+        }
+      ],
+      "series_independence": "UNVERIFIED",
+      "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-photographer-pilot-20260908/reference-evidence.json"
+    },
+    {
+      "id": "soft-edge-portrait",
+      "photographer_id": "paolo-roversi",
+      "name": "柔化边缘与朦胧人物",
+      "status": "CANDIDATE_NOT_VALIDATED",
+      "pilot": false,
+      "summary": "纱层、柔化边缘或偏软成像削弱部分细节，人物姿态与色调维持可读性。",
+      "boundary": "这些软化来源不同，尚不能共用同一执行方法；不推测胶片、镜头或快门。",
+      "method_ids": [],
+      "references": [
+        {
+          "sequence": 73,
+          "record_id": "7f853091-495d-424d-bfe8-d38728df397e",
+          "analysis_sha256": "033e71e3e0af709c0b3e6d1f0676cbbac422fdc5f6bd95c3ea3e8275591f6f08",
+          "observation": "脸前有透层，人物与周围薄纱的清晰度不同。"
+        },
+        {
+          "sequence": 87,
+          "record_id": "a4db8219-b6ad-4962-a973-ad362a19f6fd",
+          "analysis_sha256": "65cd3c7f3e7382c2990f738305c58959e728a9797486f2a797aebcffdbd6abd5",
+          "observation": "浅色人物和背景边缘较弱，头饰局部仍可辨。"
+        },
+        {
+          "sequence": 98,
+          "record_id": "dc61bbf4-ac2c-4ddb-ae3c-2b97c467e185",
+          "analysis_sha256": "6c263a8f4bd2f8170fea5a5d096ba4100cf08e0668142c1ae9632fabda908add",
+          "observation": "脸和手边缘偏软，红唇与深衣保持辨识。"
+        },
+        {
+          "sequence": 116,
+          "record_id": "4a08cf8b-704a-4abf-9566-83959dde8c86",
+          "analysis_sha256": "3dc3c04a6c108fd2af5ece5d955c6c61b476fb7f6e8fff099d04e7faad23118f",
+          "observation": "绿调背景和人物边缘偏软，白衣部分形状仍可读。"
+        },
+        {
+          "sequence": 185,
+          "record_id": "f5306185-7c0b-461d-8c74-a208dae0e0eb",
+          "analysis_sha256": "f1a2ec724633000f238f5745dccc19fa5b09b696a1c8d9d6e57b979b840b0432",
+          "observation": "蓝灰人物与周围雾状层次接近，轮廓局部消隐。"
+        },
+        {
+          "sequence": 224,
+          "record_id": "4abe9246-ace9-45c1-a982-1896266c4ccc",
+          "analysis_sha256": "4b0817f5e5f426cada35d8e196f420847bf0fe60651fe3cfe0a013d0461803de",
+          "observation": "单色侧脸和头饰细节柔化，边缘过渡而非锐利描线。"
+        }
+      ],
+      "series_independence": "UNVERIFIED",
+      "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-photographer-pilot-20260908/reference-evidence.json"
+    },
+    {
+      "id": "surreal-scale-scene",
+      "photographer_id": "tim-walker",
+      "name": "超现实尺度与布景叙事",
+      "status": "CANDIDATE_NOT_VALIDATED",
+      "pilot": true,
+      "summary": "常见物件或空间以非常规尺度和搭配出现，人物与其接触或被其包围，环境参与叙事。",
+      "boundary": "大环境本身不等于超现实；不把所有代表图道具拼在一起。",
+      "method_ids": [
+        "figure-environment-scale",
+        "figure-framing-space"
+      ],
+      "references": [
+        {
+          "sequence": 113,
+          "record_id": "c668390b-9c02-408d-9325-f048b4c8572c",
+          "analysis_sha256": "ef7c60c35dd5116cc6e3be4d084376c6e5756e38ff63e1816b6a13a9d36658b4",
+          "observation": "明亮门洞内小人物与暗房间、沙状地面形成不寻常场景。"
+        },
+        {
+          "sequence": 174,
+          "record_id": "b93eef24-c9f3-46be-a950-ee7311776784",
+          "analysis_sha256": "e8334a8f31cf7d3a9d63637eaa1d9b29cc17cf4c9146a148648036a9b46f2430",
+          "observation": "人物和展开衣物位于货车箱内，日常运输空间与造型并置。"
+        },
+        {
+          "sequence": 179,
+          "record_id": "9f66d6b1-25d0-429b-98ac-0b954fcb6f59",
+          "analysis_sha256": "6dbb6f96cc855b4a0ffb3279d7558d41e083a3dea8d1a8a83d77788d88381db3",
+          "observation": "垂布与装饰物围绕小型人物形象层层展开，不推断其是真人或雕塑。"
+        },
+        {
+          "sequence": 253,
+          "record_id": "9cf648d2-6d3f-440c-9a95-b5c90f11e6fb",
+          "analysis_sha256": "58638b1b3bdf80d14224065b9c5fdddef59e5df45e5f229d37dec7d84ae8d994",
+          "observation": "装饰大门与门前人物形成显著尺度差。"
+        },
+        {
+          "sequence": 286,
+          "record_id": "878f2514-8153-449f-a5fc-7c2c396a2d27",
+          "analysis_sha256": "77af158615ac6468934ec09914d26279c04e7857363b2506cf25ba9dd4c1dc91",
+          "observation": "人物躺在户外叠起的床垫上，床具与林地形成非常规搭配。"
+        },
+        {
+          "sequence": 298,
+          "record_id": "cfa0e23f-d0c8-477e-8b06-688a3662eafd",
+          "analysis_sha256": "617accdf3a40b18fba73a686c247599e918e78d8ffb754cc1417fe0d42ffe536",
+          "observation": "人物坐在盘状大物体边缘，物体离地与地面阴影共同构成悬浮场景。"
+        }
+      ],
+      "series_independence": "UNVERIFIED",
+      "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-photographer-pilot-20260908/reference-evidence.json"
+    },
+    {
+      "id": "graphic-color-scene",
+      "photographer_id": "tim-walker",
+      "name": "鲜明色块与造型戏剧性",
+      "status": "CANDIDATE_NOT_VALIDATED",
+      "pilot": false,
+      "summary": "鲜明衣物颜色、形状与背景色区共同组织观看，动作或道具加强戏剧性。",
+      "boundary": "不是全图饱和度滤镜；杂志版式不是必须复制项。",
+      "method_ids": [
+        "separated-color-blocks"
+      ],
+      "references": [
+        {
+          "sequence": 16,
+          "record_id": "7a940c61-3881-404a-bc1c-d124217bf3ae",
+          "analysis_sha256": "cc96cf559e328c381f6f0abd01b4a271f2944a1f56de979761339fc70cee2b73",
+          "observation": "红色衣物和靴子与蓝背景紧邻，亮面和绒状表面不同。"
+        },
+        {
+          "sequence": 63,
+          "record_id": "81eeb877-eca7-461a-8fa2-b92fcea807c8",
+          "analysis_sha256": "ac89d4a6c9c9f358854377e76ba64de675a620401090b3a6819fb98b66512bfc",
+          "observation": "粉色外展衣物与绿色背景、浅色地面形成分区。"
+        },
+        {
+          "sequence": 197,
+          "record_id": "59a077e7-7bc0-495e-ae26-0db7bb153f02",
+          "analysis_sha256": "dab90ec211ad1dae51ede0f7c5563d999e12d2387cd3fd5054e8a5baa12bd1d6",
+          "observation": "红衣、黄地与蓝墙构成主色块，前景手带来额外尺度关系。"
+        },
+        {
+          "sequence": 241,
+          "record_id": "cc5b3d03-da80-4eb3-9907-049e9e07c10f",
+          "analysis_sha256": "c5493c670c462b46bd57a371a442ad526c6d01a2774fcd032d0d0cb7919474e2",
+          "observation": "红衣与红色日用品相呼应，白背景突出外轮廓，版面文字不作为必要风格。"
+        },
+        {
+          "sequence": 270,
+          "record_id": "0face121-06bf-45ed-a70e-386ee40f098e",
+          "analysis_sha256": "8fb15e66bd00f5ea6197aaf45b22132a42f9d1784a3d33fe6de5f8d6312c0275",
+          "observation": "展开姿态、波点衣物、彩色背景形状与球状物构成戏剧画面。"
+        },
+        {
+          "sequence": 278,
+          "record_id": "bc6a642d-1da9-46e6-9573-3cd7927e4b75",
+          "analysis_sha256": "cbe5efcb87e6dd5459e8b979dd97596d88c24a3feca131565a7ea883369ed840",
+          "observation": "红色亮面衣物与浅背景分开，手靠脸形成夸张停驻姿态。"
+        }
+      ],
+      "series_independence": "UNVERIFIED",
+      "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-photographer-pilot-20260908/reference-evidence.json"
+    },
+    {
+      "id": "outdoor-character-story",
+      "photographer_id": "tim-walker",
+      "name": "户外人物与生活片段",
+      "status": "CANDIDATE_NOT_VALIDATED",
+      "pilot": false,
+      "summary": "草地、山地、海岸等环境与人物动作同样重要，画面呈现停留、相伴或玩耍片段。",
+      "boundary": "照片看似自然不证明抓拍；这一分支不代表其全部作品。",
+      "method_ids": [],
+      "references": [
+        {
+          "sequence": 24,
+          "record_id": "22e91f6e-84f6-4fe9-8eea-d2ead9e1c812",
+          "analysis_sha256": "925db81d6cf8aef886b1feaa468dcfa13c77e5ee01bcd6831b0918fd589e7df7",
+          "observation": "两个人物靠近，伞与环境共同构成户外片段，不推测真实关系。"
+        },
+        {
+          "sequence": 39,
+          "record_id": "98e21132-5fef-4843-83f5-bfdca207b688",
+          "analysis_sha256": "d561bc9b631c228b3b33dc3ba5a80655f3380b2db062e241fe589b50e4cabcd8",
+          "observation": "人物坐于山地草丛，山线与松弛姿态共同出现。"
+        },
+        {
+          "sequence": 58,
+          "record_id": "21e55078-c9b3-4966-8a2c-069aaccd5317",
+          "analysis_sha256": "533f05c468059a73fcfd30d251108d5fa6b86880f6fdffa0eeaebb7bbbf77fe7",
+          "observation": "坐姿人物、沙地和海面同框，手部动作遮挡部分面部。"
+        },
+        {
+          "sequence": 139,
+          "record_id": "efb3764a-c910-4dab-80bb-7df214cee819",
+          "analysis_sha256": "b0ffff8f1cf4fe56ceb5c6df39295b72a0425fd412b56946bf1d6a00cc9fb2ed",
+          "observation": "人物在海岸低头看手中物，环境不是被完全虚化的背景。"
+        },
+        {
+          "sequence": 252,
+          "record_id": "ce5a95ad-7b36-49b3-aea7-c08367f30a56",
+          "analysis_sha256": "7039f15e0fee7fb5f3217a52aeceba2bea8ab25ad18e62e3c75db173da5d92cf",
+          "observation": "两个人物坐在花丛中，姿态相近，植物包围身体。"
+        },
+        {
+          "sequence": 280,
+          "record_id": "8ff285f8-e814-4a57-b2ef-7e40c9730b9b",
+          "analysis_sha256": "fcd23c1a41d11cf9473921d9e6badf7ae3b3617b6caed1c3508744b3081bb775",
+          "observation": "两个人物靠近，手臂有接触，草地和服装都可辨。"
+        }
+      ],
+      "series_independence": "UNVERIFIED",
+      "evidence_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-photographer-pilot-20260908/reference-evidence.json"
+    }
+  ],
+  "inventory_file": "references/photographers/selected150.json",
+  "attribution_review_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-photographer-pilot-20260908/attribution-review.json",
+  "active_scope": 150,
+  "full_initial_inventory_file": "/Users/yzy/Documents/Codex/2026-08-31/100-gb-ai-1-b-a-2/outputs/atelier-photographer-pilot-20260908/inventory.json"
+}

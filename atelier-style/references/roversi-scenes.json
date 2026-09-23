@@ -1,0 +1,3558 @@
+{
+  "version": "2026-09-14-independent-two-catalogs",
+  "styles": {
+    "E": "高反差与图形化人物",
+    "B": "色彩与衣形",
+    "C": "明亮与轻淡",
+    "D": "清晰、直接的肖像",
+    "A": "近距离与边缘消隐",
+    "F": "环境中的人物叙事"
+  },
+  "vocabulary": {
+    "space": {
+      "backdrop": "无定位背景／背景布",
+      "interior": "室内（用途未确认）",
+      "nature": "自然环境",
+      "built_outdoor": "街道／码头等建筑外部",
+      "fantasy": "幻想场景",
+      "insufficient": "场景信息不足",
+      "nonphoto": "非摄影内容"
+    },
+    "setting": {
+      "unlocated": "无定位背景",
+      "wall_floor": "墙角／墙面与地面",
+      "window": "窗边局部",
+      "furniture": "座椅／家具局部",
+      "ornate_room": "装饰密集室内",
+      "mirror": "镜面／反射装置",
+      "utility": "设备与工作空间线索",
+      "waterside": "水边自然环境",
+      "woodland": "树林／植被",
+      "grassland": "草地",
+      "dock": "码头",
+      "street": "街道",
+      "fantasy_tree": "树上幻想场景",
+      "insufficient": "场景信息不足",
+      "nonphoto": "非摄影内容",
+      "domestic": "住宅空间（本批无明确匹配）",
+      "public_interior": "公共室内（本批无明确匹配）"
+    },
+    "treatment": {
+      "minimal": "简洁／少装饰",
+      "decorative": "装饰性",
+      "staged": "舞台化／效果搭景",
+      "surreal": "超现实",
+      "uncertain": "无法判断"
+    },
+    "presence": {
+      "background": "环境主要作背景",
+      "shared": "人物与环境并重",
+      "dominant": "环境主导",
+      "insufficient": "信息不足"
+    },
+    "activity": {
+      "posed": "静态姿态",
+      "seated": "坐卧／使用座面",
+      "leaning": "依靠／支撑",
+      "handling": "托持／使用物件或动物",
+      "moving_pose": "行进或运动姿态",
+      "uncertain": "无法判断"
+    }
+  },
+  "notes": [
+    "原六类与场景分类独立；场景依据既有逐图观察，未强行归类。"
+  ],
+  "records": [
+    {
+      "number": 1,
+      "file": "assets/roversi/1.png",
+      "sha256": "cf9e432c1fa91354fe8d86a7eec2c9e8eeceea6839048e50eb3b205d1d964882",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "decorative",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "反光皱褶背景，未见可定位空间",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/1.png",
+      "thumbnail": "thumbs/1.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 2,
+      "file": "assets/roversi/2.png",
+      "sha256": "b618e02585abffe9a4f06ed78d10c127a8c005b374bf80cf28ac3fbec1d6d32c",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "decorative",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "斑驳墙面与座面，室内用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/2.png",
+      "thumbnail": "thumbs/2.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 3,
+      "file": "assets/roversi/3.png",
+      "sha256": "0ca3390f264bebf079657ff168e6d6ce16c5dd588e110677126b8a996844821c",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "黑色背景，空间线索缺少",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/3.png",
+      "thumbnail": "thumbs/3.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 4,
+      "file": "assets/roversi/4.png",
+      "sha256": "4a43570a50842ee4a531bea3c988440950b3cf8a040c36dd4058a7cf589245db",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "decorative",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "墙角与地面可见，墙面投影突出",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/4.png",
+      "thumbnail": "thumbs/4.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 6,
+      "file": "assets/roversi/6.png",
+      "sha256": "534b9eea7fe9b294ee121d9f8c73ed772f6ba503b7c5e1637f5ff43737058f5c",
+      "styles": [
+        "C"
+      ],
+      "legacy_group": "C",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "浅色布面和坐垫，无法判断房间",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/6.png",
+      "thumbnail": "thumbs/6.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 8,
+      "file": "assets/roversi/8.png",
+      "sha256": "09e38b73752bed957d6b2ccd25945c640804dca9fd8caba9abd4acc06eaa124c",
+      "styles": [
+        "C"
+      ],
+      "legacy_group": "C",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "浅底前坐在桌沿，未见完整房间",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/8.png",
+      "thumbnail": "thumbs/8.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 10,
+      "file": "assets/roversi/10.png",
+      "sha256": "b27aa7494e582051c5b1b6047b790eadf50e54adc5b14c6ba07c0521ff850b45",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "nature",
+        "setting": "waterside",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "远处水面山线，近处花饰",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/10.png",
+      "thumbnail": "thumbs/10.jpg",
+      "scene_category": "nature"
+    },
+    {
+      "number": 12,
+      "file": "assets/roversi/12.png",
+      "sha256": "5cea7bf292c5c594c618417c9908b86ce8de0fd63823f701c0dc578879016986",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "mirror",
+        "treatment": "decorative",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "人物及镜中倒影，室内边界可见",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/12.png",
+      "thumbnail": "thumbs/12.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 13,
+      "file": "assets/roversi/13.png",
+      "sha256": "65625e7f60a8e507c77a34deeb5cda18f2bac4bdea6ac00d774da8a83a425322",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "深色背景和坐面，空间用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/13.png",
+      "thumbnail": "thumbs/13.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 15,
+      "file": "assets/roversi/15.png",
+      "sha256": "478f059fde6cff1712eb4e3434f4d56fa32e41fca7b6ba6735f8e44901168766",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "leaning"
+      },
+      "observation": "木地板与椅子，身体依靠椅背",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/15.png",
+      "thumbnail": "thumbs/15.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 17,
+      "file": "assets/roversi/17.png",
+      "sha256": "d36056c6dbe1fb9ce4830a9cb8cb285518e009c17fd4af744d52b00363769038",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "素墙和木地板，无用途线索",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/17.png",
+      "thumbnail": "thumbs/17.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 18,
+      "file": "assets/roversi/18.png",
+      "sha256": "5d0baa886aa56a5f8b0a071a43843a6236383682842d0e3377978ef0e2a04226",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "uncertain"
+      },
+      "observation": "面孔特写，环境不可判断",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/18.png",
+      "thumbnail": "thumbs/18.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 19,
+      "file": "assets/roversi/19.png",
+      "sha256": "f697b4c814ab5a74f3aa2dcb88b32de99276741cfe5c239483a9643ad1576097",
+      "styles": [
+        "C"
+      ],
+      "legacy_group": "C",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色背景，服装覆盖大部分画面",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/19.png",
+      "thumbnail": "thumbs/19.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 20,
+      "file": "assets/roversi/20.png",
+      "sha256": "d159bb8d9c91fc07164bf9bb47b6399aca924e70f5c6dfc3948823672801c345",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅色肖像背景，未见空间结构",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/20.png",
+      "thumbnail": "thumbs/20.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 21,
+      "file": "assets/roversi/21.png",
+      "sha256": "41dc74fca307d09222979d29bb2869b97c902aa7e9b390065a352fae32dd9a77",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "暗底近身肖像，环境信息少",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/21.png",
+      "thumbnail": "thumbs/21.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 22,
+      "file": "assets/roversi/22.png",
+      "sha256": "e544716420a3d5fb99d22f8b71cd6f24256b2680f6a007d11cc534892cd1867b",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "蓝灰背景，未见房间结构",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/22.png",
+      "thumbnail": "thumbs/22.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 23,
+      "file": "assets/roversi/23.png",
+      "sha256": "f5c1c6d264912eefb36044cc6b9377020c41748e1f7ab069ccee04b4919af593",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "leaning"
+      },
+      "observation": "人物靠近墙面转角，室内用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/23.png",
+      "thumbnail": "thumbs/23.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 25,
+      "file": "assets/roversi/25.png",
+      "sha256": "91b5765f8d00f7ed4e42f3ed07386ba6b6c20ba31df291d9c81d31fba99121f4",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "纹理背景，地点不能定位",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/25.png",
+      "thumbnail": "thumbs/25.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 26,
+      "file": "assets/roversi/26.png",
+      "sha256": "ac1826fab323ce5801aa1694f0ac5adc804198e11fa3c18aab0bb241d7c33265",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "暗处局部纹理，无法判断空间",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/26.png",
+      "thumbnail": "thumbs/26.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 27,
+      "file": "assets/roversi/27.png",
+      "sha256": "597ac19c77b35853b90064315d8114c64c92b9e080ffec1537bc03dee3b711ff",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "mirror",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "明亮墙角及反射面，人物站立",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/27.png",
+      "thumbnail": "thumbs/27.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 28,
+      "file": "assets/roversi/28.png",
+      "sha256": "c56fecab69ae33950e28f6b084988960f1cf7790228de64ffc4844a2bfc76506",
+      "styles": [
+        "F"
+      ],
+      "legacy_group": "F",
+      "scene": {
+        "space": "nature",
+        "setting": "woodland",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "树叶和林地围绕裙摆",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "unassigned; legacy F retained as scene-only",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/28.png",
+      "thumbnail": "thumbs/28.jpg",
+      "scene_category": "nature"
+    },
+    {
+      "number": 29,
+      "file": "assets/roversi/29.png",
+      "sha256": "1b99acbdeb1ee4ea94e382e174f7c6c3287dddb1cd914c3969dd3bae382efb08",
+      "styles": [
+        "F"
+      ],
+      "legacy_group": "F",
+      "scene": {
+        "space": "interior",
+        "setting": "ornate_room",
+        "treatment": "decorative",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "壁炉烛台画框与陈设密集",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "unassigned; legacy F retained as scene-only",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/29.png",
+      "thumbnail": "thumbs/29.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 30,
+      "file": "assets/roversi/30.png",
+      "sha256": "6dd95a67d1f72bf130344a98c707710f4adb4562600825ded60324f5fe2735b6",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "蓝绿平面背景，人物单腿屈起",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/30.png",
+      "thumbnail": "thumbs/30.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 31,
+      "file": "assets/roversi/31.png",
+      "sha256": "121b17f1700ecc832a23b414710b9047fbb83ea32c8c072c43e8fb4e5d0d3d3f",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "黑底地面与裙摆，背景无定位信息",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/31.png",
+      "thumbnail": "thumbs/31.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 32,
+      "file": "assets/roversi/32.png",
+      "sha256": "d177f28e4d1930ad5ad74165d976e87ea569e20b8a045718715b9dafe5a47ac0",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "leaning"
+      },
+      "observation": "面孔近景依靠手臂，空间不可判断",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/32.png",
+      "thumbnail": "thumbs/32.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 33,
+      "file": "assets/roversi/33.png",
+      "sha256": "a9bb605ab5ca76d68cf77752066839a5dbc2aac9eb8b861d61521842ee0ac655",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "decorative",
+        "presence": "shared",
+        "activity": "seated"
+      },
+      "observation": "花纹墙与木地板地毯，人物坐姿",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/33.png",
+      "thumbnail": "thumbs/33.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 35,
+      "file": "assets/roversi/35.png",
+      "sha256": "f06e854eedfd0244abf11753b46b978924f7d04215c228ee057ea5a6c520db0f",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅色均匀背景，空间不可定位",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/35.png",
+      "thumbnail": "thumbs/35.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 37,
+      "file": "assets/roversi/37.png",
+      "sha256": "1d7fabcff5012a1d3fafd4c13be7caa1859888d0f790130d67a0fa6088d711e9",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅色平面背景",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/37.png",
+      "thumbnail": "thumbs/37.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 40,
+      "file": "assets/roversi/40.png",
+      "sha256": "234ad7b16fba20722149e4d7fb611ca7ba68ebbfd28fe36b7a04cb9baa8c85ec",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰底近景，未见室内结构",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/40.png",
+      "thumbnail": "thumbs/40.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 41,
+      "file": "assets/roversi/41.png",
+      "sha256": "c08cb8800d2df84cfcbf1675ee0cc9cb16cdf117f6ee89be9c6c104a90a2d035",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅色背景与地面，空间不可定位",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/41.png",
+      "thumbnail": "thumbs/41.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 42,
+      "file": "assets/roversi/42.png",
+      "sha256": "29bc872a6ba928c7d683d1e63d1b3716816fcdb5904251d6b264370bf39aaa8a",
+      "styles": [
+        "F"
+      ],
+      "legacy_group": "F",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "decorative",
+        "presence": "shared",
+        "activity": "seated"
+      },
+      "observation": "花纹墙面与座椅，头饰占据大块空间",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "unassigned; legacy F retained as scene-only",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/42.png",
+      "thumbnail": "thumbs/42.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 43,
+      "file": "assets/roversi/43.png",
+      "sha256": "270718ff5364c4d57fb7699744e180982d03d62255f50f9b0b488941f18967fe",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "墙面转角前双人造型，室内用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/43.png",
+      "thumbnail": "thumbs/43.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 44,
+      "file": "assets/roversi/44.png",
+      "sha256": "0979b814c23dd472db236dbf176ec86349cdcfbea49871ca83704d1d39b31cd2",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "handling"
+      },
+      "observation": "棕色背景，手持服饰配件",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/44.png",
+      "thumbnail": "thumbs/44.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 48,
+      "file": "assets/roversi/48.png",
+      "sha256": "7116b9dac419d9d513506344e1c448b0b3792c2a4c7d6add4c6db91ce06fbae2",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色平面背景，未见可定位空间",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/48.png",
+      "thumbnail": "thumbs/48.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 50,
+      "file": "assets/roversi/50.png",
+      "sha256": "67f04cdb3782f144e6295ceb7ac9234679c3d6dc66e6125da3b0423e019654cc",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "深绿背景与局部纹理，地点不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/50.png",
+      "thumbnail": "thumbs/50.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 51,
+      "file": "assets/roversi/51.png",
+      "sha256": "9c9286b7e23003f3ac56058bbfd151d9d35bd39f4b44d2820c41082e7dec8612",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "decorative",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "强烈卷纹背景，坐姿人物",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/51.png",
+      "thumbnail": "thumbs/51.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 52,
+      "file": "assets/roversi/52.png",
+      "sha256": "41672bab731eb989fc39ca139aa6e4e4c3e9d639bfe32f8f5032fd4bdb7839e7",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "深色近景背景，空间线索少",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/52.png",
+      "thumbnail": "thumbs/52.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 53,
+      "file": "assets/roversi/53.png",
+      "sha256": "4a17158c8b5656326573f1485e047cb1d30a2d97b81450a86b60abacdb8a1530",
+      "styles": [
+        "F"
+      ],
+      "legacy_group": "F",
+      "scene": {
+        "space": "nature",
+        "setting": "grassland",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "moving_pose"
+      },
+      "observation": "高草和树列，人物处在草丛中",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "unassigned; legacy F retained as scene-only",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/53.png",
+      "thumbnail": "thumbs/53.jpg",
+      "scene_category": "nature"
+    },
+    {
+      "number": 56,
+      "file": "assets/roversi/56.png",
+      "sha256": "0e51754cc4e388a3a9f64b77c0c3442efc5cdc5daceb14b4f48bd506deab78e7",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色背景连地面，衣形占主体",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/56.png",
+      "thumbnail": "thumbs/56.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 59,
+      "file": "assets/roversi/59.png",
+      "sha256": "0ac2f81720a0feaf036ae0dca888f65e913cace33d2e42f7d805c73856d940fd",
+      "styles": [
+        "F"
+      ],
+      "legacy_group": "F",
+      "scene": {
+        "space": "interior",
+        "setting": "window",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "seated"
+      },
+      "observation": "金属椅、墙面设备与大窗，室内用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "unassigned; legacy F retained as scene-only",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/59.png",
+      "thumbnail": "thumbs/59.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 60,
+      "file": "assets/roversi/60.png",
+      "sha256": "b9ca763d96de8b2d84ff6e1ded9e12efdd4f162bb29c514b460e8b124dd01a30",
+      "styles": [
+        "F"
+      ],
+      "legacy_group": "F",
+      "scene": {
+        "space": "interior",
+        "setting": "ornate_room",
+        "treatment": "decorative",
+        "presence": "shared",
+        "activity": "seated"
+      },
+      "observation": "雕饰家具与成堆物品，人物坐于陈设间",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "unassigned; legacy F retained as scene-only",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/60.png",
+      "thumbnail": "thumbs/60.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 61,
+      "file": "assets/roversi/61.png",
+      "sha256": "5c8d87c83ae076efd181360155f6608d213fbf2eb100c0b34c9c5741ddbfcd32",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "暗底多人坐卧，缺少空间定位",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/61.png",
+      "thumbnail": "thumbs/61.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 62,
+      "file": "assets/roversi/62.png",
+      "sha256": "0c056fe6220a66e1ca2d051ae22731e0b3d2b5bb2b83f9a9593293b127601a0e",
+      "styles": [],
+      "legacy_group": "X",
+      "scene": {
+        "space": "nonphoto",
+        "setting": "nonphoto",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "uncertain"
+      },
+      "observation": "文字告示，并非摄影作品",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/62.png",
+      "thumbnail": "thumbs/62.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 66,
+      "file": "assets/roversi/66.png",
+      "sha256": "dd780eefe608744eb443bba4289197f1ec0cd8008fc1458c7fa2758b48ca26f3",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "uncertain"
+      },
+      "observation": "面孔拼贴版面，无法判断环境",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/66.png",
+      "thumbnail": "thumbs/66.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 67,
+      "file": "assets/roversi/67.png",
+      "sha256": "b63047e4baa4d2e84be37f750904af91168cfc2802104f5e0849b63aafc3cf6b",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "墙角与地面，未见房间用途",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/67.png",
+      "thumbnail": "thumbs/67.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 71,
+      "file": "assets/roversi/71.png",
+      "sha256": "533b67e319658e324d4cf02010c61477d980a7b0d53080a52174c45007fa54ed",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "木地板与暗墙，人物弯身站立",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/71.png",
+      "thumbnail": "thumbs/71.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 72,
+      "file": "assets/roversi/72.png",
+      "sha256": "3f287f245cdb51a054ff75fdfbe55a36d78d0a7478b7b4b6d30f1e4fe1fd71da",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "深色背景与近身衣形",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/72.png",
+      "thumbnail": "thumbs/72.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 73,
+      "file": "assets/roversi/73.png",
+      "sha256": "033e71e3e0af709c0b3e6d1f0676cbbac422fdc5f6bd95c3ea3e8275591f6f08",
+      "styles": [
+        "A"
+      ],
+      "legacy_group": "A",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "黑底薄纱近景，无空间线索",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/73.png",
+      "thumbnail": "thumbs/73.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 74,
+      "file": "assets/roversi/74.png",
+      "sha256": "f2347ce48d04f5ce5961c38a11a27939a263ceb04351a335af7bf3f525958db1",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色纹理背景，半身肖像",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/74.png",
+      "thumbnail": "thumbs/74.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 76,
+      "file": "assets/roversi/76.png",
+      "sha256": "9f46b6896e0d9fbe4980167c7090d158f5537dfd173ebcba5e81b95b4fc981fd",
+      "styles": [
+        "C"
+      ],
+      "legacy_group": "C",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅色背景布及地面布褶",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/76.png",
+      "thumbnail": "thumbs/76.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 77,
+      "file": "assets/roversi/77.png",
+      "sha256": "ea6e727b227b117010ae32ecf6c480808fe3cc7e285136ec91ddc5b66c672050",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "staged",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "彩色图案投影覆盖人物和背景",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/77.png",
+      "thumbnail": "thumbs/77.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 78,
+      "file": "assets/roversi/78.png",
+      "sha256": "a894683edd11b2f634c328b5e8ae24b2fb45468b8c03f088592f4779eb0c593e",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色纹理背景，地点不能定位",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/78.png",
+      "thumbnail": "thumbs/78.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 79,
+      "file": "assets/roversi/79.png",
+      "sha256": "4c330d80360a771574fa9b00ce850fe5c3bbcc731696a97ec15b8222ad0786e1",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "红色背景，人物转身近景",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/79.png",
+      "thumbnail": "thumbs/79.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 81,
+      "file": "assets/roversi/81.png",
+      "sha256": "2204e1c5fe9913049a8768965ed9f3ee9604dda1fdc59050f050700ce2f16225",
+      "styles": [
+        "F"
+      ],
+      "legacy_group": "F",
+      "scene": {
+        "space": "built_outdoor",
+        "setting": "dock",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "码头栏杆水面与远处建筑",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "unassigned; legacy F retained as scene-only",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/81.png",
+      "thumbnail": "thumbs/81.jpg",
+      "scene_category": "built_outdoor"
+    },
+    {
+      "number": 82,
+      "file": "assets/roversi/82.png",
+      "sha256": "55ba12b5c705a5e01a5b40c170ff92bc1e9b34be3f110f960e376c92a1713423",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "背景布和地面堆布清楚可见",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/82.png",
+      "thumbnail": "thumbs/82.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 83,
+      "file": "assets/roversi/83.png",
+      "sha256": "3782bf60027ac23d9ffcd2913c171c312fa868fc6947929972c93629580946bc",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "nature",
+        "setting": "woodland",
+        "treatment": "staged",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "树木植被间并置两个人物，头部覆盖饰物",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/83.png",
+      "thumbnail": "thumbs/83.jpg",
+      "scene_category": "nature"
+    },
+    {
+      "number": 84,
+      "file": "assets/roversi/84.png",
+      "sha256": "45370c3d3f0f7387abe9a3c692e379442efe11800c52c02ee28dea3a475ba90c",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "leaning"
+      },
+      "observation": "灰底前依靠箱状道具",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/84.png",
+      "thumbnail": "thumbs/84.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 85,
+      "file": "assets/roversi/85.png",
+      "sha256": "d27eb402794159932f4f0c009efd85efd43dc39fdda2ef17303c03bf69d0e9b3",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "近景人物与灰色背景",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/85.png",
+      "thumbnail": "thumbs/85.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 86,
+      "file": "assets/roversi/86.png",
+      "sha256": "a66d0276cdefd05d68c926dbddc80a14b8940c9b03577f7b383453ce0c0a217f",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "蓝灰平面背景，未见空间结构",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/86.png",
+      "thumbnail": "thumbs/86.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 87,
+      "file": "assets/roversi/87.png",
+      "sha256": "65cd3c7f3e7382c2990f738305c58959e728a9797486f2a797aebcffdbd6abd5",
+      "styles": [
+        "C"
+      ],
+      "legacy_group": "C",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅色近景背景，头饰延伸出画面",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/87.png",
+      "thumbnail": "thumbs/87.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 89,
+      "file": "assets/roversi/89.png",
+      "sha256": "10b003af7ad8872410956435c31b23d87d1ecc0e9fa829eec46191aba9667428",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "decorative",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "斑驳墙面与几何地面，室内用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/89.png",
+      "thumbnail": "thumbs/89.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 90,
+      "file": "assets/roversi/90.png",
+      "sha256": "99227da37b27a6828363effcc5f7aa087dca89e42093860bc27b66fe52e2e265",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "furniture",
+        "treatment": "decorative",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "沙发与彩色靠垫局部可见",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/90.png",
+      "thumbnail": "thumbs/90.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 92,
+      "file": "assets/roversi/92.png",
+      "sha256": "b7b1e28693141e326298c49be1a79f96fe07f53533f0dfd0493df5d2524a169d",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "紧裁半身暗背景，环境不可判断",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/92.png",
+      "thumbnail": "thumbs/92.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 93,
+      "file": "assets/roversi/93.png",
+      "sha256": "580205a1c5cf449239f3acfba47a30b7a652c825678e1a45039d981af5b91ee7",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "面孔和花饰近景，背景虚化不可定位",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/93.png",
+      "thumbnail": "thumbs/93.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 94,
+      "file": "assets/roversi/94.png",
+      "sha256": "48012135c2fc75bd68664a92392c6c29848c2ea6fa0a86aa81b83755096375f1",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "白色背景，黑色衣形占主体",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/94.png",
+      "thumbnail": "thumbs/94.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 96,
+      "file": "assets/roversi/96.png",
+      "sha256": "eab76e0e0b5f9863656d8087d0882aa2d06157f2e10fc9fa797219d6e5fb135c",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "decorative",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "花纹墙面及地面，人物裙摆虚化",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/96.png",
+      "thumbnail": "thumbs/96.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 97,
+      "file": "assets/roversi/97.png",
+      "sha256": "ee9de171276b9e0862c32ce1bdd045ea101bef4381c2ed03d560023e919d1d4e",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "furniture",
+        "treatment": "decorative",
+        "presence": "shared",
+        "activity": "seated"
+      },
+      "observation": "沙发与装饰墙面，坐姿完整可见",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/97.png",
+      "thumbnail": "thumbs/97.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 98,
+      "file": "assets/roversi/98.png",
+      "sha256": "6c263a8f4bd2f8170fea5a5d096ba4100cf08e0668142c1ae9632fabda908add",
+      "styles": [
+        "A"
+      ],
+      "legacy_group": "A",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "面孔近景，背景被头饰与衣形遮挡",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/98.png",
+      "thumbnail": "thumbs/98.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 99,
+      "file": "assets/roversi/99.png",
+      "sha256": "8c699cacfe49e7b73bd597aac62eee9789668b61a7cb93381a664b522b49b61b",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "绿色平面背景",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/99.png",
+      "thumbnail": "thumbs/99.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 100,
+      "file": "assets/roversi/100.png",
+      "sha256": "46a40b3e71b1f66f405171f5d91bf8af7f047ab62af0d31f00afe0102e7531d8",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "uncertain"
+      },
+      "observation": "扑克牌式人物拼贴，无法判断环境",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/100.png",
+      "thumbnail": "thumbs/100.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 101,
+      "file": "assets/roversi/101.png",
+      "sha256": "c08f275a20a9dbecc7874a6d60d6415504af8a31540d472c8c9fc7084e28050c",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "furniture",
+        "treatment": "decorative",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "背后家具陈设模糊可见，室内用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/101.png",
+      "thumbnail": "thumbs/101.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 103,
+      "file": "assets/roversi/103.png",
+      "sha256": "8336bd98fc85fe32cc4519dfffc2c8a1052fa9ac5eb140283fbbd304518b3ce0",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "handling"
+      },
+      "observation": "灰底半身，手持细小物件",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/103.png",
+      "thumbnail": "thumbs/103.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 104,
+      "file": "assets/roversi/104.png",
+      "sha256": "805f68031a40f4c150cba2acc32e8d5631718ad9eea7e2c0ba751f01ecb02edb",
+      "styles": [
+        "C"
+      ],
+      "legacy_group": "C",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "明亮均匀背景，未见空间线索",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/104.png",
+      "thumbnail": "thumbs/104.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 105,
+      "file": "assets/roversi/105.png",
+      "sha256": "1a93bf0baade2d80abde8ffc69921ad708c05efc7da4f0f1548e397b636621da",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "staged",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "白色几何框面与反光地面，搭景感明显",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/105.png",
+      "thumbnail": "thumbs/105.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 106,
+      "file": "assets/roversi/106.png",
+      "sha256": "a252ad6c0b2c965a01a9a94a336a0509750c1c5517d9daa8ea6858ee149ed663",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "暗色纹理背景，无法定位",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/106.png",
+      "thumbnail": "thumbs/106.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 108,
+      "file": "assets/roversi/108.png",
+      "sha256": "3e220fa36d0761904d7d48d4176727132243e37944ab53585b3f902f7023b6db",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "深色背景，服装近景",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/108.png",
+      "thumbnail": "thumbs/108.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 110,
+      "file": "assets/roversi/110.png",
+      "sha256": "6879524ee7782fa4364488297244319dc9a9d0207a2738bf1c19b3e488e13f2d",
+      "styles": [
+        "A"
+      ],
+      "legacy_group": "A",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅暗纹理背景，头饰包围人物",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/110.png",
+      "thumbnail": "thumbs/110.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 111,
+      "file": "assets/roversi/111.png",
+      "sha256": "25fd6ea373c91790cf12a9bfc45ec3cf61f51dc2454e0f9962e431e8acb80fab",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "seated"
+      },
+      "observation": "人物坐于椅上，墙面和木地板可见",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/111.png",
+      "thumbnail": "thumbs/111.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 112,
+      "file": "assets/roversi/112.png",
+      "sha256": "67c361e773358ec575e55b03cabf91d898846eb114d1bbcd3756ae6955bb1f6d",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "棕色背景和人物投影，地点不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/112.png",
+      "thumbnail": "thumbs/112.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 115,
+      "file": "assets/roversi/115.png",
+      "sha256": "9387b933346f39aa2e8c3871cb6be6ffd6ff0e24ac63f6574bb318f5fba4d677",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅色背景前双人站立",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/115.png",
+      "thumbnail": "thumbs/115.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 116,
+      "file": "assets/roversi/116.png",
+      "sha256": "3dc3c04a6c108fd2af5ece5d955c6c61b476fb7f6e8fff099d04e7faad23118f",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "绿色背景，空间不可定位",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/116.png",
+      "thumbnail": "thumbs/116.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 117,
+      "file": "assets/roversi/117.png",
+      "sha256": "de9b63cfb41ef156db3bf89d303c344ad822c9c66d0f77470837a85d73f3beab",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "可见背景布褶，人物站立",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/117.png",
+      "thumbnail": "thumbs/117.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 118,
+      "file": "assets/roversi/118.png",
+      "sha256": "5144b49fe7cf9cf97d19393cbec3f1645767089e3a01a227da8c37226e17d4cf",
+      "styles": [
+        "A"
+      ],
+      "legacy_group": "A",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "绿色背景近身肖像",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/118.png",
+      "thumbnail": "thumbs/118.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 119,
+      "file": "assets/roversi/119.png",
+      "sha256": "66f1db4125f9160042f836558a7de15972ba17266f420cdf8d25cec0e253e5f2",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "紧裁面孔，环境信息不足",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/119.png",
+      "thumbnail": "thumbs/119.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 121,
+      "file": "assets/roversi/121.png",
+      "sha256": "c0c5f2ce3597b10a857818c1b41cea0de3855a20100fb7ed4e069ad0cb472726",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "furniture",
+        "treatment": "decorative",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "座椅和花纹帘面，室内用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/121.png",
+      "thumbnail": "thumbs/121.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 124,
+      "file": "assets/roversi/124.png",
+      "sha256": "4adf1fe980265c5b6d6f76b7fbef8d8d76762b59955edbce2c3e371e7c71fa2b",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "黑底近身肖像",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/124.png",
+      "thumbnail": "thumbs/124.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 125,
+      "file": "assets/roversi/125.png",
+      "sha256": "e0039e3779be5b7b756323285012c349b19ba23072bf5fd6d69b917405089610",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "棕色背景与地面，舞姿式站位",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/125.png",
+      "thumbnail": "thumbs/125.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 128,
+      "file": "assets/roversi/128.png",
+      "sha256": "2ff82fbf8ee29e2b35c77d3ca165888a8f242e71bd1a1b5cd8c5d77bcc8bdc13",
+      "styles": [
+        "A"
+      ],
+      "legacy_group": "A",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "面孔占满画面，背景不可判断",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/128.png",
+      "thumbnail": "thumbs/128.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 131,
+      "file": "assets/roversi/131.png",
+      "sha256": "200ac387605b9df3173fcb91007da9b883ff98f08eb79c1890e250891c28c08c",
+      "styles": [
+        "C"
+      ],
+      "legacy_group": "C",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅色背景前双人近景",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/131.png",
+      "thumbnail": "thumbs/131.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 133,
+      "file": "assets/roversi/133.png",
+      "sha256": "a1482eb7a3e061c2c837f17aae5a6570db17b5936319ea3a7f3ca0b7bd5d1d89",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色纹理背景与裙体",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/133.png",
+      "thumbnail": "thumbs/133.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 134,
+      "file": "assets/roversi/134.png",
+      "sha256": "f0b30268d5d3222f3c1e38565cd966a1921660fc7396ac611a66b7eccbbc7a9c",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "mirror",
+        "treatment": "staged",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "多块镜面或反射板分割人物，空间搭设明显",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/134.png",
+      "thumbnail": "thumbs/134.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 135,
+      "file": "assets/roversi/135.png",
+      "sha256": "3429dfb7d66f83d38b7b141e5546117eb7a0e667042ae35465369d72e56a1071",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "墙角纹理可见，未见房间用途",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/135.png",
+      "thumbnail": "thumbs/135.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 136,
+      "file": "assets/roversi/136.png",
+      "sha256": "cd7a15bedfbc460aa5cd003592a36406eb42e04feaf6235823b888ca1195d1ef",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "interior",
+        "setting": "furniture",
+        "treatment": "uncertain",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "桌面与背后门框状结构模糊可见",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/136.png",
+      "thumbnail": "thumbs/136.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 137,
+      "file": "assets/roversi/137.png",
+      "sha256": "a2523357412ccde97be04ace7ec6ba1c904e8671382db31ff5969e002ece52ad",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "黄色背景与人物投影，地点不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/137.png",
+      "thumbnail": "thumbs/137.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 138,
+      "file": "assets/roversi/138.png",
+      "sha256": "e082b6a41da51a2d7eba0df0765e7d9f33d77daadcef777a0c36ac5223ca0483",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "ornate_room",
+        "treatment": "decorative",
+        "presence": "shared",
+        "activity": "seated"
+      },
+      "observation": "多把雕花椅与帘面，人物坐在中间",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/138.png",
+      "thumbnail": "thumbs/138.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 140,
+      "file": "assets/roversi/140.png",
+      "sha256": "e880aaeea22d91bf11757d226b167778c1c229eabf81353f57cfa4b42ce30ece",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色背景延伸至地面",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/140.png",
+      "thumbnail": "thumbs/140.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 141,
+      "file": "assets/roversi/141.png",
+      "sha256": "94e662b7c336b4633c7e387949209137f9f0ecf4bc35fdfa5a061dde192baf4e",
+      "styles": [
+        "F"
+      ],
+      "legacy_group": "F",
+      "scene": {
+        "space": "interior",
+        "setting": "window",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "人物在百叶窗旁，窗边空间清楚可见",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "unassigned; legacy F retained as scene-only",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/141.png",
+      "thumbnail": "thumbs/141.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 142,
+      "file": "assets/roversi/142.png",
+      "sha256": "325376d6adc295201837f2b8b2f62cfbcdb89559ea8347e15cd6d9912673e3ea",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "handling"
+      },
+      "observation": "浅背景前人物托持蛇，环境不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/142.png",
+      "thumbnail": "thumbs/142.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 143,
+      "file": "assets/roversi/143.png",
+      "sha256": "f546956569e443d56016a7921e428a340e3887c73c25cfa41c1ae1740cf76580",
+      "styles": [
+        "C"
+      ],
+      "legacy_group": "C",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅色背景布，人物站立",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/143.png",
+      "thumbnail": "thumbs/143.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 144,
+      "file": "assets/roversi/144.png",
+      "sha256": "f88afde1bc1809148c7bedcc93cc43a2f8973d021e1d39611f75da3cb0905f6d",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "深色背景，半身肖像",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/144.png",
+      "thumbnail": "thumbs/144.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 145,
+      "file": "assets/roversi/145.png",
+      "sha256": "3e290e70eb5873aafceb55656437f7d155688b1addb4204ca71245784402b004",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "墙面踢脚线及地面，室内用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/145.png",
+      "thumbnail": "thumbs/145.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 146,
+      "file": "assets/roversi/146.png",
+      "sha256": "f8288c8f190c8b71cd6ff057e4070cd19ad1248bad977d78720858b2bd125384",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "灰底前坐于凳面，人物手碰鞋",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/146.png",
+      "thumbnail": "thumbs/146.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 148,
+      "file": "assets/roversi/148.png",
+      "sha256": "be23a0cd19552d473da2bfbe9de7f2c25957e5967386a5d6363dcfd4e7446580",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "深绿背景，近身衣形",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/148.png",
+      "thumbnail": "thumbs/148.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 149,
+      "file": "assets/roversi/149.png",
+      "sha256": "8ee815165c025c91a62007856249105ebfabe5d8cf32b159f48b6a72e8fe61c6",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "紧裁近身肖像，背景不可定位",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/149.png",
+      "thumbnail": "thumbs/149.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 150,
+      "file": "assets/roversi/150.png",
+      "sha256": "64a6249f0bf9dbecc65de84fb40dc048d2ea1a50d9b95bd6af27f4a43dede3f8",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "handling"
+      },
+      "observation": "暗背景近景，手持折扇",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/150.png",
+      "thumbnail": "thumbs/150.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 151,
+      "file": "assets/roversi/151.png",
+      "sha256": "3d0c2e752480c9564b201284988515aedcc143a70084fbbdb5dc1aa572395d04",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "leaning"
+      },
+      "observation": "门口或墙沿可见，人物侧身依靠",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/151.png",
+      "thumbnail": "thumbs/151.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 152,
+      "file": "assets/roversi/152.png",
+      "sha256": "3584295f96982ca3379b54aadb9150e056e9344cc520a640b9a0a07c058fa496",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色背景近景",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/152.png",
+      "thumbnail": "thumbs/152.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 153,
+      "file": "assets/roversi/153.png",
+      "sha256": "abfb16ea9775b5707c52273f502bcb434ccf65a2ff16567f6069f8848959aa58",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色纹理背景",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/153.png",
+      "thumbnail": "thumbs/153.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 156,
+      "file": "assets/roversi/156.png",
+      "sha256": "1972e7618aa265a9f6b288998fce0963a386fb245cbf98bbdf9aa9a1b8acf876",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "uncertain"
+      },
+      "observation": "多图拼接版面，无单一场景",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/156.png",
+      "thumbnail": "thumbs/156.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 157,
+      "file": "assets/roversi/157.png",
+      "sha256": "a810a7433f78b94e9f840b89b47d95fb20866c1fe28f282de2fcaab8da4c12d7",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "built_outdoor",
+        "setting": "street",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "背后街道建筑与车辆形状可见",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/157.png",
+      "thumbnail": "thumbs/157.jpg",
+      "scene_category": "built_outdoor"
+    },
+    {
+      "number": 159,
+      "file": "assets/roversi/159.png",
+      "sha256": "dc6c9ef607390afbdc33a46e97e6ccc84a382220a2e434729ed174d6629b2c81",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "浅色背景和清楚投影",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/159.png",
+      "thumbnail": "thumbs/159.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 160,
+      "file": "assets/roversi/160.png",
+      "sha256": "01330444a3b1ecb2682cd63efb0341ac2b87b9872d523d316efd60ccc12ec4ec",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "蓝色背景前双人站立",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/160.png",
+      "thumbnail": "thumbs/160.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 162,
+      "file": "assets/roversi/162.png",
+      "sha256": "3c9f525cb52fe36ef85c8f6e7d1b41ef242cfec67582775301944137f6c55f55",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "深色平面背景，无环境线索",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/162.png",
+      "thumbnail": "thumbs/162.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 163,
+      "file": "assets/roversi/163.png",
+      "sha256": "8132b3c267e302467c9ee5dd2b69908574aa7f1ac7e972530235f1162db3c753",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "leaning"
+      },
+      "observation": "近景人物手托面部，空间被裁去",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/163.png",
+      "thumbnail": "thumbs/163.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 164,
+      "file": "assets/roversi/164.png",
+      "sha256": "58f85d8ae471893fb2e7b56f8e9bd543147a5b746bc96eaa62f35949020d5058",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "ornate_room",
+        "treatment": "decorative",
+        "presence": "shared",
+        "activity": "leaning"
+      },
+      "observation": "线脚墙板与雕饰台面，人物靠墙站立",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/164.png",
+      "thumbnail": "thumbs/164.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 166,
+      "file": "assets/roversi/166.png",
+      "sha256": "3c89430c30ff0115287bcdb9da7466dcc39f59b1b94e846f5c19a38979098168",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "decorative",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "花纹背景，无法确认完整房间",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/166.png",
+      "thumbnail": "thumbs/166.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 167,
+      "file": "assets/roversi/167.png",
+      "sha256": "8a211cdc27c7d363a11150a53ee3bfa0b21864ba255afc49ce15813934da25b0",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "leaning"
+      },
+      "observation": "人物靠墙，墙面投影清楚",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/167.png",
+      "thumbnail": "thumbs/167.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 168,
+      "file": "assets/roversi/168.png",
+      "sha256": "769a85368b8053c55615fb80032f242f730910da993ea872dafa3ed64b989e7e",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "暗绿背景半身肖像",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/168.png",
+      "thumbnail": "thumbs/168.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 169,
+      "file": "assets/roversi/169.png",
+      "sha256": "60ff0ee83ed2f73b68b4f93fca15158c922e73039a2360fb786d8d30a08be934",
+      "styles": [
+        "D"
+      ],
+      "legacy_group": "D",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "白色背景坐姿肖像，空间线索少",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/169.png",
+      "thumbnail": "thumbs/169.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 170,
+      "file": "assets/roversi/170.png",
+      "sha256": "88f881ddf9e29a3add374c05893494b8a3172e63ffa1b47ea568841bc7d86246",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "暗背景前双人服装展示",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/170.png",
+      "thumbnail": "thumbs/170.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 172,
+      "file": "assets/roversi/172.png",
+      "sha256": "7e82bedc4b2fef86b6c5cf2d1342d589a37b1565a916acba843b86427382d12c",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "黑底紧裁肖像，缺少空间线索",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/172.png",
+      "thumbnail": "thumbs/172.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 173,
+      "file": "assets/roversi/173.png",
+      "sha256": "568eb08188f5d9d26c6dd0180a803acefa12eb1a3755155c8bd6d457a1427b12",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "棕色背景，半身服饰肖像",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/173.png",
+      "thumbnail": "thumbs/173.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 175,
+      "file": "assets/roversi/175.png",
+      "sha256": "bc8d3614bbe2df5e0d492a4e80ef65fc323374e844b493a75a316b1fb7c8bb1e",
+      "styles": [
+        "A"
+      ],
+      "legacy_group": "A",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "侧脸重影近景，环境不可判断",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/175.png",
+      "thumbnail": "thumbs/175.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 176,
+      "file": "assets/roversi/176.png",
+      "sha256": "0825b107e66a45ef0f0946e13c84e865919de49ed64ab94e697bd35d65816e58",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "decorative",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "几何与反光背景局部，地点不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/176.png",
+      "thumbnail": "thumbs/176.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 180,
+      "file": "assets/roversi/180.png",
+      "sha256": "5198c3b7d4f2f301d109c2ebbdc52bd2decd3e7ff834d7f9092a51675aac16b8",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "蓝色背景近身肖像",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/180.png",
+      "thumbnail": "thumbs/180.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 181,
+      "file": "assets/roversi/181.png",
+      "sha256": "be1fc20ed5542d62c62e4f2731c4b9a596dd4f629404bdd6cd1c1cec50b866b5",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "背景高度虚化，不能确认空间类型",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/181.png",
+      "thumbnail": "thumbs/181.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 182,
+      "file": "assets/roversi/182.png",
+      "sha256": "65cced9b3bd0a7fee17734a02bd50078db66868c5920f8688fbd95cf5dd99dbe",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "staged",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "水幕覆盖人物与背景，地点不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/182.png",
+      "thumbnail": "thumbs/182.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 183,
+      "file": "assets/roversi/183.png",
+      "sha256": "24df2d2ddbd6623e4c46219ca6100b3fe29c6dbf514f3fdd904e7b8842730823",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "utility",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "立柱电线设备与室内结构可见",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/183.png",
+      "thumbnail": "thumbs/183.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 185,
+      "file": "assets/roversi/185.png",
+      "sha256": "f1a2ec724633000f238f5745dccc19fa5b09b696a1c8d9d6e57b979b840b0432",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色墙角与地面，室内用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/185.png",
+      "thumbnail": "thumbs/185.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 186,
+      "file": "assets/roversi/186.png",
+      "sha256": "eeba9e4981f3214c9d247d21d45b5859c96e453c795301582076ddf87b7f7561",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "面部特写，背景信息不足",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/186.png",
+      "thumbnail": "thumbs/186.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 188,
+      "file": "assets/roversi/188.png",
+      "sha256": "3e52de721919b79e9849e2442658564600b897a69ff83c3930cf0528c4a176b8",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "背后深色纹理模糊，环境不可判断",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/188.png",
+      "thumbnail": "thumbs/188.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 189,
+      "file": "assets/roversi/189.png",
+      "sha256": "575f94f1944d4747965d6042a673da4d64649f2d495c1d52f1c6d89595fcce25",
+      "styles": [
+        "A"
+      ],
+      "legacy_group": "A",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "uncertain"
+      },
+      "observation": "面孔与光斑特写，环境不可判断",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/189.png",
+      "thumbnail": "thumbs/189.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 191,
+      "file": "assets/roversi/191.png",
+      "sha256": "492b3ebfa533c4649fe9ac90bdfd172ea5190e79a1beb15b82df3882d9950a88",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "灰色背景近身肖像",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/191.png",
+      "thumbnail": "thumbs/191.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 192,
+      "file": "assets/roversi/192.png",
+      "sha256": "0abb89a63f8982643d8c8518dcd419035be737dfd549ac807fb0f7b55655285c",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "leaning"
+      },
+      "observation": "人物靠近墙面边界，室内用途不明",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/192.png",
+      "thumbnail": "thumbs/192.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 193,
+      "file": "assets/roversi/193.png",
+      "sha256": "7bc174fc8bcc337f4fd9fbc252312fe04dc9b9f7b9a9f56dbaf473c1fb0f69ae",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "蓝色平面背景，头像构图",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/193.png",
+      "thumbnail": "thumbs/193.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 194,
+      "file": "assets/roversi/194.png",
+      "sha256": "351b371f7862f1188a377d3b6ca48de1f8eb5ff7049c6f4f98b0f45f9d6b2654",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "posed"
+      },
+      "observation": "蓝墙与木地板，人物举臂站立",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/194.png",
+      "thumbnail": "thumbs/194.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 199,
+      "file": "assets/roversi/199.png",
+      "sha256": "10d5f3d953d0a87d50234d00eeb49de429199d7891924dc5289246dd9eae106b",
+      "styles": [
+        "C"
+      ],
+      "legacy_group": "C",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "近景背后浅色竖框不足以确认完整空间",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/199.png",
+      "thumbnail": "thumbs/199.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 200,
+      "file": "assets/roversi/200.png",
+      "sha256": "ae245ac142b13d5388653c61902995ce8bb788e46c1967eef7e217562e5b03d8",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "脸与衣领占满画面，无场景线索",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/200.png",
+      "thumbnail": "thumbs/200.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 201,
+      "file": "assets/roversi/201.png",
+      "sha256": "b4bcc0bb7c00a1392e105cbff8dddaa2e0998a856f9824f17e5603aedfb3635f",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "furniture",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "seated"
+      },
+      "observation": "人物倚坐扶手椅，木地板清楚可见",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/201.png",
+      "thumbnail": "thumbs/201.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 202,
+      "file": "assets/roversi/202.png",
+      "sha256": "95a6982e9ea5a4e73e3ae7b43b288c067aeb6769962214eb7f4e16902c5a6877",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "蓝灰背景与地面，人物盘坐",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/202.png",
+      "thumbnail": "thumbs/202.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 207,
+      "file": "assets/roversi/207.png",
+      "sha256": "8b9bb1ef0138964daf668700b6130094fa8e5fc94693b7e8590e0e3d6fc9697b",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "furniture",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "seated"
+      },
+      "observation": "木地板与椅脚可见，人物坐卧地面",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/207.png",
+      "thumbnail": "thumbs/207.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 208,
+      "file": "assets/roversi/208.png",
+      "sha256": "f7ab32710f0b56e607945fcbbfeb55824bd1b97dffe5c17a092448fb6635954f",
+      "styles": [
+        "F"
+      ],
+      "legacy_group": "F",
+      "scene": {
+        "space": "fantasy",
+        "setting": "fantasy_tree",
+        "treatment": "surreal",
+        "presence": "shared",
+        "activity": "handling"
+      },
+      "observation": "树枝上人物与微型茶具房屋并置",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "unassigned; legacy F retained as scene-only",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/208.png",
+      "thumbnail": "thumbs/208.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 210,
+      "file": "assets/roversi/210.png",
+      "sha256": "167825a17927c7ce79556516f198f44799bf7b9901badffa577359b60e4e995a",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "棕色背景近身肖像",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/210.png",
+      "thumbnail": "thumbs/210.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 211,
+      "file": "assets/roversi/211.png",
+      "sha256": "97c4ae717df6c28311a1520b2d238d4263d2042ea86df21c320a7fec7cfc4461",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "黑色背景，人物坐姿及裙体",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/211.png",
+      "thumbnail": "thumbs/211.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 216,
+      "file": "assets/roversi/216.png",
+      "sha256": "8674753c2329cf65933d0f4510f075d30d1a1c62ee9ff324478620ca499ebbb6",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "interior",
+        "setting": "wall_floor",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "handling"
+      },
+      "observation": "墙面与设备轮廓，人物手持细小物件",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/216.png",
+      "thumbnail": "thumbs/216.jpg",
+      "scene_category": "interior"
+    },
+    {
+      "number": 217,
+      "file": "assets/roversi/217.png",
+      "sha256": "3d9dbd655f9e7eed2440e6f483746dbc97ba3a09e422b89a91b1eba6b8269acb",
+      "styles": [
+        "E"
+      ],
+      "legacy_group": "E",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "decorative",
+        "presence": "background",
+        "activity": "posed"
+      },
+      "observation": "黑白条纹平面背景",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/217.png",
+      "thumbnail": "thumbs/217.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 220,
+      "file": "assets/roversi/220.png",
+      "sha256": "562022e68f8deae44398a5e96186224a01a83d6b5e00238d0c0d7e4a6c932cc9",
+      "styles": [
+        "C"
+      ],
+      "legacy_group": "C",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "头饰与面孔特写，环境不可判断",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/220.png",
+      "thumbnail": "thumbs/220.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 224,
+      "file": "assets/roversi/224.png",
+      "sha256": "4b0817f5e5f426cada35d8e196f420847bf0fe60651fe3cfe0a013d0461803de",
+      "styles": [
+        "A"
+      ],
+      "legacy_group": "A",
+      "scene": {
+        "space": "insufficient",
+        "setting": "insufficient",
+        "treatment": "uncertain",
+        "presence": "insufficient",
+        "activity": "posed"
+      },
+      "observation": "侧脸特写，环境不可判断",
+      "scene_confidence": "uncertain",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/224.png",
+      "thumbnail": "thumbs/224.jpg",
+      "scene_category": "unassigned"
+    },
+    {
+      "number": 225,
+      "file": "assets/roversi/225.png",
+      "sha256": "38df9634478ece377ec3e9aff38ea9022329dbfce36279ee68b0404292567eb6",
+      "styles": [],
+      "legacy_group": "U",
+      "scene": {
+        "space": "backdrop",
+        "setting": "unlocated",
+        "treatment": "minimal",
+        "presence": "background",
+        "activity": "seated"
+      },
+      "observation": "浅色背景人物盘坐，扑克牌版面",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing unassigned retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/225.png",
+      "thumbnail": "thumbs/225.jpg",
+      "scene_category": "backdrop"
+    },
+    {
+      "number": 227,
+      "file": "assets/roversi/227.png",
+      "sha256": "767e620b389c15b0d8b15cb9298ca7fa2e0476f2d1fbc95402f68f2e8fd3e594",
+      "styles": [
+        "B"
+      ],
+      "legacy_group": "B",
+      "scene": {
+        "space": "interior",
+        "setting": "window",
+        "treatment": "minimal",
+        "presence": "shared",
+        "activity": "leaning"
+      },
+      "observation": "窗框墙角及反光面，人物靠近墙边",
+      "scene_confidence": "visual_candidate",
+      "style_basis": "existing strict classification retained",
+      "classification_basis": "assistant visual review of all 150 images; contact sheets and selected full-size checks; not human approved",
+      "attribution": "existing corpus label; not independently authenticated",
+      "local_image": "images/227.png",
+      "thumbnail": "thumbs/227.jpg",
+      "scene_category": "interior"
+    }
+  ],
+  "scene_categories": {
+    "backdrop": "简单背景",
+    "interior": "室内空间",
+    "built_outdoor": "建筑外部与街道",
+    "nature": "自然环境",
+    "unassigned": "暂不归类"
+  }
+}

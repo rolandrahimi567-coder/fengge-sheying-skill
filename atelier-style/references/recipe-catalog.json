@@ -1,0 +1,85 @@
+{
+  "version": "0.3.0",
+  "recipes": [
+    {
+      "id": "silhouette-quiet-background",
+      "name": "轮廓主导的简洁背景",
+      "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+      "candidate_count": 29,
+      "distinction": "已有三套试验配方之一",
+      "file": "recipes/silhouette-quiet-background.json"
+    },
+    {
+      "id": "pale-layer-separation",
+      "name": "浅色人物与浅色背景的层次保留",
+      "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+      "candidate_count": 16,
+      "distinction": "已有三套试验配方之一",
+      "file": "recipes/pale-layer-separation.json"
+    },
+    {
+      "id": "figure-framing-space",
+      "name": "道具或布景围合人物",
+      "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+      "candidate_count": 24,
+      "distinction": "已有三套试验配方之一",
+      "file": "recipes/figure-framing-space.json"
+    },
+    {
+      "id": "cast-shadow-composition",
+      "name": "人物与投影共同构图",
+      "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+      "candidate_count": 8,
+      "distinction": "影子是可见的第二个形状，而不只是“强反差”。",
+      "file": "recipes/cast-shadow-composition.json"
+    },
+    {
+      "id": "directional-motion-trace",
+      "name": "清楚部位与方向性拖影",
+      "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+      "candidate_count": 10,
+      "distinction": "区分方向性残影与普通失焦，不从效果反推快门或曝光次数。",
+      "file": "recipes/directional-motion-trace.json"
+    },
+    {
+      "id": "figure-environment-scale",
+      "name": "人物与大环境的尺度关系",
+      "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+      "candidate_count": 11,
+      "distinction": "环境、建筑或大物件承担主要空间，人物提供尺度参照。",
+      "file": "recipes/figure-environment-scale.json"
+    },
+    {
+      "id": "separated-color-blocks",
+      "name": "服装与背景的明确色块关系",
+      "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+      "candidate_count": 21,
+      "distinction": "重点是颜色属于哪个区域以及如何相邻，不是全图提高饱和度。",
+      "file": "recipes/separated-color-blocks.json"
+    },
+    {
+      "id": "garment-setting-echo",
+      "name": "服装与场景的色纹呼应",
+      "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+      "candidate_count": 24,
+      "distinction": "重复的是色系、纹理密度或形状线索；不要求服装和背景完全同图案。",
+      "file": "recipes/garment-setting-echo.json"
+    },
+    {
+      "id": "multi-figure-relations",
+      "name": "多个人物形象的姿态与视线",
+      "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+      "candidate_count": 34,
+      "distinction": "依据画面中的人物形象组织；镜像或合成不自动等于多个真实拍摄对象。",
+      "file": "recipes/multi-figure-relations.json"
+    },
+    {
+      "id": "local-light-in-dark-frame",
+      "name": "深暗画面中的局部亮部",
+      "status": "DRAFT_NOT_CROSS_IMAGE_VALIDATED",
+      "candidate_count": 49,
+      "distinction": "大面积暗部与少数亮部共同分配注意力；不是统一压暗，也不保证所有商品细节可见。",
+      "file": "recipes/local-light-in-dark-frame.json"
+    }
+  ]
+}
