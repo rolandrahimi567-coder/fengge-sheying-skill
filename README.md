@@ -6,4 +6,4 @@ Atelier 的风格摄影 Skill，收录 Paolo Roversi、Tim Walker 和 Elizaveta 
 
 安装时将仓库中的 `atelier-style` 目录复制到 `~/.codex/skills/atelier-style`，或在该位置建立指向仓库目录的符号链接。运行 Roversi 参考拼版脚本需要 Python 和 Pillow。具体入口与参数见 Skill 文档。
 
-仓库含摄影原作参考图。图片的版权及对外使用权限尚未确认，因此仓库保持私有；这里不授予图片的再发布或商业使用许可。
+仓库包含三位摄影师的配套参考图与索引。
